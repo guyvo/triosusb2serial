@@ -7,3 +7,6 @@
  *
  */
 
+
+// xml 2.2 lib used
+void WriteModelToXml ( unsigned char * bkpvalues );
