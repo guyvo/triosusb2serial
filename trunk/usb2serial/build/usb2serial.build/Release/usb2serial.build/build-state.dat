@@ -1,0 +1,206 @@
+Tusb2serial
+v7
+r0
+t285101072.063828
+cCheck dependencies
+cCompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o /Users/guy/usb2serial/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cLd /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial normal ppc
+cCompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o /Users/guy/usb2serial/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial normal i386
+cCreateUniversalBinary /Users/guy/usb2serial/build/Release/usb2serial normal "ppc i386"
+cGenerateDSYMFile /Users/guy/usb2serial/build/Release/usb2serial.dSYM /Users/guy/usb2serial/build/Release/usb2serial
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004ABBF0EE000000000000DA88
+t1253830894
+s55944
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers/parser.h
+c0000000046E08E650000000000009692
+t1189121637
+s38546
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers/tree.h
+c0000000046E08E650000000000008807
+t1189121637
+s34823
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers/xmlwriter.h
+c0000000046E08E650000000000004F66
+t1189121637
+s20326
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h
+c000000004A5C14A60000000000000765
+t1247548582
+s1893
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.2.dylib
+c000000004ABBF0FC00000000000474A8
+t1253830908
+s292008
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib
+c000000004ABBF0FC00000000000474A8
+t1253830908
+s292008
+
+N/Users/guy/usb2serial/build/Release/usb2serial
+t1263408272
+s36996
+
+N/Users/guy/usb2serial/build/Release/usb2serial.dSYM
+t1263408272
+s102
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o
+t1263408272
+s19416
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial
+t1263408272
+s16516
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial.LinkFileList
+c000000004B40A8D90000000000000061
+t1262528729
+s97
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o
+t1263408271
+s21896
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial
+t1263408271
+s15324
+
+N/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial.LinkFileList
+c000000004B40A8D90000000000000060
+t1262528729
+s96
+
+N/Users/guy/usb2serial/main.cpp
+c000000004B4E148F0000000000003321
+t1263408271
+s13089
+i"stdafx.h"
+i<stdlib.h>
+i<stdio.h>
+i<memory.h>
+i<unistd.h>
+i<netinet/in.h>
+i<sys/socket.h>
+i<ftd2xx.h>
+i<xmlwriter.h>
+i<parser.h>
+i<tree.h>
+
+N/usr/local/include/ftd2xx.h
+c000000004B0EBA510000000000005B89
+t1259256401
+s23433
+
+N/usr/local/lib/libftd2xx.0.1.7.dylib
+c000000004AE0741D0000000000033FB4
+t1256223773
+s212916
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies285101071#285101071#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o /Users/guy/usb2serial/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s285101071.805745
+e285101072.034752
+r1
+xCompileC
+xbuild/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o
+x/Users/guy/usb2serial/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /Users/guy/usb2serial/main.cpp285101071#285101072#0(0"0(0#0#30"/Users/guy/usb2serial/main.cpp4300885448#1006"    cd /Users/guy/usb2serial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/usb2serial.hmap -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -I/Users/guy/usb2serial/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers -I/usr/local/include -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources/i386 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources -c /Users/guy/usb2serial/main.cpp -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o0#
+
+CCompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o /Users/guy/usb2serial/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s285101071.694494
+e285101071.804923
+r1
+xCompileC
+xbuild/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o
+x/Users/guy/usb2serial/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /Users/guy/usb2serial/main.cpp285101071#285101071#0(0"0(0#0#30"/Users/guy/usb2serial/main.cpp4300885448#1000"    cd /Users/guy/usb2serial    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/usb2serial.hmap -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -I/Users/guy/usb2serial/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers -I/usr/local/include -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources/ppc -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources -c /Users/guy/usb2serial/main.cpp -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o0#
+
+CCreateUniversalBinary /Users/guy/usb2serial/build/Release/usb2serial normal "ppc i386"
+s285101072.053336
+e285101072.056413
+r1
+xCreateUniversalBinary
+x/Users/guy/usb2serial/build/Release/usb2serial
+xnormal
+xppc i386
+lSLF07#2@64"CreateUniversalBinary build/Release/usb2serial normal "ppc i386"285101072#285101072#0(0"0(0#0#30"/Users/guy/usb2serial/ppc i3864300885448#311"    cd /Users/guy/usb2serial    /usr/bin/lipo -create /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial -output /Users/guy/usb2serial/build/Release/usb2serial0#
+
+CGenerateDSYMFile /Users/guy/usb2serial/build/Release/usb2serial.dSYM /Users/guy/usb2serial/build/Release/usb2serial
+s285101072.056484
+e285101072.063787
+r1
+xGenerateDSYMFile
+x/Users/guy/usb2serial/build/Release/usb2serial.dSYM
+x/Users/guy/usb2serial/build/Release/usb2serial
+lSLF07#2@71"GenerateDSYMFile build/Release/usb2serial.dSYM build/Release/usb2serial285101072#285101072#0(0"0(0#0#46"/Users/guy/usb2serial/build/Release/usb2serial4300885448#163"    cd /Users/guy/usb2serial    /Developer/usr/bin/dsymutil /Users/guy/usb2serial/build/Release/usb2serial -o /Users/guy/usb2serial/build/Release/usb2serial.dSYM0#
+
+CLd /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial normal i386
+s285101072.034825
+e285101072.053258
+r1
+xLd
+x/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial
+xnormal
+xi386
+lSLF07#2@105"Link /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial285101072#285101072#0(0"0(0#0#0"4300885448#613"    cd /Users/guy/usb2serial    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/guy/usb2serial/build/Release -L/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -filelist /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial.LinkFileList -mmacosx-version-min=10.6 -lftd2xx.0.1.7 -lxml2.2 -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/usb2serial0#
+
+CLd /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial normal ppc
+s285101071.804984
+e285101071.832666
+r1
+xLd
+x/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial
+xnormal
+xppc
+lSLF07#2@104"Link /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial285101071#285101071#0(0"0(0#0#0"4300885448#610"    cd /Users/guy/usb2serial    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/guy/usb2serial/build/Release -L/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -filelist /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial.LinkFileList -mmacosx-version-min=10.6 -lftd2xx.0.1.7 -lxml2.2 -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/usb2serial0#
+

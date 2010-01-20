@@ -1,0 +1,75 @@
+
+Build usb2serial of project usb2serial with configuration Release
+
+CompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cd /Users/guy/usb2serial
+setenv LANG en_US.US-ASCII
+/Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/usb2serial.hmap -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -I/Users/guy/usb2serial/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers -I/usr/local/include -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources/ppc -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources -c /Users/guy/usb2serial/main.cpp -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/ppc/main.o
+
+/Users/guy/usb2serial/main.cpp:75: error: expected `]' before ';' token
+/Users/guy/usb2serial/main.cpp:75: error: expected unqualified-id before ']' token
+/Users/guy/usb2serial/main.cpp:89: error: expected `]' before ';' token
+/Users/guy/usb2serial/main.cpp:89: error: expected unqualified-id before numeric constant
+/Users/guy/usb2serial/main.cpp:89: error: expected constructor, destructor, or type conversion before numeric constant
+/Users/guy/usb2serial/main.cpp: In function 'FT_STATUS TxRxSerial()':
+/Users/guy/usb2serial/main.cpp:160: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:160: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:160: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:160: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:160: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:160: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:162: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:162: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:162: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:162: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:162: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:162: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:166: error: 'ucInfoWarnError' was not declared in this scope
+/Users/guy/usb2serial/main.cpp: In function 'int main(int, char**)':
+/Users/guy/usb2serial/main.cpp:408: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:408: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:408: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:428: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:428: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:428: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:431: error: 'ucInfoWarnError' was not declared in this scope
+/Users/guy/usb2serial/main.cpp:431: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:431: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:431: error: expected `;' before ')' token
+
+CompileC build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cd /Users/guy/usb2serial
+setenv LANG en_US.US-ASCII
+/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/usb2serial.hmap -F/Users/guy/usb2serial/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks -I/Users/guy/usb2serial/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/libxml.framework/headers -I/usr/local/include -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources/i386 -I/Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/DerivedSources -c /Users/guy/usb2serial/main.cpp -o /Users/guy/usb2serial/build/usb2serial.build/Release/usb2serial.build/Objects-normal/i386/main.o
+
+/Users/guy/usb2serial/main.cpp:75: error: expected `]' before ';' token
+/Users/guy/usb2serial/main.cpp:75: error: expected unqualified-id before ']' token
+/Users/guy/usb2serial/main.cpp:89: error: expected `]' before ';' token
+/Users/guy/usb2serial/main.cpp:89: error: expected unqualified-id before numeric constant
+/Users/guy/usb2serial/main.cpp:89: error: expected constructor, destructor, or type conversion before numeric constant
+/Users/guy/usb2serial/main.cpp: In function 'FT_STATUS TxRxSerial()':
+/Users/guy/usb2serial/main.cpp:160: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:160: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:160: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:160: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:160: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:160: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:162: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:162: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:162: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:162: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:162: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:162: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:166: error: 'ucInfoWarnError' was not declared in this scope
+/Users/guy/usb2serial/main.cpp: In function 'int main(int, char**)':
+/Users/guy/usb2serial/main.cpp:408: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:408: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:408: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:428: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:428: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:428: error: expected `;' before ')' token
+/Users/guy/usb2serial/main.cpp:431: error: 'ucInfoWarnError' was not declared in this scope
+/Users/guy/usb2serial/main.cpp:431: error: expected `)' before ';' token
+/Users/guy/usb2serial/main.cpp:431: error: invalid type argument of 'unary *'
+/Users/guy/usb2serial/main.cpp:431: error: expected `;' before ')' token
+
