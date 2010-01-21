@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels FTDI,FT2232,USB
+Sending data to FTDI USB driver converted to serial data converted to I2C data using own small protocol.
 
 = Introduction =
 
