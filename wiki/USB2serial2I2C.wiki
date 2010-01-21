@@ -1,0 +1,10 @@
+#summary One-sentence summary of this page.
+#labels FTDI,FT2232,USB
+
+= Introduction =
+
+PC middleware to send/recieve data using USB and the FTDI chip
+
+= Details =
+
+Software must be written in portable C/C++ code to serve all platforms
