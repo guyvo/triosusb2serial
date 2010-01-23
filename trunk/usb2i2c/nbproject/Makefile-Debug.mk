@@ -19,7 +19,7 @@ FC=
 AS=as
 
 # Macros
-CND_PLATFORM=GNU-MacOSX
+CND_PLATFORM=GNU-Linux-x86
 CND_CONF=Debug
 CND_DISTDIR=dist
 
@@ -51,14 +51,14 @@ LDLIBSOPTIONS=/usr/local/lib/libftd2xx.0.1.7.dylib /Developer/SDKs/MacOSX10.5.sd
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	${MAKE}  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-MacOSX/usb2i2c
+	${MAKE}  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Linux-x86/usb2i2c
 
-dist/Debug/GNU-MacOSX/usb2i2c: /usr/local/lib/libftd2xx.0.1.7.dylib
+dist/Debug/GNU-Linux-x86/usb2i2c: /usr/local/lib/libftd2xx.0.1.7.dylib
 
-dist/Debug/GNU-MacOSX/usb2i2c: /Developer/SDKs/MacOSX10.5.sdk/usr/lib/libxml2.2.dylib
+dist/Debug/GNU-Linux-x86/usb2i2c: /Developer/SDKs/MacOSX10.5.sdk/usr/lib/libxml2.2.dylib
 
-dist/Debug/GNU-MacOSX/usb2i2c: ${OBJECTFILES}
-	${MKDIR} -p dist/Debug/GNU-MacOSX
+dist/Debug/GNU-Linux-x86/usb2i2c: ${OBJECTFILES}
+	${MKDIR} -p dist/Debug/GNU-Linux-x86
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/usb2i2c ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
 ${OBJECTDIR}/main.o: nbproject/Makefile-${CND_CONF}.mk main.cpp 
@@ -70,9 +70,9 @@ ${OBJECTDIR}/main.o: nbproject/Makefile-${CND_CONF}.mk main.cpp
 .build-subprojects:
 
 # Clean Targets
-.clean-conf: ${CLEAN_SUBPROJECTS}
+.clean-conf:
 	${RM} -r build/Debug
-	${RM} dist/Debug/GNU-MacOSX/usb2i2c
+	${RM} dist/Debug/GNU-Linux-x86/usb2i2c
 
 # Subprojects
 .clean-subprojects:
