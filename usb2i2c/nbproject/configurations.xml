@@ -79,8 +79,8 @@
         </ccTool>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>/usr/local/lib/libftd2xx.so.0.4.16</linkerLibFileItem>
             <linkerLibFileItem>/usr/lib/libxml2.so</linkerLibFileItem>
+            <linkerLibFileItem>/home/guy/Downloads/libftd2xx0.4.16/libftd2xx.so.0.4.16</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>

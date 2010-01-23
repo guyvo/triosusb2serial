@@ -19,7 +19,7 @@ FC=
 AS=as
 
 # Macros
-CND_PLATFORM=GNU-MacOSX
+CND_PLATFORM=GNU-Linux-x86
 CND_CONF=laptop_release
 CND_DISTDIR=dist
 
@@ -51,10 +51,10 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	${MAKE}  -f nbproject/Makefile-laptop_release.mk dist/laptop_release/GNU-MacOSX/usb2i2c
+	${MAKE}  -f nbproject/Makefile-laptop_release.mk dist/laptop_release/GNU-Linux-x86/usb2i2c
 
-dist/laptop_release/GNU-MacOSX/usb2i2c: ${OBJECTFILES}
-	${MKDIR} -p dist/laptop_release/GNU-MacOSX
+dist/laptop_release/GNU-Linux-x86/usb2i2c: ${OBJECTFILES}
+	${MKDIR} -p dist/laptop_release/GNU-Linux-x86
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/usb2i2c ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
 ${OBJECTDIR}/main.o: nbproject/Makefile-${CND_CONF}.mk main.cpp 
@@ -66,9 +66,9 @@ ${OBJECTDIR}/main.o: nbproject/Makefile-${CND_CONF}.mk main.cpp
 .build-subprojects:
 
 # Clean Targets
-.clean-conf: ${CLEAN_SUBPROJECTS}
+.clean-conf:
 	${RM} -r build/laptop_release
-	${RM} dist/laptop_release/GNU-MacOSX/usb2i2c
+	${RM} dist/laptop_release/GNU-Linux-x86/usb2i2c
 
 # Subprojects
 .clean-subprojects:
