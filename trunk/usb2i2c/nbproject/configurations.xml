@@ -26,7 +26,7 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>4</platform>
+        <platform>2</platform>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -46,7 +46,7 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>4</platform>
+        <platform>2</platform>
       </toolsSet>
       <compileType>
         <cTool>
@@ -68,18 +68,19 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>4</platform>
+        <platform>2</platform>
       </toolsSet>
       <compileType>
         <ccTool>
           <incDir>
+            <pElem>/usr/include/ftdi</pElem>
             <pElem>/usr/include/libxml2</pElem>
           </incDir>
         </ccTool>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>/usr/local/lib/libftd2xx.0.1.7.dylib</linkerLibFileItem>
-            <linkerLibFileItem>/Developer/SDKs/MacOSX10.5.sdk/usr/lib/libxml2.2.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/libftd2xx.so.0.4.16</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/libxml2.so</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
@@ -88,7 +89,7 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>4</platform>
+        <platform>2</platform>
       </toolsSet>
       <compileType>
         <cTool>
