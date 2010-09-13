@@ -1,5 +1,4 @@
-/*
- *  TriosModel.h
+/*! \file TriosModel.h
  *  TriosBase
  *
  *  Created by Guy Van Overtveldt on 11/09/10.
@@ -7,14 +6,20 @@
  *
  */
 
+/*! \struct Light
+	\brief declaration of the light
+ 
+*/
+
 #ifndef __TriosModel__
 #define __TriosModel__
 
+#define MAXLIGHTS			6
 #define MESSAGELENGTH		256
 #define DATABUFFERLENGTH	4096
 #define MESSAGES			DATABUFFERLENGTH/MESSAGELENGTH
 
-typedef struct Ligth{
+typedef struct Light {
 	unsigned short value;
 	unsigned short minimum;
 	unsigned short maximum;
@@ -41,7 +46,7 @@ typedef struct MessageHeader{
 
 typedef struct Message{
 	TMessageHeader	header;
-	TLight			lights[6];
+	TLight			lights[MAXLIGHTS];
 	TCortex			cortex;
 } TMessage , * pTMessage;
 
