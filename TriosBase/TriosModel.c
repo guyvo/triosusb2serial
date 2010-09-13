@@ -9,3 +9,5 @@
 
 #include "TriosModel.h"
 
+TTriosDataBuffer gData;
+
