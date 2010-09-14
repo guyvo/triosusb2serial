@@ -1,5 +1,4 @@
-/*
- *  ClientSocket.c
+/*! \file ClientSocket.c
  *  TriosBase
  *
  *  Created by Guy Van Overtveldt on 11/09/10.
