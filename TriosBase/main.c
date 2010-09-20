@@ -19,7 +19,6 @@
 
 #include <stdio.h>
 #include <sys/socket.h>
-
 #include "TriosModel.h"
 
 /*! \fn int main (int argc, const char * argv[])
@@ -27,8 +26,11 @@
  \param argv string list containing the arguments
 */ 
 int main (int argc, const char * argv[]) {
-    /* insert code here... */
+	int err;
+	int looper;
 	
-    printf("Hello, World!\n");
-    return 0;
+    printf("buffer size : %d",TriosGetBufferSize());
+	for (looper=0;looper<10;looper++)
+		 err = TriosTransmitBuffer();
+    return err;
 }
