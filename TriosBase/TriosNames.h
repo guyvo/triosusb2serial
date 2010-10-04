@@ -7,7 +7,7 @@
  * 
  */
 
-const char * pCLightNames[24 ] = {
+const char * pCLightNames[24] = {
 	"toilet beneden",
 	"berging",
 	"vide draad brug",

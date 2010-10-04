@@ -13,7 +13,7 @@
 #include <sys/types.h>
 #include <errno.h>
 #include "TriosModel.h"
-#include "names.h"
+#include "TriosNames.h"
 
 /**
 * \defgroup Golbals Global Variables
@@ -30,8 +30,97 @@
 TTriosDataBuffer	gData;
 TLightModel			gTriosLights;
 
+/*! ip */
+char *				gIpAddress;
+/*! port */
+int					gPort;
+
 /*@}*/
 
+/****************************************************************************/
+/* to 0-10000 */
+static void TriosToArray (void){
+	int light;
+	
+	for (light = 0; light < (sizeof(gTriosLights.lights)/sizeof(TLight)); light++) {
+		
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS] = gTriosLights.lights[light];
+		
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].value =
+		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].value) / 100;
+		
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].minimum	=
+		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].minimum) / 100;
+		
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum =
+		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum) / 100;
+		
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step =
+		(LIGHTSTEPMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step) / 100;
+		
+	}
+
+}
+
+/****************************************************************************/
+/* to 0-100% */
+static void TriosFromArray (void){
+	EMSG eMsg;
+	ELIGHTS eLight;
+	
+	for ( eMsg = eMSG1; eMsg < AMOUNT_OF_CORTEXES; eMsg++) {
+		for ( eLight = eLIGHT1; eLight < MAXLIGHTS; eLight++){
+			
+			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)] = gData.data[eMsg].lights[eLight];
+			
+			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].value = 
+			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].value) / 100;
+			
+			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].minimum =
+			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].minimum) / 100;
+			
+			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].maximum = 
+			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].maximum) / 100;
+			
+			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].step = 
+			LIGHTSTEPMAX - (LIGHTSTEPMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].step) / 100;
+		}
+	}
+}
+
+/****************************************************************************/
+
+static void TriosInitBufferWithGet (void){
+	TriosPrepareGetInMessage(eCORTEX1, eCORTEX1GETADR);
+	TriosPrepareGetInMessage(eCORTEX2, eCORTEX2GETADR);
+	TriosPrepareGetInMessage(eCORTEX3, eCORTEX3GETADR);
+	TriosPrepareGetInMessage(eCORTEX4, eCORTEX4GETADR);
+}
+
+/****************************************************************************/
+
+static void TriosInitBufferWithPost (void){
+	TriosPreparePutInMessage(eCORTEX1,eCORTEX1PUTADR);
+	TriosPreparePutInMessage(eCORTEX2,eCORTEX2PUTADR);
+	TriosPreparePutInMessage(eCORTEX3,eCORTEX3PUTADR);
+	TriosPreparePutInMessage(eCORTEX4,eCORTEX4PUTADR);
+}
+
+/****************************************************************************/
+
+void TriosSendGetBuffer (void){
+	TriosInitBufferWithGet();
+	TriosTransmitBuffer("127.0.0.1", 6969);
+	TriosToArray();
+}
+
+/****************************************************************************/
+
+void TriosSendPostBuffer (void){
+	TriosFromArray();
+	TriosInitBufferWithPost();
+	TriosTransmitBuffer("127.0.0.1", 6969);
+}
 
 /****************************************************************************/
 
