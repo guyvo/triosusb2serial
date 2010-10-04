@@ -104,6 +104,7 @@
 
 #define LIGHTVALUEMIN		0								/*!< max light value */
 #define LIGHTVALUEMAX		10000							/*!< min light value */
+#define LIGHTSTEPMAX		1000							/*!< step */
 
 /*!< errorcodes */
 #define TRIOS_ERROR_OK		0								/*!< result OK */
@@ -214,6 +215,7 @@ typedef unsigned char * pUCTriosDataBuffer;/*!< */
  Cortex 4 will have index 18-23\n
  @note updates from UI or Trios should always end up in this array
  */
+
 extern TLightModel gTriosLights;
 /****************************************************************************/
 
@@ -237,6 +239,18 @@ int TriosGetBufferSize (void);
 */ 
 
 void TriosClearBuffer (void);
+/****************************************************************************/
+/*!
+	Sends the messages with POST command in header
+ */
+
+void TriosSendPostBuffer (void);
+/****************************************************************************/
+/*!
+ Sends the messages with GET command in header
+ */ 
+
+void TriosSendGetBuffer (void);
 /****************************************************************************/
 /*!
  Gets a pointer to the given msg index
@@ -293,4 +307,6 @@ void TriosSetLightValueInMessage (cortexint value , ELIGHTS light, EMSG msg );
 
 int TriosTransmitBuffer (char * ip , int port);
 /****************************************************************************/
+
+
 #endif
