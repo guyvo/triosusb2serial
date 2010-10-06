@@ -29,7 +29,7 @@
 */ 
 
 TTriosDataBuffer	gData;
-TLightModel			gTriosLights;
+TLightModel			gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 TCortexModel		gTriosCortexes;
 
 /*! ip */
@@ -73,21 +73,21 @@ static void TriosPreparePutInMessage (EMSG msg , ECORTEXPUTADR adr){
 static void TriosLightFromArray (void){
 	int light;
 	
-	for (light = 0; light < (sizeof(gTriosLights.lights)/sizeof(TLight)); light++) {
+	for (light = 0; light < AMOUNT_OF_CORTEXES * MAXLIGHTS; light++) {
 		
-		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS] = gTriosLights.lights[light];
+		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS] = gTriosLights[light].lights;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].value =
-		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].value) / 100;
+		LIGHTVALUEMAX - (LIGHTVALUEMAX * gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].value) / 100;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].minimum	=
-		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].minimum) / 100;
+		LIGHTVALUEMAX - (LIGHTVALUEMAX * gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].minimum) / 100;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum =
-		(LIGHTVALUEMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum) / 100;
+		LIGHTVALUEMAX - (LIGHTVALUEMAX * gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum) / 100;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step =
-		(LIGHTSTEPMAX - gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step) / 100;
+		(gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step * LIGHTSTEPMAX)*100;
 		
 	}
 
@@ -102,19 +102,19 @@ static void TriosLightToArray (void){
 	for ( eMsg = eMSG1; eMsg < AMOUNT_OF_CORTEXES; eMsg++) {
 		for ( eLight = eLIGHT1; eLight < MAXLIGHTS; eLight++){
 			
-			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)] = gData.data[eMsg].lights[eLight];
+			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights = gData.data[eMsg].lights[eLight];
 			
-			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].value = 
-			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].value) / 100;
+			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.value = 
+			(LIGHTVALUEMAX - gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.value) / 100;
 			
-			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].minimum =
-			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].minimum) / 100;
+			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.minimum =
+			(LIGHTVALUEMAX - gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.minimum) / 100;
 			
-			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].maximum = 
-			LIGHTVALUEMAX - (LIGHTVALUEMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].maximum) / 100;
+			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.maximum = 
+			(LIGHTVALUEMAX - gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.maximum) / 100;
 			
-			gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].step = 
-			LIGHTSTEPMAX - (LIGHTSTEPMAX * gTriosLights.lights[eLight+(eMsg*MAXLIGHTS)].step) / 100;
+			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.step = 
+			(gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.step / LIGHTSTEPMAX)*100;
 		}
 	}
 }
@@ -311,8 +311,10 @@ static int TriosTransmitBuffer (char * ip , int port){
 static void TriosAssignLightNames (void){
 	int light;
 	
-	for (light = 0; light < (sizeof(gTriosLights.lights)/sizeof(TLight)); light++) {
-		gTriosLights.name[light] = *gpCLightNames[light];
+	
+	for (light = 0; light < AMOUNT_OF_CORTEXES * MAXLIGHTS; light++) {
+		
+		gTriosLights[light].name = (char*) gpCLightNames[light];
 	}
 }
 
@@ -328,18 +330,44 @@ void TriosSetEhternet (char * ip , int port){
 
 void TriosInitBuffer (void){
 	TriosClearBuffer();
-	TriosPrepareGetInMessage(eMSG1, eCORTEX1GETADR);
-	TriosPrepareGetInMessage(eMSG2, eCORTEX2GETADR);
-	TriosPrepareGetInMessage(eMSG3, eCORTEX3GETADR);
-	TriosPrepareGetInMessage(eMSG4, eCORTEX4GETADR);
+	TriosInitBufferWithGet();
 	TriosAssignLightNames();
+	
+	TriosSetLightValueInMessage(1000, eLIGHT1, eMSG1);
+	TriosSetLightValueInMessage(2000, eLIGHT2, eMSG1);
+	TriosSetLightValueInMessage(3000, eLIGHT3, eMSG1);
+	TriosSetLightValueInMessage(4000, eLIGHT4, eMSG1);
+	TriosSetLightValueInMessage(5000, eLIGHT5, eMSG1);
+	TriosSetLightValueInMessage(6000, eLIGHT6, eMSG1);
+
+	TriosSetLightValueInMessage(1000, eLIGHT1, eMSG2);
+	TriosSetLightValueInMessage(2000, eLIGHT2, eMSG2);
+	TriosSetLightValueInMessage(3000, eLIGHT3, eMSG2);
+	TriosSetLightValueInMessage(4000, eLIGHT4, eMSG2);
+	TriosSetLightValueInMessage(5000, eLIGHT5, eMSG2);
+	TriosSetLightValueInMessage(6000, eLIGHT6, eMSG2);
+
+	TriosSetLightValueInMessage(10000, eLIGHT1, eMSG3);
+	TriosSetLightValueInMessage(0	, eLIGHT2, eMSG3);
+	TriosSetLightValueInMessage(1111, eLIGHT3, eMSG3);
+	TriosSetLightValueInMessage(9999, eLIGHT4, eMSG3);
+	TriosSetLightValueInMessage(4125, eLIGHT5, eMSG3);
+	TriosSetLightValueInMessage(1500, eLIGHT6, eMSG3);
+
+	TriosSetLightValueInMessage(10000, eLIGHT1, eMSG4);
+	TriosSetLightValueInMessage(0	, eLIGHT2, eMSG4);
+	TriosSetLightValueInMessage(1111, eLIGHT3, eMSG4);
+	TriosSetLightValueInMessage(9999, eLIGHT4, eMSG4);
+	TriosSetLightValueInMessage(4125, eLIGHT5, eMSG4);
+	TriosSetLightValueInMessage(1500, eLIGHT6, eMSG4);
+	
 }
 
 /****************************************************************************/
 
 void TriosSendGetBuffer (void){
 	TriosInitBufferWithGet();
-	TriosTransmitBuffer("127.0.0.1", 6969);
+	TriosTransmitBuffer(gIpAddress, gPort);
 	TriosLightToArray();
 	TriosCortextoArray();
 }
@@ -350,7 +378,7 @@ void TriosSendPostBuffer (void){
 	TriosLightFromArray();
 	TriosCortexFromArray();
 	TriosInitBufferWithPost();
-	TriosTransmitBuffer("127.0.0.1", 6969);
+	TriosTransmitBuffer(gIpAddress, gPort);
 }
 
 /****************************************************************************/

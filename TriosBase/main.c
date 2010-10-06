@@ -27,8 +27,11 @@
  \param argv string list containing the arguments
 */ 
 int main (int argc, const char * argv[]) {
-	int err;
-	int looper;
+	int err = TRIOS_ERROR_OK;
+	
+	TriosInitBuffer();
+	TriosSetEhternet("127.0.0.1",6969);
+	TriosSendGetBuffer();
 	
     return err;
 }

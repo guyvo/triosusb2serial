@@ -163,7 +163,7 @@ typedef enum{
 typedef enum{	
 	eLIGHT1,
 	eLIGHT2,
-	elIGHT3,
+	eLIGHT3,
 	eLIGHT4,
 	eLIGHT5,
 	eLIGHT6
@@ -206,7 +206,7 @@ typedef struct Data{
 } TData, * pTData;
 
 typedef struct LightModel{
-	TLight lights[MAXLIGHTS*AMOUNT_OF_CORTEXES];/*!< total light points to work with */
+	TLight lights;/*!< light values */
 	char * name;/*!< the light name*/
 }TLightModel,* pTLightModel;
 
@@ -229,7 +229,7 @@ typedef unsigned char * pUCTriosDataBuffer;/*!< */
  @note updates from UI or Trios should always end up using in this array
  */
 
-extern TLightModel	gTriosLights;
+extern TLightModel	gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 
 /*! 
  Public global variable with linear array to ease the UI calls\n 
