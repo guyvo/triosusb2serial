@@ -62,6 +62,15 @@
  
  \typedef pTLightModel
  \brief The Pointer to TLightModel
+
+ \struct CortexModel
+ \brief The Data structure
+ 
+ \typedef TCortexModel 
+ \brief The TCortextModel type
+ 
+ \typedef pTCortexModel
+ \brief The Pointer to TCortexModel
  
  \typedef EMSG
  Message enumeration for readbility
@@ -201,44 +210,52 @@ typedef struct LightModel{
 	char * name;/*!< the light name*/
 }TLightModel,* pTLightModel;
 
+typedef struct CortexModel{
+	TCortex cortexes[AMOUNT_OF_CORTEXES]; /*!< cortexes info > */
+}TCortexModel,* pTCortexModel;
+
 typedef TData TTriosDataBuffer;/*!< */
 typedef pTData pTTriosDataBuffer;/*!< */
 typedef unsigned char * pUCTriosDataBuffer;/*!< */
 
-/****************************************************************************/
+/*************************PUBLIC GLOBALS*************************************/
 /*! 
- Public global variable with linear array to ease the UI caller\n
+ Public global variable with linear array to ease the UI callsr\n
  All values must be set in range 0-100%\n
  Cortex 1 will have index 0-5\n
  Cortex 2 will have index 6-11\n
  Cortex 3 will have index 12-17\n
  Cortex 4 will have index 18-23\n
- @note updates from UI or Trios should always end up in this array
+ @note updates from UI or Trios should always end up using in this array
  */
 
-extern TLightModel gTriosLights;
+extern TLightModel	gTriosLights;
+
+/*! 
+ Public global variable with linear array to ease the UI calls\n 
+ Cortex 1 will have index 0\n
+ Cortex 2 will have index 1\n
+ Cortex 3 will have index 2\n
+ Cortex 4 will have index 3\n
+ @note All fields are readonly except masks
+ */
+
+extern TCortexModel	gTriosCortexes;
+
 /****************************************************************************/
 
-/*************************FUNCTIONS*******************************************/
+/*************************PUBLIC FUNCTIONS***********************************/
 /*!
- Gets the begin address of the buffer
- @return buffer address
+ Sets IP and PORT to communicate
 */
 
-pTTriosDataBuffer TriosGetBuffer (void);
+void TriosSetEhternet (char * ip , int port);
 /****************************************************************************/
 /*!
- Gets the buffer size
- @return the buffer size in bytes
+ Initialize the buffer with the first GET commands
 */
 
-int TriosGetBufferSize (void);
-/****************************************************************************/
-/*!
- Clears the data buffer with zero
-*/ 
-
-void TriosClearBuffer (void);
+void TriosInitBuffer (void);
 /****************************************************************************/
 /*!
 	Sends the messages with POST command in header
@@ -251,61 +268,6 @@ void TriosSendPostBuffer (void);
  */ 
 
 void TriosSendGetBuffer (void);
-/****************************************************************************/
-/*!
- Gets a pointer to the given msg index
- @param msg the message index @see EMSG
- @return the pointer to the message
- \note Using return pointer modifies buffer directly !
-*/ 
-
-pTMessage TriosGetMessage (EMSG msg);
-/****************************************************************************/
-/*!
- Gets a pointer to the a light struct
- @param light The light index 
- @param msg The message index to look into 
- @return The pointer to the light struct
- \note Using return pointer modifies buffer directly !
-*/ 
-
-pTLight TriosGetLightFromMessage (ELIGHTS light, EMSG msg);
-/****************************************************************************/
-/*!
- Sets the header to execute a get command for a given cortex
- @param msg the message index
- @param adr the cortex address
-*/ 
-
-void TriosPrepareGetInMessage (EMSG msg , ECORTEXGETADR adr);
-/****************************************************************************/
-/*!
- Sets the header to execute a put command for a given cortex
- @param msg the message index
- @param adr the cortex address
-*/ 
-
-void TriosPreparePutInMessage (EMSG msg , ECORTEXPUTADR adr);
-/****************************************************************************/
-/*!
- Sets the light value pointed to by light index for a given message
- @param value the light value
- @param light the light index
- @param msg the message index
- */
-
-void TriosSetLightValueInMessage (cortexint value , ELIGHTS light, EMSG msg );
-/****************************************************************************/
-/*!
- Sends the buffer and receives the answer using TCP berkeley socket blocking
- @param ip ip address as C string
- @param port TCP port number
- @return	The errorcode using the system global errno value (errno.h) \n
-			0 is OK (not defined in errno) @see TRIOS_ERROR_OK 
- \note	Buffer must have 1k byte size
- */
-
-int TriosTransmitBuffer (char * ip , int port);
 /****************************************************************************/
 
 

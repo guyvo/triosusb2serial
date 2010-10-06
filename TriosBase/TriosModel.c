@@ -3,7 +3,7 @@
  *
  *  Created by Guy Van Overtveldt on 11/09/10.
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
- *
+ * 
  */
 
 #include <stdio.h>
@@ -12,6 +12,7 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <errno.h>
+#include <string.h>
 #include "TriosModel.h"
 #include "TriosNames.h"
 
@@ -29,17 +30,47 @@
 
 TTriosDataBuffer	gData;
 TLightModel			gTriosLights;
+TCortexModel		gTriosCortexes;
 
 /*! ip */
-char *				gIpAddress;
+char 				gIpAddress[20];
 /*! port */
 int					gPort;
 
 /*@}*/
 
+
+/****************************************************************************/
+/*!
+ Sets the header to execute a get command for a given cortex
+ @param msg the message index
+ @param adr the cortex address
+ */ 
+
+static void TriosPrepareGetInMessage (EMSG msg , ECORTEXGETADR adr){
+	gData.data[msg].header.command = eCMDGET;
+	gData.data[msg].header.commandlength = 0;
+	gData.data[msg].header.address = adr;
+	gData.data[msg].header.datalength = (sizeof(TLight) * MAXLIGHTS) + sizeof (TCortex);
+}
+
+/****************************************************************************/
+/*!
+ Sets the header to execute a put command for a given cortex
+ @param msg the message index
+ @param adr the cortex address
+ */ 
+
+static void TriosPreparePutInMessage (EMSG msg , ECORTEXPUTADR adr){
+	gData.data[msg].header.command = eCMDPUT;
+	gData.data[msg].header.commandlength = 0;
+	gData.data[msg].header.address = adr;
+	gData.data[msg].header.datalength = (sizeof(TLight) * MAXLIGHTS) + sizeof (TCortex);
+}
+
 /****************************************************************************/
 /* to 0-10000 */
-static void TriosToArray (void){
+static void TriosLightFromArray (void){
 	int light;
 	
 	for (light = 0; light < (sizeof(gTriosLights.lights)/sizeof(TLight)); light++) {
@@ -64,7 +95,7 @@ static void TriosToArray (void){
 
 /****************************************************************************/
 /* to 0-100% */
-static void TriosFromArray (void){
+static void TriosLightToArray (void){
 	EMSG eMsg;
 	ELIGHTS eLight;
 	
@@ -90,97 +121,119 @@ static void TriosFromArray (void){
 
 /****************************************************************************/
 
+static void TriosCortexFromArray (void){
+	int cortex;
+	
+	for (cortex = 0; cortex < AMOUNT_OF_CORTEXES; cortex++){
+		gData.data[cortex].cortex = gTriosCortexes.cortexes[cortex];
+	}
+}
+
+/****************************************************************************/
+
+static void TriosCortextoArray (void){
+	EMSG eMsg;
+	
+	for ( eMsg = eMSG1; eMsg < AMOUNT_OF_CORTEXES; eMsg++) {
+		gTriosCortexes.cortexes[eMsg] = gData.data[eMsg].cortex;
+	}
+}
+
+/****************************************************************************/
+
 static void TriosInitBufferWithGet (void){
-	TriosPrepareGetInMessage(eCORTEX1, eCORTEX1GETADR);
-	TriosPrepareGetInMessage(eCORTEX2, eCORTEX2GETADR);
-	TriosPrepareGetInMessage(eCORTEX3, eCORTEX3GETADR);
-	TriosPrepareGetInMessage(eCORTEX4, eCORTEX4GETADR);
+	TriosPrepareGetInMessage(eMSG1, eCORTEX1GETADR);
+	TriosPrepareGetInMessage(eMSG2, eCORTEX2GETADR);
+	TriosPrepareGetInMessage(eMSG3, eCORTEX3GETADR);
+	TriosPrepareGetInMessage(eMSG4, eCORTEX4GETADR);
 }
 
 /****************************************************************************/
 
 static void TriosInitBufferWithPost (void){
-	TriosPreparePutInMessage(eCORTEX1,eCORTEX1PUTADR);
-	TriosPreparePutInMessage(eCORTEX2,eCORTEX2PUTADR);
-	TriosPreparePutInMessage(eCORTEX3,eCORTEX3PUTADR);
-	TriosPreparePutInMessage(eCORTEX4,eCORTEX4PUTADR);
+	TriosPreparePutInMessage(eMSG1,eCORTEX1PUTADR);
+	TriosPreparePutInMessage(eMSG2,eCORTEX2PUTADR);
+	TriosPreparePutInMessage(eMSG3,eCORTEX3PUTADR);
+	TriosPreparePutInMessage(eMSG4,eCORTEX4PUTADR);
 }
 
 /****************************************************************************/
-
-void TriosSendGetBuffer (void){
-	TriosInitBufferWithGet();
-	TriosTransmitBuffer("127.0.0.1", 6969);
-	TriosToArray();
-}
-
-/****************************************************************************/
-
-void TriosSendPostBuffer (void){
-	TriosFromArray();
-	TriosInitBufferWithPost();
-	TriosTransmitBuffer("127.0.0.1", 6969);
-}
-
-/****************************************************************************/
-
-int TriosGetBufferSize (void){
+/*!
+ Gets the buffer size
+ @return the buffer size in bytes
+ */
+static int TriosGetBufferSize (void){
 	return sizeof(gData);
 }
 
 /****************************************************************************/
+/*!
+ Clears the data buffer with zero
+ */ 
 
-void TriosClearBuffer (void){
+static void TriosClearBuffer (void){
 	memset(&gData,0,sizeof(gData));
 }
 
 /****************************************************************************/
+/*!
+ Gets the begin address of the buffer
+ @return buffer address
+ */
 
-pTTriosDataBuffer TriosGetBuffer (void){
+static pTTriosDataBuffer TriosGetBuffer (void){
 	return &gData;
 }
 
 /****************************************************************************/
-
-pTMessage TriosGetMessage (EMSG msg){
+/*!
+ Gets a pointer to the given msg index
+ @param msg the message index @see EMSG
+ @return the pointer to the message
+ \note Using return pointer modifies buffer directly !
+ */
+static pTMessage TriosGetMessage (EMSG msg){
 	return &gData.data[msg];
 }
 
 /****************************************************************************/
-
-pTLight TriosGetLightFromMessage (ELIGHTS light, EMSG msg){
+/*!
+ Gets a pointer to the a light struct
+ @param light The light index 
+ @param msg The message index to look into 
+ @return The pointer to the light struct
+ \note Using return pointer modifies buffer directly !
+ */
+static pTLight TriosGetLightFromMessage (ELIGHTS light, EMSG msg){
 	return &gData.data[msg].lights[light];
 }
 
 /****************************************************************************/
 
-void TriosPrepareGetInMessage (EMSG msg , ECORTEXGETADR adr){
-	gData.data[msg].header.command = eCMDGET;
-	gData.data[msg].header.commandlength = 0;
-	gData.data[msg].header.address = adr;
-	gData.data[msg].header.datalength = (sizeof(TLight) * 6) + sizeof (TCortex);
-}
+/*!
+ Sets the light value pointed to by light index for a given message
+ @param value the light value
+ @param light the light index
+ @param msg the message index
+ */
 
-/****************************************************************************/
-
-void TriosPreparePutInMessage (EMSG msg , ECORTEXPUTADR adr){
-	gData.data[msg].header.command = eCMDPUT;
-	gData.data[msg].header.commandlength = 0;
-	gData.data[msg].header.address = adr;
-	gData.data[msg].header.datalength = (sizeof(TLight) * 6) + sizeof (TCortex);
-}
-
-/****************************************************************************/
-
-void TriosSetLightValueInMessage (cortexint value , ELIGHTS light, EMSG msg ){
+static void TriosSetLightValueInMessage (cortexint value , ELIGHTS light, EMSG msg ){
 	if ( ( value > LIGHTVALUEMIN ) && ( value < LIGHTVALUEMAX )){
 		gData.data[msg].lights[light].value = value;
 	}
 }
 
 /****************************************************************************/
+/*!
+ Sends the buffer and receives the answer using TCP berkeley socket blocking
+ @param ip ip address as C string
+ @param port TCP port number
+ @return	The errorcode using the system global errno value (errno.h) \n
+ 0 is OK (not defined in errno) @see TRIOS_ERROR_OK 
+ \note	Buffer must have 1k byte size
+ */
 
-int TriosTransmitBuffer (char * ip , int port){
+static int TriosTransmitBuffer (char * ip , int port){
 
 	pUCTriosDataBuffer	pUCData;
 	struct sockaddr_in	xSocketAddress;
@@ -254,3 +307,51 @@ int TriosTransmitBuffer (char * ip , int port){
 }
 
 /****************************************************************************/
+
+static void TriosAssignLightNames (void){
+	int light;
+	
+	for (light = 0; light < (sizeof(gTriosLights.lights)/sizeof(TLight)); light++) {
+		gTriosLights.name[light] = *gpCLightNames[light];
+	}
+}
+
+/****************************************************************************/
+
+/***************************PUBLIC FUNCTIONS*********************************/
+
+void TriosSetEhternet (char * ip , int port){
+	strcpy( gIpAddress , ip);
+}
+
+/****************************************************************************/
+
+void TriosInitBuffer (void){
+	TriosClearBuffer();
+	TriosPrepareGetInMessage(eMSG1, eCORTEX1GETADR);
+	TriosPrepareGetInMessage(eMSG2, eCORTEX2GETADR);
+	TriosPrepareGetInMessage(eMSG3, eCORTEX3GETADR);
+	TriosPrepareGetInMessage(eMSG4, eCORTEX4GETADR);
+	TriosAssignLightNames();
+}
+
+/****************************************************************************/
+
+void TriosSendGetBuffer (void){
+	TriosInitBufferWithGet();
+	TriosTransmitBuffer("127.0.0.1", 6969);
+	TriosLightToArray();
+	TriosCortextoArray();
+}
+
+/****************************************************************************/
+
+void TriosSendPostBuffer (void){
+	TriosLightFromArray();
+	TriosCortexFromArray();
+	TriosInitBufferWithPost();
+	TriosTransmitBuffer("127.0.0.1", 6969);
+}
+
+/****************************************************************************/
+

@@ -30,8 +30,5 @@ int main (int argc, const char * argv[]) {
 	int err;
 	int looper;
 	
-    printf("buffer size : %d",TriosGetBufferSize());
-	for (looper=0;looper<10;looper++)
-		 err = TriosTransmitBuffer("192.168.1.27",6969);
     return err;
 }
