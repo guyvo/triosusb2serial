@@ -32,6 +32,7 @@ int main (int argc, const char * argv[]) {
 	TriosInitBuffer();
 	TriosSetEhternet("127.0.0.1",6969);
 	TriosSendGetBuffer();
+	TriosSendPostBuffer();
 	
     return err;
 }
