@@ -87,7 +87,7 @@ static void TriosLightFromArray (void){
 		LIGHTVALUEMAX - (LIGHTVALUEMAX * gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum) / 100;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step =
-		(gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step * LIGHTSTEPMAX)*100;
+		(gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step * LIGHTSTEPMAX) * 100;
 		
 	}
 
@@ -102,6 +102,7 @@ static void TriosLightToArray (void){
 	for ( eMsg = eMSG1; eMsg < AMOUNT_OF_CORTEXES; eMsg++) {
 		for ( eLight = eLIGHT1; eLight < MAXLIGHTS; eLight++){
 			
+						
 			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights = gData.data[eMsg].lights[eLight];
 			
 			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.value = 
@@ -218,9 +219,12 @@ static pTLight TriosGetLightFromMessage (ELIGHTS light, EMSG msg){
  */
 
 static void TriosSetLightValueInMessage (cortexint value , ELIGHTS light, EMSG msg ){
+	gData.data[msg].lights[light].value = value;
+	/*
 	if ( ( value > LIGHTVALUEMIN ) && ( value < LIGHTVALUEMAX )){
 		gData.data[msg].lights[light].value = value;
 	}
+	*/
 }
 
 /****************************************************************************/
@@ -324,6 +328,7 @@ static void TriosAssignLightNames (void){
 
 void TriosSetEhternet (char * ip , int port){
 	strcpy( gIpAddress , ip);
+	gPort = port;
 }
 
 /****************************************************************************/
