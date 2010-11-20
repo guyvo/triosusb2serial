@@ -1,0 +1,256 @@
+TiTrios
+v7
+r0
+t311963603.689056
+cCheck dependencies
+cProcessInfoPlistFile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/Info.plist iTrios-Info.plist
+cCompileXIB /Users/guy/Documents/trios/iTrios/MainWindow.xib
+cCompileXIB /Users/guy/Documents/trios/iTrios/iTriosViewController.xib
+cProcessPCH /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch.gch iTrios_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/main.o /Users/guy/Documents/trios/iTrios/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosAppDelegate.o /Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosViewController.o /Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios normal i386
+cGenerateDSYMFile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app.dSYM /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios
+cTouch /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.h
+c000000004CE7F84800000000000001E0
+t1290270792
+s480
+i<UIKit/UIKit.h>
+
+N/Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m
+c000000004CE7F84800000000000007AC
+t1290270792
+s1964
+i"iTriosAppDelegate.h"
+i"iTriosViewController.h"
+
+N/Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.h
+c000000004CE7F84800000000000000F2
+t1290270792
+s242
+i<UIKit/UIKit.h>
+
+N/Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m
+c000000004CE7F8480000000000000553
+t1290270792
+s1363
+i"iTriosViewController.h"
+
+N/Users/guy/Documents/trios/iTrios/MainWindow.xib
+c000000004CE7F8480000000000004CFF
+t1290270792
+s19711
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app
+t1290270803
+s238
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app.dSYM
+t1290270803
+s102
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/Info.plist
+t1290270802
+s794
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/MainWindow.nib
+t1290270802
+s1121
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/PkgInfo
+t1290270802
+s8
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios
+t1290270803
+s17012
+
+N/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTriosViewController.nib
+t1290270802
+s764
+
+N/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTrios.LinkFileList
+c000000004CE7F8520000000000000176
+t1290270802
+s374
+
+N/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosAppDelegate.o
+t1290270803
+s44980
+
+N/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosViewController.o
+t1290270803
+s34264
+
+N/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/main.o
+t1290270803
+s6292
+
+N/Users/guy/Documents/trios/iTrios/iTriosViewController.xib
+c000000004CE7F8480000000000003EDD
+t1290270792
+s16093
+
+N/Users/guy/Documents/trios/iTrios/iTrios_Prefix.pch
+c000000004CE7F84800000000000000B5
+t1290270792
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/guy/Documents/trios/iTrios/main.m
+c000000004CE7F848000000000000016F
+t1290270792
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch.gch
+t1290270803
+s13825936
+
+NiTrios-Info.plist
+c000000004CE7F84800000000000004D6
+t1290270792
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311963602#311963602#0(0"0(0#1#0"8602703968#0"0#
+
+CCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosAppDelegate.o /Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311963603.470674
+e311963603.567464
+r1
+xCompileC
+xbuild/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosAppDelegate.o
+x/Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m311963603#311963603#0(0"0(0#0#61"/Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m8616876032#1860"    cd /Users/guy/Documents/trios/iTrios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-generated-files.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-own-target-headers.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-all-target-headers.hmap -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-project-headers.hmap -F/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -I/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/include -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources/i386 -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources -include /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch -c /Users/guy/Documents/trios/iTrios/Classes/iTriosAppDelegate.m -o /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosAppDelegate.o0#
+
+CCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosViewController.o /Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311963603.542223
+e311963603.588276
+r1
+xCompileC
+xbuild/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosViewController.o
+x/Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m311963603#311963603#0(0"0(0#0#64"/Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m8615300576#1866"    cd /Users/guy/Documents/trios/iTrios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-generated-files.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-own-target-headers.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-all-target-headers.hmap -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-project-headers.hmap -F/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -I/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/include -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources/i386 -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources -include /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch -c /Users/guy/Documents/trios/iTrios/Classes/iTriosViewController.m -o /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTriosViewController.o0#
+
+CCompileC build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/main.o /Users/guy/Documents/trios/iTrios/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311963603.469626
+e311963603.542134
+r1
+xCompileC
+xbuild/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/main.o
+x/Users/guy/Documents/trios/iTrios/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/guy/Documents/trios/iTrios/main.m311963603#311963603#0(0"0(0#0#40"/Users/guy/Documents/trios/iTrios/main.m8604574496#1826"    cd /Users/guy/Documents/trios/iTrios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-generated-files.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-own-target-headers.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-all-target-headers.hmap -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-project-headers.hmap -F/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -I/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/include -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources/i386 -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources -include /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch -c /Users/guy/Documents/trios/iTrios/main.m -o /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/guy/Documents/trios/iTrios/MainWindow.xib
+s311963602.326790
+e311963602.701231
+r1
+xCompileXIB
+x/Users/guy/Documents/trios/iTrios/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib311963602#311963602#0(0"0(0#0#48"/Users/guy/Documents/trios/iTrios/MainWindow.xib8612467712#554"    cd /Users/guy/Documents/trios/iTrios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/MainWindow.nib /Users/guy/Documents/trios/iTrios/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/guy/Documents/trios/iTrios/iTriosViewController.xib
+s311963602.327552
+e311963602.714729
+r1
+xCompileXIB
+x/Users/guy/Documents/trios/iTrios/iTriosViewController.xib
+lSLF07#2@35"CompileXIB iTriosViewController.xib311963602#311963602#0(0"0(0#0#58"/Users/guy/Documents/trios/iTrios/iTriosViewController.xib8612084544#574"    cd /Users/guy/Documents/trios/iTrios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTriosViewController.nib /Users/guy/Documents/trios/iTrios/iTriosViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app.dSYM /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios
+s311963603.670737
+e311963603.686735
+r1
+xGenerateDSYMFile
+x/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app.dSYM
+x/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/iTrios.app.dSYM build/Debug-iphonesimulator/iTrios.app/iTrios311963603#311963603#0(0"0(0#0#79"/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios8613261792#365"    cd /Users/guy/Documents/trios/iTrios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios -o /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app.dSYM0#
+
+CLd /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios normal i386
+s311963603.588359
+e311963603.670654
+r1
+xLd
+x/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios
+xnormal
+xi386
+lSLF07#2@84"Link /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios311963603#311963603#0(0"0(0#0#0"8613897088#870"    cd /Users/guy/Documents/trios/iTrios    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -F/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -filelist /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/Objects-normal/i386/iTrios.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/iTrios0#
+
+CProcessInfoPlistFile /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/Info.plist iTrios-Info.plist
+s311963602.322516
+e311963602.326721
+r1
+xProcessInfoPlistFile
+x/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/Info.plist
+xiTrios-Info.plist
+lSLF07#2@25"Process iTrios-Info.plist311963602#311963602#0(0"0(0#0#51"/Users/guy/Documents/trios/iTrios/iTrios-Info.plist8599769760#461"    cd /Users/guy/Documents/trios/iTrios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iTrios-Info.plist -genpkginfo /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app/Info.plist0#
+
+CProcessPCH /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch.gch iTrios_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311963602.714832
+e311963603.469547
+r1
+xProcessPCH
+x/var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch.gch
+xiTrios_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iTrios_Prefix.pch311963602#311963603#0(0"0(0#0#51"/Users/guy/Documents/trios/iTrios/iTrios_Prefix.pch8613456544#1724"    cd /Users/guy/Documents/trios/iTrios    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-generated-files.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-own-target-headers.hmap -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-all-target-headers.hmap -iquote /Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/iTrios-project-headers.hmap -F/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator -I/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/include -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources/i386 -I/Users/guy/Documents/trios/iTrios/build/iTrios.build/Debug-iphonesimulator/iTrios.build/DerivedSources -c /Users/guy/Documents/trios/iTrios/iTrios_Prefix.pch -o /var/folders/0N/0Nn9J7tmFvOHMdXAVGzNRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTrios_Prefix-gmxdywbajlphhshjujuegtffriwd/iTrios_Prefix.pch.gch0#
+
+CTouch /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app
+s311963603.686807
+e311963603.689026
+r1
+xTouch
+x/Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app
+lSLF07#2@78"Touch /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app311963603#311963603#0(0"0(0#0#0"8612993568#267"    cd /Users/guy/Documents/trios/iTrios    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/guy/Documents/trios/iTrios/build/Debug-iphonesimulator/iTrios.app0#
+
