@@ -32,9 +32,10 @@ TTriosDataBuffer	gData;
 TLightModel			gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 TCortexModel		gTriosCortexes;
 
-/*! ip */
+/*! servers ip address */
 char 				gIpAddress[20];
-/*! port */
+
+/*! servers port number */
 int					gPort;
 
 /*@}*/
@@ -245,6 +246,7 @@ static int TriosTransmitBuffer (char * ip , int port){
 	int					iReallyReceived;
 	int					iToReceive;
 	int					iBufferSize;
+	int					iReallySent;
 	
 	/* calculate only once buffer size */
 	iBufferSize = TriosGetBufferSize();
@@ -262,16 +264,19 @@ static int TriosTransmitBuffer (char * ip , int port){
 		return errno;
 	}
 	
-	/* send our prepared buffer */
+	iReallySent = send(iClientSocket, &gData, iBufferSize, MSG_WAITALL );
+	
+	/* send our prepared buffer
 	if ( send(iClientSocket, &gData, iBufferSize, 0 ) == -1){
 		return errno;
 	}
+	*/
 	
 	/* start of buffer to recv */
 	pUCData = (pUCTriosDataBuffer)&gData;
 	
 	/* first try to recv */
-	iReallyReceived = recv(iClientSocket, pUCData , iBufferSize, 0);
+	iReallyReceived = recv(iClientSocket, pUCData , iBufferSize, MSG_WAITALL);
 	
 	/* issue error already no need to continue */
 	if (iReallyReceived == -1) {
@@ -302,6 +307,8 @@ static int TriosTransmitBuffer (char * ip , int port){
 		/* calculate the recv bytes so far */
 		iToReceive -= iReallyReceived;
 	}
+	
+	printf("%d\n",iReallyReceived);
 	
 	/* if reach this point all went well so close socket */
 	close(iClientSocket);
@@ -337,7 +344,7 @@ void TriosInitBuffer (void){
 	TriosClearBuffer();
 	TriosInitBufferWithGet();
 	TriosAssignLightNames();
-	
+/*	
 	TriosSetLightValueInMessage(1000, eLIGHT1, eMSG1);
 	TriosSetLightValueInMessage(2000, eLIGHT2, eMSG1);
 	TriosSetLightValueInMessage(3000, eLIGHT3, eMSG1);
@@ -365,25 +372,30 @@ void TriosInitBuffer (void){
 	TriosSetLightValueInMessage(9999, eLIGHT4, eMSG4);
 	TriosSetLightValueInMessage(4125, eLIGHT5, eMSG4);
 	TriosSetLightValueInMessage(1500, eLIGHT6, eMSG4);
-	
+*/	
 }
 
 /****************************************************************************/
 
 void TriosSendGetBuffer (void){
+	int err;
 	TriosInitBufferWithGet();
-	TriosTransmitBuffer(gIpAddress, gPort);
+	err = TriosTransmitBuffer(gIpAddress, gPort);
 	TriosLightToArray();
 	TriosCortextoArray();
+	printf("%d\n",err);
+
 }
 
 /****************************************************************************/
 
 void TriosSendPostBuffer (void){
+	int err;
 	TriosLightFromArray();
 	TriosCortexFromArray();
 	TriosInitBufferWithPost();
-	TriosTransmitBuffer(gIpAddress, gPort);
+	err = TriosTransmitBuffer(gIpAddress, gPort);
+	printf("%d\n",err);
 }
 
 /****************************************************************************/
