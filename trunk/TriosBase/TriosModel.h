@@ -113,9 +113,9 @@
 
 #define LIGHTVALUEMIN		0								/*!< max light value */
 #define LIGHTVALUEMAX		10000							/*!< min light value */
-#define LIGHTSTEPMAX		1000							/*!< step */
+#define LIGHTSTEPMAX		1000							/*!< dimmer step */
 
-/*!< errorcodes */
+
 #define TRIOS_ERROR_OK		0								/*!< result OK */
 
 /***********************TYPEDEFS*********************************************/
@@ -221,12 +221,12 @@ typedef unsigned char * pUCTriosDataBuffer;/*!< */
 /*************************PUBLIC GLOBALS*************************************/
 /*! 
  Public global variable with linear array to ease the UI callsr\n
- All values must be set in range 0-100%\n
+ All values must be set in range 0-100% except port in/out \n
  Cortex 1 will have index 0-5\n
  Cortex 2 will have index 6-11\n
  Cortex 3 will have index 12-17\n
  Cortex 4 will have index 18-23\n
- @note updates from UI or Trios should always end up using in this array
+ @note Updates from UI or Trios should always end up using in this array
  */
 
 extern TLightModel	gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
@@ -247,6 +247,8 @@ extern TCortexModel	gTriosCortexes;
 /*************************PUBLIC FUNCTIONS***********************************/
 /*!
  Sets IP and PORT to communicate
+ @param ip servers ip address
+ @param port servers port number
 */
 
 void TriosSetEhternet (char * ip , int port);

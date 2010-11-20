@@ -7,6 +7,31 @@
  * 
  */
 
+
+/*! \mainpage My Personal Index Page
+ *
+ * \section intro_sec Introduction
+ *
+ * This is the introduction.
+ *
+ * \section install_sec Installation
+ *
+ * \subsection step1 Step 1: Opening the box
+ *
+ * etc...
+ 
+*/
+
+/**
+ * \defgroup Golbals Global Variables
+ */
+
+/*@{*/
+
+/*! 
+ Light names can be changed here recompile needed\n
+ @todo read in from file
+*/
 const char * gpCLightNames[24] = {
 	"toilet beneden",
 	"berging",
@@ -33,3 +58,5 @@ const char * gpCLightNames[24] = {
 	"slaapkamer 3",
 	"vrij"
 };
+
+/*@}*/
