@@ -16,6 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iTriosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iTriosViewController.m */; };
 		E4153CFE12982FEE00D8CBD7 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E4153CFD12982FEE00D8CBD7 /* trios.png */; };
+		E4A6FA36129938BA00CB5079 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4A6FA35129938BA00CB5079 /* TriosModel.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,9 @@
 		32CA4F630368D1EE00C91783 /* iTrios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTrios_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iTrios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTrios-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E4153CFD12982FEE00D8CBD7 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
+		E4A6FA33129938BA00CB5079 /* TriosNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriosNames.h; path = ../TriosBase/TriosNames.h; sourceTree = SOURCE_ROOT; };
+		E4A6FA34129938BA00CB5079 /* TriosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriosModel.h; path = ../TriosBase/TriosModel.h; sourceTree = SOURCE_ROOT; };
+		E4A6FA35129938BA00CB5079 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TriosModel.c; path = ../TriosBase/TriosModel.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E4A6FA321299389400CB5079 /* triosbase */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -108,6 +113,16 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4A6FA321299389400CB5079 /* triosbase */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6FA33129938BA00CB5079 /* TriosNames.h */,
+				E4A6FA34129938BA00CB5079 /* TriosModel.h */,
+				E4A6FA35129938BA00CB5079 /* TriosModel.c */,
+			);
+			name = triosbase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +183,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* iTriosAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* iTriosViewController.m in Sources */,
+				E4A6FA36129938BA00CB5079 /* TriosModel.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
