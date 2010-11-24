@@ -13,6 +13,7 @@
 #include <sys/types.h>
 #include <errno.h>
 #include <string.h>
+#include <unistd.h>
 #include "TriosModel.h"
 #include "TriosNames.h"
 
@@ -246,7 +247,6 @@ static int TriosTransmitBuffer (char * ip , int port){
 	int					iReallyReceived;
 	int					iToReceive;
 	int					iBufferSize;
-	int					iReallySent;
 	
 	/* calculate only once buffer size */
 	iBufferSize = TriosGetBufferSize();
@@ -264,13 +264,9 @@ static int TriosTransmitBuffer (char * ip , int port){
 		return errno;
 	}
 	
-	iReallySent = send(iClientSocket, &gData, iBufferSize, MSG_WAITALL );
-	
-	/* send our prepared buffer
 	if ( send(iClientSocket, &gData, iBufferSize, 0 ) == -1){
 		return errno;
 	}
-	*/
 	
 	/* start of buffer to recv */
 	pUCData = (pUCTriosDataBuffer)&gData;
