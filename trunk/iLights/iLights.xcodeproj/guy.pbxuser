@@ -84,6 +84,8 @@
 		perUserProjectItems = {
 			E448D7F312A18E8D00C98F78 /* PBXTextBookmark */ = E448D7F312A18E8D00C98F78 /* PBXTextBookmark */;
 			E448D7F412A18E8D00C98F78 /* PBXTextBookmark */ = E448D7F412A18E8D00C98F78 /* PBXTextBookmark */;
+			E448D7FF12A18F6600C98F78 /* PBXTextBookmark */ = E448D7FF12A18F6600C98F78 /* PBXTextBookmark */;
+			E448D80612A18F7600C98F78 /* PBXTextBookmark */ = E448D80612A18F7600C98F78 /* PBXTextBookmark */;
 			E4930D2312A176F600CB93F2 = E4930D2312A176F600CB93F2 /* PBXTextBookmark */;
 			E4930D2512A176F600CB93F2 = E4930D2512A176F600CB93F2 /* PBXTextBookmark */;
 			E4930D5E12A1782B00CB93F2 = E4930D5E12A1782B00CB93F2 /* PBXTextBookmark */;
@@ -131,6 +133,26 @@
 		name = "guy.pbxuser: 1";
 		rLen = 0;
 		rLoc = 0;
+		rType = 0;
+		vrLen = 144;
+		vrLoc = 0;
+	};
+	E448D7FF12A18F6600C98F78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2412A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 339";
+		rLen = 0;
+		rLoc = 9645;
+		rType = 0;
+		vrLen = 144;
+		vrLoc = 0;
+	};
+	E448D80612A18F7600C98F78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2412A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 350";
+		rLen = 0;
+		rLoc = 9979;
 		rType = 0;
 		vrLen = 144;
 		vrLoc = 0;
@@ -194,8 +216,8 @@
 		path = /Users/guy/Documents/iLights/iLights.xcodeproj/guy.pbxuser;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {542, 4242}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {542, 5040}}";
+			sepNavSelRange = "{9979, 0}";
 			sepNavVisRange = "{0, 144}";
 		};
 	};
