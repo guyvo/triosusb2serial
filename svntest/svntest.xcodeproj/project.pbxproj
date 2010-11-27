@@ -47,6 +47,7 @@
 		08FB7794FE84155DC02AAC07 /* svntest */ = {
 			isa = PBXGroup;
 			children = (
+				8EF6340D12A162EF004BFCD5 /* obj */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859E96029091FE04C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
@@ -77,6 +78,13 @@
 				8DD76F7E0486A8DE00D96B5E /* svntest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF6340D12A162EF004BFCD5 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = obj;
 			sourceTree = "<group>";
 		};
 		C6859E96029091FE04C91782 /* Documentation */ = {
