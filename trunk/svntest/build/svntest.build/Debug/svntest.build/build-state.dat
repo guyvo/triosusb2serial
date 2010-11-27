@@ -1,0 +1,64 @@
+Tsvntest
+v7
+r0
+t312567790.926010
+cCheck dependencies
+cCompileC build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/main.o /Users/guy/Documents/svntest/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/guy/Documents/svntest/build/Debug/svntest normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Users/guy/Documents/svntest/build/Debug/svntest
+t1290874990
+s8944
+
+N/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/main.o
+t1290874990
+s2644
+
+N/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/svntest.LinkFileList
+c000000004CF1306E0000000000000062
+t1290874990
+s98
+
+N/Users/guy/Documents/svntest/main.c
+c000000004CF1306B0000000000000089
+t1290874987
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312567790#312567790#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/main.o /Users/guy/Documents/svntest/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312567790.882872
+e312567790.911492
+r1
+xCompileC
+xbuild/svntest.build/Debug/svntest.build/Objects-normal/x86_64/main.o
+x/Users/guy/Documents/svntest/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/guy/Documents/svntest/main.c312567790#312567790#0(0"0(0#0#35"/Users/guy/Documents/svntest/main.c3401403401131030528#1160"    cd /Users/guy/Documents/svntest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/svntest-generated-files.hmap -I/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/svntest-own-target-headers.hmap -I/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/svntest-all-target-headers.hmap -iquote /Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/svntest-project-headers.hmap -F/Users/guy/Documents/svntest/build/Debug -I/Users/guy/Documents/svntest/build/Debug/include -I/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/DerivedSources/x86_64 -I/Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/DerivedSources -c /Users/guy/Documents/svntest/main.c -o /Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/guy/Documents/svntest/build/Debug/svntest normal x86_64
+s312567790.911648
+e312567790.925959
+r1
+xLd
+x/Users/guy/Documents/svntest/build/Debug/svntest
+xnormal
+xx86_64
+lSLF07#2@53"Link /Users/guy/Documents/svntest/build/Debug/svntest312567790#312567790#0(0"0(0#0#0"8604312736#448"    cd /Users/guy/Documents/svntest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/guy/Documents/svntest/build/Debug -F/Users/guy/Documents/svntest/build/Debug -filelist /Users/guy/Documents/svntest/build/svntest.build/Debug/svntest.build/Objects-normal/x86_64/svntest.LinkFileList -mmacosx-version-min=10.6 -o /Users/guy/Documents/svntest/build/Debug/svntest0#
+
