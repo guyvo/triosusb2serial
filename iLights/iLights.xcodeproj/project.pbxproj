@@ -16,6 +16,7 @@
 		28D7ACF80DDB3853001CB0EB /* iLightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */; };
 		8EDDAC3F12A18CB000614759 /* LightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC3E12A18CB000614759 /* LightView.m */; };
 		8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
+		8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDACA812A1926000614759 /* TriosUnitTest.m */; };
 		E448D79A12A1744000C98F78 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
 		E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
@@ -39,6 +40,10 @@
 		8EDDAC3E12A18CB000614759 /* LightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightView.m; sourceTree = "<group>"; };
 		8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLightsTriosWrapper.h; sourceTree = "<group>"; };
 		8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLightsTriosWrapper.m; sourceTree = "<group>"; };
+		8EDDACA212A1923600614759 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UnitTests.octest; path = "build/Debug-iphonesimulator/UnitTests.octest"; sourceTree = "<group>"; };
+		8EDDACA312A1923600614759 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		8EDDACA712A1926000614759 /* TriosUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosUnitTest.h; sourceTree = "<group>"; };
+		8EDDACA812A1926000614759 /* TriosUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriosUnitTest.m; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E4930D4512A1780300CB93F2 /* TriosNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosNames.h; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDDAC9F12A1923600614759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* iLights.app */,
+				8EDDACA212A1923600614759 /* UnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +96,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8EDDAC9C12A191E300614759 /* UnitTests */,
 				8EDDAC4C12A18E3A00614759 /* Png */,
 				E448D7C312A180B500C98F78 /* Views */,
 				E4930D4212A177D300CB93F2 /* Trios */,
@@ -91,6 +105,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				8EDDACA312A1923600614759 /* UnitTests-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -132,6 +147,15 @@
 			name = Png;
 			sourceTree = "<group>";
 		};
+		8EDDAC9C12A191E300614759 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDACA712A1926000614759 /* TriosUnitTest.h */,
+				8EDDACA812A1926000614759 /* TriosUnitTest.m */,
+			);
+			name = UnitTests;
+			sourceTree = "<group>";
+		};
 		E448D7C312A180B500C98F78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +195,24 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* iLights.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8EDDACA112A1923600614759 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDDACA612A1923600614759 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				8EDDAC9D12A1923600614759 /* Resources */,
+				8EDDAC9E12A1923600614759 /* Sources */,
+				8EDDAC9F12A1923600614759 /* Frameworks */,
+				8EDDACA012A1923600614759 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 8EDDACA212A1923600614759 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,6 +233,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iLights */,
+				8EDDACA112A1923600614759 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +249,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EDDAC9D12A1923600614759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EDDACA012A1923600614759 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -219,6 +285,14 @@
 				E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */,
 				8EDDAC3F12A18CB000614759 /* LightView.m in Sources */,
 				8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDDAC9E12A1923600614759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +323,66 @@
 				INFOPLIST_FILE = "iLights-Info.plist";
 				PRODUCT_NAME = iLights;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDDACA412A1923600614759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8EDDACA512A1923600614759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -289,6 +423,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDDACA612A1923600614759 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDDACA412A1923600614759 /* Debug */,
+				8EDDACA512A1923600614759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
