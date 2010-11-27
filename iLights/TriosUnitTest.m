@@ -9,8 +9,8 @@
 #import "TriosUnitTest.h"
 #import <unistd.h>
 
-#define AMOUNT_OF_TESTS				100
-#define LANTRONICS_CLEANUP_DELAY	15000 // in us
+#define AMOUNT_OF_TESTS				1
+#define LANTRONICS_CLEANUP_DELAY	20000 // in us
 
 @implementation TriosUnitTest
 
