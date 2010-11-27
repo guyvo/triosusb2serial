@@ -10,6 +10,7 @@
 		8DD76F770486A8DE00D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76F790486A8DE00D96B5E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */; };
 		8DD76F7C0486A8DE00D96B5E /* svntest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E970290921104C91782 /* svntest.1 */; };
+		8ED61EEC12A164ED0069A035 /* class.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED61EEB12A164ED0069A035 /* class.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		8DD76F7E0486A8DE00D96B5E /* svntest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svntest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED61EEA12A164ED0069A035 /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class.h; sourceTree = "<group>"; };
+		8ED61EEB12A164ED0069A035 /* class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = class.m; sourceTree = "<group>"; };
 		C6859E970290921104C91782 /* svntest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = svntest.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +86,8 @@
 		8EF6340D12A162EF004BFCD5 /* obj */ = {
 			isa = PBXGroup;
 			children = (
+				8ED61EEA12A164ED0069A035 /* class.h */,
+				8ED61EEB12A164ED0069A035 /* class.m */,
 			);
 			name = obj;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F770486A8DE00D96B5E /* main.c in Sources */,
+				8ED61EEC12A164ED0069A035 /* class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
