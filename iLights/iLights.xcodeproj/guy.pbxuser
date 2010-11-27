@@ -23,7 +23,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					263,
+					341,
 					20,
 					48,
 					43,
@@ -46,7 +46,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					239,
+					317,
 					20,
 					48,
 					43,
@@ -64,8 +64,22 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312570782;
-			PBXWorkspaceStateSaveDate = 312570782;
+			PBXPerProjectTemplateStateSaveDate = 312571587;
+			PBXWorkspaceStateSaveDate = 312571587;
+		};
+		perUserProjectItems = {
+			E4930D2312A176F600CB93F2 /* PBXTextBookmark */ = E4930D2312A176F600CB93F2 /* PBXTextBookmark */;
+			E4930D2512A176F600CB93F2 /* PBXTextBookmark */ = E4930D2512A176F600CB93F2 /* PBXTextBookmark */;
+			E4930D5E12A1782B00CB93F2 /* XCBuildMessageTextBookmark */ = E4930D5E12A1782B00CB93F2 /* XCBuildMessageTextBookmark */;
+			E4930D5F12A1782B00CB93F2 /* PBXTextBookmark */ = E4930D5F12A1782B00CB93F2 /* PBXTextBookmark */;
+			E4930D7612A1790500CB93F2 /* XCBuildMessageTextBookmark */ = E4930D7612A1790500CB93F2 /* XCBuildMessageTextBookmark */;
+			E4930D7712A1790500CB93F2 /* PBXTextBookmark */ = E4930D7712A1790500CB93F2 /* PBXTextBookmark */;
+			E4930D7812A1794200CB93F2 /* PlistBookmark */ = E4930D7812A1794200CB93F2 /* PlistBookmark */;
+			E4930D7912A1794200CB93F2 /* PBXTextBookmark */ = E4930D7912A1794200CB93F2 /* PBXTextBookmark */;
+			E4930D7A12A1794200CB93F2 /* PBXTextBookmark */ = E4930D7A12A1794200CB93F2 /* PBXTextBookmark */;
+			E4930D7B12A1794200CB93F2 /* PBXTextBookmark */ = E4930D7B12A1794200CB93F2 /* PBXTextBookmark */;
+			E4930D7D12A1794200CB93F2 /* PBXTextBookmark */ = E4930D7D12A1794200CB93F2 /* PBXTextBookmark */;
+			E4930D7E12A1794200CB93F2 /* PBXTextBookmark */ = E4930D7E12A1794200CB93F2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E4930D0412A1723A00CB93F2 /* Source Control */;
 		userBuildSettings = {
@@ -112,5 +126,162 @@
 	E4930D0512A1723A00CB93F2 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	E4930D2312A176F600CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2412A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	E4930D2412A176F600CB93F2 /* guy.pbxuser */ = {
+		isa = PBXFileReference;
+		name = guy.pbxuser;
+		path = /Users/guy/Documents/iLights/iLights.xcodeproj/guy.pbxuser;
+		sourceTree = "<absolute>";
+	};
+	E4930D2512A176F600CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2612A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	E4930D2612A176F600CB93F2 /* guy.pbxuser */ = {
+		isa = PBXFileReference;
+		name = guy.pbxuser;
+		path = /Users/guy/Documents/iLights/iLights.xcodeproj/guy.pbxuser;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2795}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	E4930D4512A1780300CB93F2 /* TriosNames.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 455}}";
+			sepNavSelRange = "{160, 0}";
+			sepNavVisRange = "{0, 286}";
+		};
+	};
+	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 5356}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{174, 256}";
+		};
+	};
+	E4930D5E12A1782B00CB93F2 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "TriosNames.h: No such file or directory";
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 17;
+		rType = 1;
+	};
+	E4930D5F12A1782B00CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		name = "TriosModel.c: 18";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 217;
+	};
+	E4930D7612A1790500CB93F2 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'gpCLightNames' undeclared (first use in this function)";
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 323;
+		rType = 1;
+	};
+	E4930D7712A1790500CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		name = "TriosModel.c: 324";
+		rLen = 0;
+		rLoc = 9238;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 174;
+	};
+	E4930D7812A1794200CB93F2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iLights-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/guy/Documents/iLights/iLights-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E4930D7912A1794200CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4512A1780300CB93F2 /* TriosNames.h */;
+		name = "TriosNames.h: 10";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	E4930D7A12A1794200CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		name = "TriosModel.c: 18";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 174;
+	};
+	E4930D7B12A1794200CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D7C12A1794200CB93F2 /* project.pbxproj */;
+		name = "project.pbxproj: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1305;
+		vrLoc = 0;
+	};
+	E4930D7C12A1794200CB93F2 /* project.pbxproj */ = {
+		isa = PBXFileReference;
+		name = project.pbxproj;
+		path = /Users/guy/Documents/iLights/iLights.xcodeproj/project.pbxproj;
+		sourceTree = "<absolute>";
+	};
+	E4930D7D12A1794200CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2612A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	E4930D7E12A1794200CB93F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D2612A176F600CB93F2 /* guy.pbxuser */;
+		name = "guy.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
 	};
 }
