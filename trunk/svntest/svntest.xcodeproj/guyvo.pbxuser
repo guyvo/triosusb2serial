@@ -41,7 +41,7 @@
 					16,
 					200,
 					50,
-					196.20849609375,
+					688,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXSymbolsDataSource_SymbolTypeIconID,
@@ -56,7 +56,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					232,
+					724,
 					20,
 					48,
 					43,
@@ -81,6 +81,9 @@
 			8ED61EF112A1652C0069A035 /* PBXTextBookmark */ = 8ED61EF112A1652C0069A035 /* PBXTextBookmark */;
 			8ED61EF212A1652C0069A035 /* PBXTextBookmark */ = 8ED61EF212A1652C0069A035 /* PBXTextBookmark */;
 			8ED61EF312A1652C0069A035 /* PBXTextBookmark */ = 8ED61EF312A1652C0069A035 /* PBXTextBookmark */;
+			8ED61F0712A165BC0069A035 /* PBXTextBookmark */ = 8ED61F0712A165BC0069A035 /* PBXTextBookmark */;
+			8ED61F0912A165BC0069A035 /* PBXTextBookmark */ = 8ED61F0912A165BC0069A035 /* PBXTextBookmark */;
+			8ED61F0A12A165BC0069A035 /* PBXTextBookmark */ = 8ED61F0A12A165BC0069A035 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EF633E712A1612D004BFCD5 /* Source Control */;
 		userBuildSettings = {
@@ -101,7 +104,7 @@
 	};
 	8ED61EEA12A164ED0069A035 /* class.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {434, 237}}";
+			sepNavIntBoundsRect = "{{0, 0}, {926, 452}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 212}";
 		};
@@ -124,6 +127,41 @@
 		rType = 0;
 	};
 	8ED61EF312A1652C0069A035 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8ED61EEA12A164ED0069A035 /* class.h */;
+		name = "class.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	8ED61F0712A165BC0069A035 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8ED61F0812A165BC0069A035 /* Diff BASE vs. Local — pbxindex.header */;
+		name = "Diff BASE vs. Local — pbxindex.header: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	8ED61F0812A165BC0069A035 /* Diff BASE vs. Local — pbxindex.header */ = {
+		isa = PBXFileReference;
+		path = "Diff BASE vs. Local — pbxindex.header";
+		sourceTree = "<group>";
+	};
+	8ED61F0912A165BC0069A035 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8ED61EEA12A164ED0069A035 /* class.h */;
+		name = "class.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	8ED61F0A12A165BC0069A035 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8ED61EEA12A164ED0069A035 /* class.h */;
 		name = "class.h: 1";
