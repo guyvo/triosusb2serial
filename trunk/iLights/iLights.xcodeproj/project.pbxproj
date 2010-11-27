@@ -40,7 +40,7 @@
 		8EDDAC3E12A18CB000614759 /* LightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightView.m; sourceTree = "<group>"; };
 		8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLightsTriosWrapper.h; sourceTree = "<group>"; };
 		8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLightsTriosWrapper.m; sourceTree = "<group>"; };
-		8EDDACA212A1923600614759 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UnitTests.octest; path = "build/Debug-iphonesimulator/UnitTests.octest"; sourceTree = "<group>"; };
+		8EDDACA212A1923600614759 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDDACA312A1923600614759 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		8EDDACA712A1926000614759 /* TriosUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosUnitTest.h; sourceTree = "<group>"; };
 		8EDDACA812A1926000614759 /* TriosUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriosUnitTest.m; sourceTree = "<group>"; };
