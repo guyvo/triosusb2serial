@@ -373,25 +373,25 @@ void TriosInitBuffer (void){
 
 /****************************************************************************/
 
-void TriosSendGetBuffer (void){
+int TriosSendGetBuffer (void){
 	int err;
 	TriosInitBufferWithGet();
 	err = TriosTransmitBuffer(gIpAddress, gPort);
 	TriosLightToArray();
 	TriosCortextoArray();
-	printf("%d\n",err);
+	return err;
 
 }
 
 /****************************************************************************/
 
-void TriosSendPostBuffer (void){
+int TriosSendPostBuffer (void){
 	int err;
 	TriosLightFromArray();
 	TriosCortexFromArray();
 	TriosInitBufferWithPost();
 	err = TriosTransmitBuffer(gIpAddress, gPort);
-	printf("%d\n",err);
+	return err;
 }
 
 /****************************************************************************/

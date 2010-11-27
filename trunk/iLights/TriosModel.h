@@ -263,13 +263,13 @@ void TriosInitBuffer (void);
 	Sends the messages with POST command in header
  */
 
-void TriosSendPostBuffer (void);
+int TriosSendPostBuffer (void);
 /****************************************************************************/
 /*!
  Sends the messages with GET command in header
  */ 
 
-void TriosSendGetBuffer (void);
+int TriosSendGetBuffer (void);
 /****************************************************************************/
 
 
