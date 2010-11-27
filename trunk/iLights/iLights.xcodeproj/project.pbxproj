@@ -83,6 +83,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8EDDAC4C12A18E3A00614759 /* png */,
 				E448D7C312A180B500C98F78 /* Views */,
 				E4930D4212A177D300CB93F2 /* Trios */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -122,6 +123,13 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EDDAC4C12A18E3A00614759 /* png */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = png;
 			sourceTree = "<group>";
 		};
 		E448D7C312A180B500C98F78 /* Views */ = {
