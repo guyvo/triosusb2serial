@@ -14,6 +14,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iLightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */; };
+		8EDDAC3F12A18CB000614759 /* LightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC3E12A18CB000614759 /* LightView.m */; };
 		E448D79A12A1744000C98F78 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
 		E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
@@ -33,6 +34,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iLights_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLights_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iLights-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iLights-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8EDDAC3D12A18CB000614759 /* LightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightView.h; sourceTree = "<group>"; };
+		8EDDAC3E12A18CB000614759 /* LightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightView.m; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E4930D4512A1780300CB93F2 /* TriosNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosNames.h; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 		E448D7C312A180B500C98F78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8EDDAC3D12A18CB000614759 /* LightView.h */,
+				8EDDAC3E12A18CB000614759 /* LightView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				1D3623260D0F684500981E51 /* iLightsAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* iLightsViewController.m in Sources */,
 				E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */,
+				8EDDAC3F12A18CB000614759 /* LightView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
