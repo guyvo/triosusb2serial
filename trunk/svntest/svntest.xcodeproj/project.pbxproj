@@ -47,7 +47,7 @@
 		08FB7794FE84155DC02AAC07 /* svntest */ = {
 			isa = PBXGroup;
 			children = (
-				E448D75B12A16C4000C98F78 /* source */,
+				E448D75B12A16C4000C98F78 /* src */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
@@ -79,13 +79,13 @@
 			name = Documentation;
 			sourceTree = "<group>";
 		};
-		E448D75B12A16C4000C98F78 /* source */ = {
+		E448D75B12A16C4000C98F78 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				E448D75C12A16C5700C98F78 /* class.h */,
 				E448D75D12A16C5700C98F78 /* class.m */,
 			);
-			name = source;
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
