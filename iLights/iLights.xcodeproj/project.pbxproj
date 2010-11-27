@@ -19,6 +19,7 @@
 		8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDACA812A1926000614759 /* TriosUnitTest.m */; };
 		E448D79A12A1744000C98F78 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
+		E448D89312A198A200C98F78 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
 		E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
 /* End PBXBuildFile section */
 
@@ -292,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E448D89312A198A200C98F78 /* TriosModel.c in Sources */,
 				8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

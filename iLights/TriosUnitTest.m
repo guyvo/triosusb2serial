@@ -11,25 +11,15 @@
 
 @implementation TriosUnitTest
 
-#if USE_APPLICATION_UNIT_TEST     // all code under test is in the iPhone Application
-
-- (void) testAppDelegate {
-    
-    id yourApplicationDelegate = [[UIApplication sharedApplication] delegate];
-    STAssertNotNil(yourApplicationDelegate, @"UIApplication failed to find the AppDelegate");
-    
+                  
+- (void) testTriosCommunication{
+	int err;
+	
+	TriosSetEhternet("192.168.1.25", 6969);
+	TriosInitBuffer();
+	err = TriosSendGetBuffer();
+	
+	STAssertTrue (err == TRIOS_ERROR_OK ,@"Trios communication failed with err %d" ,err);	
 }
-
-#else                           // all code under test must be linked into the Unit Test bundle
-
-- (void) testMath {
-    
-    STAssertTrue((1+1)==2, @"Compiler isn't feeling well today :-(" );
-    
-}
-
-
-#endif
-
 
 @end
