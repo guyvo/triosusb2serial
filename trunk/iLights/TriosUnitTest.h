@@ -20,6 +20,7 @@
 
 }
 
-- (void) testTriosCommunication; 
+- (void) testTriosGetPost; 
+- (void) testTriosGetBufferCompare; 
 
 @end
