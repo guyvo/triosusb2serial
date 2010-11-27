@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* svntest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* svntest.1 */; };
+		E448D75E12A16C5700C98F78 /* class.m in Sources */ = {isa = PBXBuildFile; fileRef = E448D75D12A16C5700C98F78 /* class.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8DD76FB20486AB0100D96B5E /* svntest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svntest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A0FF2C0290799A04C91782 /* svntest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = svntest.1; sourceTree = "<group>"; };
+		E448D75C12A16C5700C98F78 /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class.h; sourceTree = "<group>"; };
+		E448D75D12A16C5700C98F78 /* class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = class.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 		08FB7794FE84155DC02AAC07 /* svntest */ = {
 			isa = PBXGroup;
 			children = (
+				E448D75B12A16C4000C98F78 /* source */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
@@ -73,6 +77,15 @@
 				C6A0FF2C0290799A04C91782 /* svntest.1 */,
 			);
 			name = Documentation;
+			sourceTree = "<group>";
+		};
+		E448D75B12A16C4000C98F78 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E448D75C12A16C5700C98F78 /* class.h */,
+				E448D75D12A16C5700C98F78 /* class.m */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				E448D75E12A16C5700C98F78 /* class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
