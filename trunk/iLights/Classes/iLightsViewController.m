@@ -28,14 +28,21 @@
 }
 */
 
+-(void) doUpdate:(NSTimer *) timer{
+	int err;
+	
+	err = TriosSendGetBuffer();
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-*/
+	
+	TriosSetEhternet("192.168.1.24", 6969);
+	TriosInitBuffer();
 
+	update = [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(doUpdate:) userInfo:nil repeats:YES];
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

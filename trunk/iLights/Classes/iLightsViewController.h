@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TriosModel.h"
 
 @interface iLightsViewController : UIViewController {
+	NSTimer * update;
 
 }
 
