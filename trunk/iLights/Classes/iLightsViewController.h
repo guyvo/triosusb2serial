@@ -11,8 +11,11 @@
 
 @interface iLightsViewController : UIViewController {
 	NSTimer * update;
+	IBOutlet UIActivityIndicatorView * active;
 
 }
+
+@property (nonatomic,retain) UIActivityIndicatorView * active;
 
 @end
 

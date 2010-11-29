@@ -10,6 +10,7 @@
 
 @implementation iLightsViewController
 
+@synthesize active;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -28,10 +29,27 @@
 }
 */
 
--(void) doUpdate:(NSTimer *) timer{
+- (void) start{
+	[active startAnimating];
+	
+}
+
+-(void) work:(id)anObject {
 	int err;
 	
 	err = TriosSendGetBuffer();
+	
+	[NSThread sleepForTimeInterval:0.5];
+
+	[active stopAnimating];	
+
+	[NSThread exit];
+}
+
+-(void) doUpdate:(NSTimer *) timer{
+	
+	[active startAnimating];
+	[NSThread detachNewThreadSelector:@selector(work:) toTarget:self withObject:nil];
 
 }
 
@@ -41,7 +59,11 @@
 	TriosSetEhternet("192.168.1.24", 6969);
 	TriosInitBuffer();
 
-	update = [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(doUpdate:) userInfo:nil repeats:YES];
+	update = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(doUpdate:) userInfo:nil repeats:YES];
+	
+	[active setFrame:CGRectMake(0, 0, 100, 100)];
+	[active setCenter:CGPointMake(368, 512)];
+
 }
 
 // Override to allow orientations other than the default portrait orientation.
@@ -58,11 +80,12 @@
 
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+	self.active = nil;
 }
 
 
 - (void)dealloc {
+	[active release];
     [super dealloc];
 }
 
