@@ -89,7 +89,7 @@ static void TriosLightFromArray (void){
 		LIGHTVALUEMAX - (LIGHTVALUEMAX * gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].maximum) / 100;
 		
 		gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step =
-		(gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step * LIGHTSTEPMAX) * 100;
+		(gData.data[light / MAXLIGHTS].lights[light % MAXLIGHTS].step / 100.0) * LIGHTSTEPMAX;
 		
 	}
 
@@ -117,7 +117,7 @@ static void TriosLightToArray (void){
 			(LIGHTVALUEMAX - gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.maximum) / 100;
 			
 			gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.step = 
-			(gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.step / LIGHTSTEPMAX)*100;
+			(gTriosLights[eLight+(eMsg*MAXLIGHTS)].lights.step / LIGHTSTEPMAX)*100.0;
 		}
 	}
 }

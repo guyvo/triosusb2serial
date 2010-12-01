@@ -41,6 +41,8 @@
 	
 	[NSThread sleepForTimeInterval:0.5];
 
+	err = TriosSendPostBuffer();
+
 	[active stopAnimating];	
 
 	[NSThread exit];
