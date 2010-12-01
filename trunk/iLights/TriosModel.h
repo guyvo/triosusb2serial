@@ -113,7 +113,7 @@
 
 #define LIGHTVALUEMIN		0								/*!< max light value */
 #define LIGHTVALUEMAX		10000							/*!< min light value */
-#define LIGHTSTEPMAX		1000							/*!< dimmer step */
+#define LIGHTSTEPMAX		1000.0							/*!< dimmer step */
 
 
 #define TRIOS_ERROR_OK		0								/*!< result OK */
