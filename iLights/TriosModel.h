@@ -242,6 +242,8 @@ extern TLightModel	gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 
 extern TCortexModel	gTriosCortexes;
 
+extern const char * gpCLightNames[24];
+
 /****************************************************************************/
 
 /*************************PUBLIC FUNCTIONS***********************************/
