@@ -13,9 +13,8 @@
 #include <sys/types.h>
 #include <errno.h>
 #include <string.h>
-#include <unistd.h>
+#include <unistd.h> // for close socket
 #include "TriosModel.h"
-
 
 /**
 * \defgroup Golbals Global Variables
@@ -25,7 +24,8 @@
 
 /** 
  The global data buffer hidden in this module \n
- All functions are provided in the headerfile
+ All functions are provided in the headerfile \n
+ to work with converted flat arrays
  \note size is limited to 1k
 */ 
 
@@ -33,6 +33,13 @@ TTriosDataBuffer	gData;
 TLightModel			gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 TCortexModel		gTriosCortexes;
 
+/*! servers ip address */
+char 				gIpAddress[20];
+
+/*! servers port number */
+int					gPort;
+
+/*! light names */
 const char * gpCLightNames[24] = {
 	"toilet beneden",
 	"berging",
@@ -59,12 +66,6 @@ const char * gpCLightNames[24] = {
 	"slaapkamer 3",
 	"vrij"
 };
-
-/*! servers ip address */
-char 				gIpAddress[20];
-
-/*! servers port number */
-int					gPort;
 
 /*@}*/
 
@@ -98,7 +99,7 @@ static void TriosPreparePutInMessage (EMSG msg , ECORTEXPUTADR adr){
 }
 
 /****************************************************************************/
-/* to 0-10000 */
+/* to 0-10000 @note float needed on step intermediate is smaller than 1 */
 static void TriosLightFromArray (void){
 	int light;
 	
@@ -123,7 +124,7 @@ static void TriosLightFromArray (void){
 }
 
 /****************************************************************************/
-/* to 0-100% */
+/* to 0-100% @note float needed on step intermediate is smaller than 1 */
 static void TriosLightToArray (void){
 	EMSG eMsg;
 	ELIGHTS eLight;
@@ -356,7 +357,7 @@ static void TriosAssignLightNames (void){
 
 /***************************PUBLIC FUNCTIONS*********************************/
 
-void TriosSetEhternet (char * ip , int port){
+void TriosSetEthernet (char * ip , int port){
 	strcpy( gIpAddress , ip);
 	gPort = port;
 }
@@ -367,7 +368,8 @@ void TriosInitBuffer (void){
 	TriosClearBuffer();
 	TriosInitBufferWithGet();
 	TriosAssignLightNames();
-/*	
+/*
+	// Unit testing not used in release
 	TriosSetLightValueInMessage(1000, eLIGHT1, eMSG1);
 	TriosSetLightValueInMessage(2000, eLIGHT2, eMSG1);
 	TriosSetLightValueInMessage(3000, eLIGHT3, eMSG1);
@@ -395,7 +397,8 @@ void TriosInitBuffer (void){
 	TriosSetLightValueInMessage(9999, eLIGHT4, eMSG4);
 	TriosSetLightValueInMessage(4125, eLIGHT5, eMSG4);
 	TriosSetLightValueInMessage(1500, eLIGHT6, eMSG4);
-*/	
+*/
+	
 }
 
 /****************************************************************************/

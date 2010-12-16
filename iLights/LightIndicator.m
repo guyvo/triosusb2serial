@@ -8,10 +8,18 @@
 
 #import "LightIndicator.h"
 
+// private defines
 #define FONT_SIZE 13
 
+// private method declarations
+@interface LightIndicator()
+
+@end
+
+// implementation of a subclassed UIView 
 @implementation LightIndicator
 
+// setter/getter automation
 @synthesize 
 	_textDesciption,
 	_textValue,
@@ -22,6 +30,7 @@
 	_maximum
 ;
 
+// overwrite init method
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
@@ -30,7 +39,7 @@
 		
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor redColor]CGColor];
-		self.layer.cornerRadius = 10;
+		self.layer.cornerRadius = 30;
 		self.layer.borderWidth = 1;
 				
 		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
@@ -64,6 +73,7 @@
 	}
 }
 
+// customized init method calling overwrite init at the end
 - (id)initWithMinimum:(NSInteger)minimum 
 		   andMaximum:(NSInteger)maximum 
 			 andIndex:(NSInteger)index 
@@ -81,10 +91,12 @@
 	return [self initWithFrame:frame];
 }
 
+// alter the center of this view
 - (void) setFrameCenter:(CGPoint) center{
 	self.center = center;
 }
 
+// overwrite parent class to change draw behaviour
 - (void)drawRect:(CGRect)rect {
     
 	// create so release ref
@@ -105,10 +117,9 @@
 	CGFloat locationList[2];
 
 	CGFloat colorList[] = {
-		0.0, 0.0, 0.0, 0.7,
-		1.0, 1.0, 0.0, 1.0,
+		0.0, 0.1, 0.1, 0.95,
+		0.85, 0.85, 0.0, 1.0,
 	};
-	
 	
 	context = UIGraphicsGetCurrentContext();
 	
@@ -123,8 +134,8 @@
 	startPoint.x	= 10;
 	startPoint.y	= 10;
 	
-	endPoint.x		= CGRectGetMaxX(self.bounds)/2-10;
-	endPoint.y		= CGRectGetMaxY(self.bounds)/2;
+	endPoint.x		= CGRectGetMaxX(self.bounds)/2;
+	endPoint.y		= CGRectGetMaxY(self.bounds)/2+5;
 	
 	startRadius		= 0;
 	endRadius		= CGRectGetMaxY(self.bounds)/2-20;
@@ -136,12 +147,12 @@
 
 }
 
+// release resources
 - (void)dealloc {
 	[_name release];
 	[_textValue release];
 	[_textDesciption release];
     [super dealloc];
 }
-
 
 @end

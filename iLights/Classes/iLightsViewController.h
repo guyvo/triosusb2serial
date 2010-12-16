@@ -12,7 +12,7 @@
 
 @interface iLightsViewController : UIViewController {
 	
-	LightIndicator * _lightIndicator[24];
+	LightIndicator * _lightIndicator[30];
 	
 }
 

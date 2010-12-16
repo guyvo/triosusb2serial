@@ -8,6 +8,10 @@
 
 #import "iLightsViewController.h"
 
+@interface iLightsViewController()
+
+@end
+
 @implementation iLightsViewController
 
 /*
@@ -24,23 +28,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	TriosSetEhternet("192.168.1.24", 6969);
+	TriosSetEthernet("192.168.1.24", 6969);
 	TriosInitBuffer();
 	
-	for (int rows = 0 ; rows < 4; rows++){
-		for (int i = 0; i<6; i++) {
+	for (int rows = 0 ; rows < 5; rows++){
+		for (int i = 0; i<5; i++) {
 			
 			
-			_lightIndicator[i+(rows*6)] = [[LightIndicator alloc] initWithMinimum:0 
+			_lightIndicator[i+(rows*5)] = [[LightIndicator alloc] initWithMinimum:0 
 															  andMaximum:100 
 																andIndex:0 
-																andValue:100 - (i*20) 
-																 andName:[NSString stringWithCString:gpCLightNames[i+(rows*6)]]
-																andFrame:CGRectMake(0, 0, 150, 150 )];
+																andValue:100 - (i*25)
+																 andName:[NSString stringWithCString:gpCLightNames[i] encoding:NSUTF8StringEncoding]
+																andFrame:CGRectMake(0, 0, 140, 140 )];
 			
-			[_lightIndicator[i+(rows*6)] setFrameCenter:CGPointMake(75+(i*155),75 + (rows*155))];
+			[_lightIndicator[i+(rows*5)] setFrameCenter:CGPointMake(75+(i*145),75 + (rows*145))];
 			
-			[self.view addSubview:_lightIndicator[i+(rows*6)]];
+			[self.view addSubview:_lightIndicator[i+(rows*5)]];
 			
 		}
 	}
@@ -49,7 +53,7 @@
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+    return ((interfaceOrientation == UIInterfaceOrientationLandscapeRight) || (interfaceOrientation == UIInterfaceOrientationLandscapeLeft));
 }
 
 - (void)didReceiveMemoryWarning {

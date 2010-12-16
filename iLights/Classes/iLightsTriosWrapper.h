@@ -7,10 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TriosModel.h"
 
+/* 
+ C function wrapper class used to signal 
+ notification events to iOS NotificationCenter
+ -> decoupled ANSI-C module from OBJ-C
+*/ 
 
 @interface iLightsTriosWrapper : NSObject {
 
 }
+
+// class methods
++(int) TriosSendPostBuffer;
++(int) TriosSendGetBuffer;
 
 @end
