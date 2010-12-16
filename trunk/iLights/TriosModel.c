@@ -15,7 +15,7 @@
 #include <string.h>
 #include <unistd.h>
 #include "TriosModel.h"
-#include "TriosNames.h"
+
 
 /**
 * \defgroup Golbals Global Variables
@@ -32,6 +32,33 @@
 TTriosDataBuffer	gData;
 TLightModel			gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 TCortexModel		gTriosCortexes;
+
+const char * gpCLightNames[24] = {
+	"toilet beneden",
+	"berging",
+	"vide draad brug",
+	"garage",
+	"vrij",
+	"living voor",
+	"living midden",
+	"slaapkamer beneden",
+	"slaapkamer 1",
+	"slaapkamer 4",
+	"wand trap",
+	"hal passage",
+	"wand living",
+	"living achter",
+	"keuken tafel",
+	"keuken werkblad",
+	"vrij",
+	"terras buitendeur",
+	"badkamer beneden",
+	"zolder",
+	"badkamer boven",
+	"slaapkamer 2",
+	"slaapkamer 3",
+	"vrij"
+};
 
 /*! servers ip address */
 char 				gIpAddress[20];

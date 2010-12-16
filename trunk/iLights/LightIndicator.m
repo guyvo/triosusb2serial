@@ -8,92 +8,138 @@
 
 #import "LightIndicator.h"
 
+#define FONT_SIZE 13
 
 @implementation LightIndicator
 
+@synthesize 
+	_textDesciption,
+	_textValue,
+	_name,
+	_value,
+	_index,
+	_minimum,
+	_maximum
+;
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code.
+    
+	if (self) {
+		
 		self.backgroundColor = [UIColor blackColor];
-		self.layer.borderColor =[[UIColor lightTextColor]CGColor];
+		self.layer.borderColor =[[UIColor redColor]CGColor];
 		self.layer.cornerRadius = 10;
 		self.layer.borderWidth = 1;
+				
+		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
+		_textDesciption.text = _name;
+		_textDesciption.backgroundColor = [UIColor blackColor];
+		_textDesciption.textColor = [UIColor redColor];
+		_textDesciption.adjustsFontSizeToFitWidth = YES;
+		_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textDesciption.textAlignment =  UITextAlignmentCenter;
+		_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
 		
-		text = [[UILabel alloc]initWithFrame:CGRectMake(5, 85, 95, 15)];
-		text.text = @"1234567890";
-		text.backgroundColor = [UIColor blackColor];
-		text.textColor = [UIColor lightTextColor];
-		text.adjustsFontSizeToFitWidth = YES;
-		text.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		text.textAlignment =  UITextAlignmentCenter;
-		text.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:10];
+		[self addSubview:_textDesciption];
 		
-		[self addSubview:text];
+		_textValue = [[UILabel alloc]initWithFrame:CGRectMake((self.bounds.size.width - 35), 20, 30 , 15)];
+		_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
+		_textValue.backgroundColor = [UIColor blackColor];
+		_textValue.textColor = [UIColor redColor];
+		_textValue.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textValue.adjustsFontSizeToFitWidth = YES;
+		_textValue.textAlignment =  UITextAlignmentCenter;
+		_textValue.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
 		
+		[self addSubview:_textValue];
+	 
+		return self;
 		
-		val = [[UILabel alloc]initWithFrame:CGRectMake(75, 40, 25, 15)];
-		val.text = @"0%";
-		val.backgroundColor = [UIColor blackColor];
-		val.textColor = [UIColor lightTextColor];
-		val.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		val.adjustsFontSizeToFitWidth = YES;
-		val.textAlignment =  UITextAlignmentCenter;
-		val.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:10];
-		
-		[self addSubview:val];
-		
-		 
     }
-    return self;
+	else {
+		
+		return nil;
+	}
 }
 
-- (id)initWithMinimum:(NSInteger)minimum andMaximum:(NSInteger)maximum andIndex:(NSInteger)index andValue:(NSInteger) value andName:(NSString *) name andFrame:(CGRect)frame{
-	_maximum = maximum;
-	_minimum = minimum;
-	_index = index;
-	_name = name;
-	_value = value;
+- (id)initWithMinimum:(NSInteger)minimum 
+		   andMaximum:(NSInteger)maximum 
+			 andIndex:(NSInteger)index 
+			 andValue:(NSInteger)value 
+			  andName:(NSString *)name
+			 andFrame:(CGRect)frame
+{
+	
+	_maximum	= maximum;
+	_minimum	= minimum;
+	_index		= index;
+	_name		= name;
+	_value		= value;
+	
 	return [self initWithFrame:frame];
+}
+
+- (void) setFrameCenter:(CGPoint) center{
+	self.center = center;
 }
 
 - (void)drawRect:(CGRect)rect {
     
-	CGContextRef context = UIGraphicsGetCurrentContext();
-	
+	// create so release ref
 	CGGradientRef myGradient;
 	CGColorSpaceRef myColorSpace;
 	
-	size_t locationCount = 2;
+	// no create no release
+	CGContextRef context;
+
+	size_t locationCount;
 	
-	CGFloat locationList[] = {0.1, 1.0};
-	
+	CGPoint startPoint;
+	CGPoint endPoint;
+
+	CGFloat startRadius;
+	CGFloat endRadius;
+
+	CGFloat locationList[2];
+
 	CGFloat colorList[] = {
-		0.0, 0.0, 0.0, 0.7, //red, green, blue, alpha
+		0.0, 0.0, 0.0, 0.7,
 		1.0, 1.0, 0.0, 1.0,
 	};
 	
-	myColorSpace = CGColorSpaceCreateDeviceRGB();
-	myGradient = CGGradientCreateWithColorComponents(myColorSpace, colorList, locationList, locationCount);
 	
-	CGPoint startPoint, endPoint;
-	startPoint.x = 10;
-	startPoint.y = 10;
-	endPoint.x = CGRectGetMaxX(self.bounds)/2-10;
-	endPoint.y = CGRectGetMaxY(self.bounds)/2;
+	context = UIGraphicsGetCurrentContext();
 	
-	float startRadius = 0;
-	float endRadius = CGRectGetMaxY(self.bounds)/2-20;
+	locationCount = 2;
+	
+	locationList[0] = (100 - _value)/100.0;
+	locationList[1] = 1.0;
+	
+	myColorSpace	= CGColorSpaceCreateDeviceRGB();
+	myGradient		= CGGradientCreateWithColorComponents(myColorSpace, colorList, locationList, locationCount);
+	
+	startPoint.x	= 10;
+	startPoint.y	= 10;
+	
+	endPoint.x		= CGRectGetMaxX(self.bounds)/2-10;
+	endPoint.y		= CGRectGetMaxY(self.bounds)/2;
+	
+	startRadius		= 0;
+	endRadius		= CGRectGetMaxY(self.bounds)/2-20;
 	
 	CGContextDrawRadialGradient(context, myGradient, startPoint, startRadius, endPoint, endRadius, 0);
+	
 	CGGradientRelease(myGradient);
-	
-	
+	CGColorSpaceRelease(myColorSpace);
+
 }
 
 - (void)dealloc {
+	[_name release];
+	[_textValue release];
+	[_textDesciption release];
     [super dealloc];
 }
 

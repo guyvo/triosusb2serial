@@ -9,18 +9,40 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-
 @interface LightIndicator : UIView {
+	
 	NSInteger _maximum;
 	NSInteger _minimum;
 	NSInteger _index;
 	NSInteger _value;
+	
 	NSString * _name;
-	UILabel * text;
-	UILabel * val;
+	
+	UILabel * _textDesciption;
+	UILabel * _textValue;
 	
 }
 
-- (id)initWithMinimum:(NSInteger) minimum andMaximum:(NSInteger)maximum  andIndex:(NSInteger) index andValue:(NSInteger) value andName:(NSString *) name andFrame:(CGRect) frame;
+// properties
+@property (nonatomic,retain) UILabel * _textDesciption;
+@property (nonatomic,retain) UILabel * _textValue;
+@property (nonatomic,retain) NSString * _name;
+
+@property (nonatomic) NSInteger _value;
+@property (nonatomic) NSInteger _index;
+@property (nonatomic) NSInteger _minimum;
+@property (nonatomic) NSInteger _maximum;
+
+// instance methodes
+- (id)initWithMinimum:(NSInteger)minimum
+		   andMaximum:(NSInteger)maximum  
+			 andIndex:(NSInteger)index 
+			 andValue:(NSInteger)value 
+			  andName:(NSString *)name 
+			 andFrame:(CGRect) frame;
+
+- (void) setFrameCenter:(CGPoint) center;
+
+// class methodes
 
 @end
