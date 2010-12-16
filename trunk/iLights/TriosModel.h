@@ -1,3 +1,6 @@
+#ifndef __TriosModel__ 
+#define __TriosModel__
+
 /*! 
 *  \file TriosModel.h
 *  TriosBase
@@ -93,12 +96,6 @@
  The cortexes that can be used as indexes
 */
 
-
-#ifndef __TriosModel__ 
-#define __TriosModel__
-
-
-
 #define AMOUNT_OF_CORTEXES	4								/*!< cortex blocks available */
 #define MAXLIGHTS			6								/*!< lights available */
 #define MESSAGELENGTH		128								/*!< fixed message length*/
@@ -113,14 +110,14 @@
 
 #define LIGHTVALUEMIN		0								/*!< max light value */
 #define LIGHTVALUEMAX		10000							/*!< min light value */
-#define LIGHTSTEPMAX		1000.0							/*!< dimmer step */
+#define LIGHTSTEPMAX		1000.0F							/*!< dimmer step need float for calculation */
 
 
 #define TRIOS_ERROR_OK		0								/*!< result OK */
 
 /***********************TYPEDEFS*********************************************/
 
-/*! shorter */
+/*! shorter 16 bit force */
 typedef unsigned short cortexint;
 
 typedef enum{
@@ -242,6 +239,11 @@ extern TLightModel	gTriosLights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 
 extern TCortexModel	gTriosCortexes;
 
+/*! 
+ Public global variable containing the lightpoint names
+ @note must be changed to flat text file
+ */
+
 extern const char * gpCLightNames[24];
 
 /****************************************************************************/
@@ -253,7 +255,7 @@ extern const char * gpCLightNames[24];
  @param port servers port number
 */
 
-void TriosSetEhternet (char * ip , int port);
+void TriosSetEthernet (char * ip , int port);
 /****************************************************************************/
 /*!
  Initialize the buffer with the first GET commands

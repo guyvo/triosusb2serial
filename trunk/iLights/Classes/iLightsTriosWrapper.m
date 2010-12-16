@@ -11,4 +11,14 @@
 
 @implementation iLightsTriosWrapper
 
++(int) TriosSendPostBuffer {
+	// TODO signal post here
+	return TriosSendPostBuffer();
+}
+
++(int) TriosSendGetBuffer {
+	// TODO signal get here
+	return TriosSendGetBuffer();
+}
+
 @end

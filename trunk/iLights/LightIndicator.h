@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
+// Subclassed UIView overwrites drawRect
 @interface LightIndicator : UIView {
 	
 	NSInteger _maximum;
 	NSInteger _minimum;
-	NSInteger _index;
+	NSInteger _index; // link to model C array
 	NSInteger _value;
 	
 	NSString * _name;
@@ -23,11 +24,12 @@
 	
 }
 
-// properties
+// properties not multithreade and retained after assign
 @property (nonatomic,retain) UILabel * _textDesciption;
 @property (nonatomic,retain) UILabel * _textValue;
 @property (nonatomic,retain) NSString * _name;
 
+// properties not multithreaded
 @property (nonatomic) NSInteger _value;
 @property (nonatomic) NSInteger _index;
 @property (nonatomic) NSInteger _minimum;
