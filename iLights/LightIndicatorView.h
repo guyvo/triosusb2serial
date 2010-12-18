@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 // Subclassed UIView overwrites drawRect
-@interface LightIndicator : UIView <NSCoding> {
+@interface LightIndicatorView : UIView <NSCoding> {
 	
 	NSInteger _version;
 	

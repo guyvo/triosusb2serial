@@ -1,22 +1,26 @@
 //
-//  ButtonUtilities.m
+//  UtilityView.m
 //  iLights
 //
 //  Created by Guy Van Overtveldt on 18/12/10.
 //  Copyright 2010 ATOS worldline. All rights reserved.
 //
 
-#import "ButtonUtilities.h"
+#import "UtilityView.h"
 
 
-@implementation ButtonUtilities
+@implementation UtilityView
 
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code.
+		self.backgroundColor = [UIColor blackColor];
+		self.layer.borderColor =[[UIColor redColor]CGColor];
+		self.layer.cornerRadius = 30;
+		self.layer.borderWidth = 2;
+		
     }
     return self;
 }

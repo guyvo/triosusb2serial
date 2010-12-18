@@ -18,13 +18,13 @@
 		8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
 		8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDACA812A1926000614759 /* TriosUnitTest.m */; };
 		8EDDB03D12BA63B200614759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
-		8EDDB42B12BCF9AD00614759 /* ButtonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB42A12BCF9AD00614759 /* ButtonUtilities.m */; };
+		8EDDB4C712BD098300614759 /* UtilityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB4C612BD098300614759 /* UtilityView.m */; };
 		E43E2EFD12AAD73E00B45F8A /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = E43E2EFC12AAD73E00B45F8A /* smile.png */; };
 		E448D79A12A1744000C98F78 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
 		E448D89312A198A200C98F78 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
 		E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
-		E4F54C7912BA5240000F1935 /* LightIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F54C7812BA5240000F1935 /* LightIndicator.m */; };
+		E4F54C7912BA5240000F1935 /* LightIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,14 +50,14 @@
 		8EDDACA712A1926000614759 /* TriosUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosUnitTest.h; sourceTree = "<group>"; };
 		8EDDACA812A1926000614759 /* TriosUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriosUnitTest.m; sourceTree = "<group>"; };
 		8EDDB03C12BA63B200614759 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8EDDB42912BCF9AD00614759 /* ButtonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonUtilities.h; sourceTree = "<group>"; };
-		8EDDB42A12BCF9AD00614759 /* ButtonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonUtilities.m; sourceTree = "<group>"; };
+		8EDDB4C512BD098300614759 /* UtilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityView.h; sourceTree = "<group>"; };
+		8EDDB4C612BD098300614759 /* UtilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityView.m; sourceTree = "<group>"; };
 		E43E2EFC12AAD73E00B45F8A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
 		E4930D4712A1780300CB93F2 /* TriosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosModel.h; sourceTree = "<group>"; };
-		E4F54C7712BA5240000F1935 /* LightIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightIndicator.h; sourceTree = "<group>"; };
-		E4F54C7812BA5240000F1935 /* LightIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightIndicator.m; sourceTree = "<group>"; };
+		E4F54C7712BA5240000F1935 /* LightIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightIndicatorView.h; sourceTree = "<group>"; };
+		E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,10 +174,10 @@
 			children = (
 				8EDDAC3D12A18CB000614759 /* LightView.h */,
 				8EDDAC3E12A18CB000614759 /* LightView.m */,
-				E4F54C7712BA5240000F1935 /* LightIndicator.h */,
-				E4F54C7812BA5240000F1935 /* LightIndicator.m */,
-				8EDDB42912BCF9AD00614759 /* ButtonUtilities.h */,
-				8EDDB42A12BCF9AD00614759 /* ButtonUtilities.m */,
+				E4F54C7712BA5240000F1935 /* LightIndicatorView.h */,
+				E4F54C7812BA5240000F1935 /* LightIndicatorView.m */,
+				8EDDB4C512BD098300614759 /* UtilityView.h */,
+				8EDDB4C612BD098300614759 /* UtilityView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -302,7 +302,8 @@
 				E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */,
 				8EDDAC3F12A18CB000614759 /* LightView.m in Sources */,
 				8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */,
-				E4F54C7912BA5240000F1935 /* LightIndicator.m in Sources */,
+				E4F54C7912BA5240000F1935 /* LightIndicatorView.m in Sources */,
+				8EDDB4C712BD098300614759 /* UtilityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +313,6 @@
 			files = (
 				E448D89312A198A200C98F78 /* TriosModel.c in Sources */,
 				8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */,
-				8EDDB42B12BCF9AD00614759 /* ButtonUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

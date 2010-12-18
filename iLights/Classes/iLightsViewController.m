@@ -46,7 +46,7 @@
 	
 	for ( int views=0 ; views < 25 ; views++ ){
 		_lightIndicator = 
-		[[LightIndicator alloc] initWithMinimum:0 
+		[[LightIndicatorView alloc] initWithMinimum:0 
 									 andMaximum:100 
 									   andIndex:views 
 									   andValue: gTriosLights[views].lights.value
@@ -65,13 +65,19 @@
 	//[self archiveRootObject:@"/myview.archive" rootObject:_indicatorViews];
 }
 
+// makeArrayWithIndicatorViews must be called first otherwise the result is unpredictable
 -(void) makeButtonUtilities{
-	_buttonUtilitiesViews = [[NSMutableArray alloc] initWithCapacity:5];
+	_utilityViews = [[NSMutableArray alloc] initWithCapacity:5];
 	
-	//_buttonUtilities = [[ButtonUtilities alloc] initWithFrame:CGRectMake(0, 0, 2 * RASTER_SIZE, RASTER_SIZE )];
-	_buttonUtilities = [[ButtonUtilities alloc]init];
-
-	
+	for ( int views = 0 ; views < 5 ; views++){
+		_utililtyView = [[UtilityView alloc] initWithFrame:CGRectMake(0, 0, 2*RASTER_SIZE, RASTER_SIZE )];
+		_utililtyView.center = CGPointMake(centerPoints[4+(views*5)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+										   centerPoints[4+(views*5)].y);
+		
+		[self.view addSubview:_utililtyView];								   
+		
+		[_utilityViews addObject:_utililtyView];
+	}
 }
 
 -(void) archiveRootObject:(NSString *) fileName rootObject:(id) root{
@@ -102,9 +108,9 @@
 	
 	[iLightsTriosWrapper TriosSendGetBuffer];
 
-					   
+				   
 	[self makeArrayWithIndicatorViews];
-	
+	[self makeButtonUtilities];	
 	
 	//_indicatorViews = [self unarchiveRootObject:@"/myview.archive"];
 	/*
@@ -133,7 +139,6 @@
 	// Release any retained subviews of the main view.
 	
 }
-
 
 - (void)dealloc {
     [super dealloc];
