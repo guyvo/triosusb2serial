@@ -31,7 +31,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 1833}}";
 			sepNavSelRange = "{2410, 0}";
-			sepNavVisRange = "{1743, 1076}";
+			sepNavVisRange = "{1743, 1045}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
@@ -275,6 +275,7 @@
 			8EDDB5B812BD386400614759 /* PBXTextBookmark */ = 8EDDB5B812BD386400614759 /* PBXTextBookmark */;
 			8EDDB5B912BD386400614759 /* PBXTextBookmark */ = 8EDDB5B912BD386400614759 /* PBXTextBookmark */;
 			8EDDB5BA12BD386400614759 /* PBXTextBookmark */ = 8EDDB5BA12BD386400614759 /* PBXTextBookmark */;
+			8EDDB5C012BD38E500614759 /* PBXTextBookmark */ = 8EDDB5C012BD38E500614759 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EDDAC3712A18C6D00614759 /* Source Control */;
 		userBuildSettings = {
@@ -328,16 +329,16 @@
 	};
 	8EDDAC3D12A18CB000614759 /* LightView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 425}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 208}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 402}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 242}";
 		};
 	};
 	8EDDAC3E12A18CB000614759 /* LightView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 494}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 582}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 507}}";
+			sepNavSelRange = "{454, 0}";
+			sepNavVisRange = "{0, 669}";
 		};
 	};
 	8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {
@@ -740,8 +741,8 @@
 	};
 	8EDDB4C612BD098300614759 /* UtilityView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 507}}";
-			sepNavSelRange = "{458, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 546}}";
+			sepNavSelRange = "{296, 164}";
 			sepNavVisRange = "{0, 657}";
 		};
 	};
@@ -1960,6 +1961,16 @@
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
+	};
+	8EDDB5C012BD38E500614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 81";
+		rLen = 0;
+		rLoc = 2410;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 1743;
 	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {
