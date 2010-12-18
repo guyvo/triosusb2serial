@@ -74,6 +74,8 @@
 		_utililtyView.center = CGPointMake(centerPoints[4+(views*5)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
 										   centerPoints[4+(views*5)].y);
 		
+		_utililtyView.tag = views;
+		
 		[self.view addSubview:_utililtyView];								   
 		
 		[_utilityViews addObject:_utililtyView];
@@ -121,6 +123,40 @@
 		[self.view addSubview:indicator];
 	}
 	 */
+}
+
+-(void)touchesBegin:(NSSet *)touches withEvent:(UIEvent *)event{
+	for (UITouch * touch in touches){
+		CGPoint point = [touch locationInView:self.view];
+		/*
+		 if ( CGRectContainsPoint(lightIndicator.frame,point) ){
+		 }
+		 */
+		
+	}
+}
+
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+	for (UITouch * touch in touches){
+		CGPoint point = [touch locationInView:self.view];
+			/*
+			if ( CGRectContainsPoint(lightIndicator.frame,point) ){
+			}
+			*/
+		
+	}
+}
+
+-(void)touchesEnd:(NSSet *)touches withEvent:(UIEvent *)event{
+	for (UITouch * touch in touches){
+		CGPoint point = [touch locationInView:self.view];
+		/*
+		 if ( CGRectContainsPoint(lightIndicator.frame,point) ){
+		 }
+		 */
+		
+	}
 }
 
 // Override to allow orientations other than the default portrait orientation.
