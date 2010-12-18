@@ -30,6 +30,42 @@
 	_maximum
 ;
 
+//implementing NSCoding protocol to serialize to file
+-(void) encodeWithCoder: (NSCoder*) coder {
+	
+	[coder encodeCGRect:self.frame forKey:@"_frame"];
+
+	[coder encodeInteger: 1 forKey: @"_version"];
+	[coder encodeInteger: _maximum forKey: @"_maximum"];
+	[coder encodeInteger: _minimum forKey: @"_minimum"];
+	[coder encodeInteger: _value forKey: @"_value"];
+	[coder encodeInteger: _index forKey: @"_index"];
+	
+	[coder encodeObject:(id)_name forKey: @"_name"];
+}
+
+-(id) initWithCoder: (NSCoder*) coder {
+	CGRect _frame;
+	
+	_frame = [coder decodeCGRectForKey:@"_frame"];
+	
+	_version = [coder decodeIntegerForKey:@"_version"];
+	_maximum = [coder decodeIntegerForKey:@"_maximum"];
+	_minimum = [coder decodeIntegerForKey:@"_minimum"];
+	_value = [coder decodeIntegerForKey:@"_value"];
+	_index = [coder decodeIntegerForKey:@"_index"];
+	
+	_name = [coder decodeObjectForKey:@"_name"];
+	
+	return ([[LightIndicator alloc] initWithMinimum:_minimum 
+										 andMaximum:_maximum
+										   andIndex:_index 
+										   andValue:_value
+											andName:_name
+										   andFrame:_frame]);
+	
+}
+
 // overwrite init method
 - (id)initWithFrame:(CGRect)frame {
     
