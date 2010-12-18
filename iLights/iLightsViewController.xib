@@ -40,11 +40,16 @@
 			<object class="IBUIView" id="766721923">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">319</int>
-				<string key="NSFrameSize">{768, 1004}</string>
+				<string key="NSFrameSize">{1004, 768}</string>
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MAA</bytes>
+				</object>
+				<bool key="IBUIOpaque">NO</bool>
+				<bool key="IBUIAutoresizesSubviews">NO</bool>
+				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+					<int key="interfaceOrientation">3</int>
 				</object>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
@@ -105,7 +110,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>iLightsViewController</string>
 					<string>UIResponder</string>
-					<string>{{29, 4}, {783, 752}}</string>
+					<string>{{29, 4}, {1019, 752}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAxHqAAA</bytes>

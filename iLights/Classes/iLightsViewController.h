@@ -8,11 +8,21 @@
 
 #import <UIKit/UIKit.h>
 #import "TriosModel.h"
+#import "iLightsTriosWrapper.h"
 #import "LightIndicator.h"
+#import "ButtonUtilities.h"
+
+#define RASTER_SIZE		137
+#define RASTER_ROWS		5
+#define RASTER_COLS		5
+#define RASTER_SPACING	10
 
 @interface iLightsViewController : UIViewController {
-	
-	LightIndicator * _lightIndicator[30];
+	CGPoint centerPoints[25];
+	NSMutableArray * _indicatorViews;
+	NSMutableArray * _buttonUtilitiesViews;
+	LightIndicator * _lightIndicator;
+	ButtonUtilities * _buttonUtilities;
 	
 }
 
