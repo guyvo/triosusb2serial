@@ -1,5 +1,5 @@
 //
-//  ButtonUtilities.h
+//  UtilityView.h
 //  iLights
 //
 //  Created by Guy Van Overtveldt on 18/12/10.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 
-@interface ButtonUtilities : UIView {
+@interface UtilityView : UIView {
 
 }
-- (id)initWithFrame:(CGRect)frame;
+
 @end

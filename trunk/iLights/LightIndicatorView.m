@@ -6,18 +6,18 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "LightIndicator.h"
+#import "LightIndicatorView.h"
 
 // private defines
 #define FONT_SIZE 13
 
 // private method declarations
-@interface LightIndicator()
+@interface LightIndicatorView()
 
 @end
 
 // implementation of a subclassed UIView 
-@implementation LightIndicator
+@implementation LightIndicatorView
 
 // setter/getter automation
 @synthesize 
@@ -57,7 +57,7 @@
 	
 	_name = [coder decodeObjectForKey:@"_name"];
 	
-	return ([[LightIndicator alloc] initWithMinimum:_minimum 
+	return ([[LightIndicatorView alloc] initWithMinimum:_minimum 
 										 andMaximum:_maximum
 										   andIndex:_index 
 										   andValue:_value
@@ -76,7 +76,7 @@
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor redColor]CGColor];
 		self.layer.cornerRadius = 30;
-		self.layer.borderWidth = 1;
+		self.layer.borderWidth = 2;
 				
 		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
 		_textDesciption.text = _name;
