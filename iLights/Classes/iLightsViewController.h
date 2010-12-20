@@ -26,6 +26,7 @@
 	LightIndicatorView * _lightIndicator;
 	LightView * _lightView;
 	
+	Boolean _inMove;
 	
 }
 

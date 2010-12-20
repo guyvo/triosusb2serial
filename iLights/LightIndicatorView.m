@@ -30,6 +30,7 @@
 	_maximum
 ;
 
+
 //implementing NSCoding protocol to serialize to file
 -(void) encodeWithCoder: (NSCoder*) coder {
 	
@@ -40,14 +41,15 @@
 	[coder encodeInteger: _minimum forKey: @"_minimum"];
 	[coder encodeInteger: _value forKey: @"_value"];
 	[coder encodeInteger: _index forKey: @"_index"];
+	[coder encodeInteger: _theTag forKey:@"_tag"];
 	
 	[coder encodeObject:(id)_name forKey: @"_name"];
 }
 
 -(id) initWithCoder: (NSCoder*) coder {
-	CGRect _frame;
+	CGRect theFrame;
 	
-	_frame = [coder decodeCGRectForKey:@"_frame"];
+	theFrame = [coder decodeCGRectForKey:@"_frame"];
 	
 	_version = [coder decodeIntegerForKey:@"_version"];
 	_maximum = [coder decodeIntegerForKey:@"_maximum"];
@@ -56,13 +58,16 @@
 	_index = [coder decodeIntegerForKey:@"_index"];
 	
 	_name = [coder decodeObjectForKey:@"_name"];
+	_theTag = [coder decodeIntegerForKey:@"_tag"];
+	
 	
 	return ([[LightIndicatorView alloc] initWithMinimum:_minimum 
-										 andMaximum:_maximum
-										   andIndex:_index 
-										   andValue:_value
-											andName:_name
-										   andFrame:_frame]);
+											 andMaximum:_maximum
+											   andIndex:_index 
+											   andValue:_value
+												andName:_name
+												 andTag:_theTag
+											   andFrame:theFrame]);
 	
 }
 
@@ -77,6 +82,7 @@
 		self.layer.borderColor =[[UIColor redColor]CGColor];
 		self.layer.cornerRadius = 30;
 		self.layer.borderWidth = 2;
+		self.tag = _theTag;
 				
 		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
 		_textDesciption.text = _name;
@@ -99,6 +105,12 @@
 		_textValue.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
 		
 		[self addSubview:_textValue];
+		
+		UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
+													initWithTarget:self action:@selector(handleSingleDoubleTap:)];
+		singleFingerDTap.numberOfTapsRequired = 2;
+		[self addGestureRecognizer:singleFingerDTap];
+		[singleFingerDTap release];
 	 
 		return self;
 		
@@ -109,12 +121,44 @@
 	}
 }
 
+- (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
+	LightView * v;
+
+	for( UIView * view in self.superview.subviews){
+		[view setUserInteractionEnabled:NO];
+	}
+	
+	v = [[LightView alloc] initWithFrame:CGRectMake(0, 0, 5 , 5)];
+	v.center = [sender locationInView:self.superview];
+	NSLog(@"x,y : %f,%f",v.center.x,v.center.y);
+	v.alpha = 0.7;
+	v.tag = 50;
+	
+	
+	[self.superview addSubview:v];
+	
+	[UIView 
+	 animateWithDuration:1 
+	 animations:^{
+		 v.center = [sender locationInView:self.superview];
+		 v.frame = CGRectMake(0,0, 300 , 300);
+		 v.center= CGPointMake(512, 368);
+		
+	 }
+	 completion:^(BOOL finished){
+	 }];
+	
+	
+}
+
+
 // customized init method calling overwrite init at the end
 - (id)initWithMinimum:(NSInteger)minimum 
 		   andMaximum:(NSInteger)maximum 
 			 andIndex:(NSInteger)index 
 			 andValue:(NSInteger)value 
 			  andName:(NSString *)name
+			   andTag:(NSInteger)theTag
 			 andFrame:(CGRect)frame
 {
 	
@@ -123,6 +167,7 @@
 	_index		= index;
 	_name		= name;
 	_value		= value;
+	_theTag		= theTag;
 	
 	return [self initWithFrame:frame];
 }

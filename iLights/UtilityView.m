@@ -17,7 +17,7 @@
     self = [super initWithFrame:frame];
     if (self) {
 		self.backgroundColor = [UIColor blackColor];
-		self.layer.borderColor =[[UIColor redColor]CGColor];
+		self.layer.borderColor =[[UIColor colorWithRed:0.8 green:0.3 blue:0.2 alpha:1]CGColor];
 		self.layer.cornerRadius = 30;
 		self.layer.borderWidth = 2;
 		
