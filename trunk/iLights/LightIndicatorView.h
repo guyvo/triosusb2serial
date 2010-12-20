@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "LightView.h"
 
 // Subclassed UIView overwrites drawRect
 @interface LightIndicatorView : UIView <NSCoding> {
@@ -18,6 +19,7 @@
 	NSInteger _minimum;
 	NSInteger _index; // link to model C array
 	NSInteger _value;
+	NSInteger _theTag;
 	
 	NSString * _name;
 	
@@ -42,7 +44,8 @@
 		   andMaximum:(NSInteger)maximum  
 			 andIndex:(NSInteger)index 
 			 andValue:(NSInteger)value 
-			  andName:(NSString *)name 
+			  andName:(NSString *)name
+			   andTag:(NSInteger)tag	
 			 andFrame:(CGRect) frame;
 
 - (void) setFrameCenter:(CGPoint) center;
