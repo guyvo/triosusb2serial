@@ -19,6 +19,7 @@
 
 }
 
+
 // class methods
 +(int) TriosSendPostBuffer;
 +(int) TriosSendGetBuffer;

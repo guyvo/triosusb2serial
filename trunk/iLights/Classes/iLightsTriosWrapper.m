@@ -11,14 +11,24 @@
 
 @implementation iLightsTriosWrapper
 
+-(void) initWithNotications{
+	
+}
+
 +(int) TriosSendPostBuffer {
 	// TODO signal post here
 	return TriosSendPostBuffer();
 }
 
 +(int) TriosSendGetBuffer {
-	// TODO signal get here
-	return TriosSendGetBuffer();
+	int err;
+	
+	err = TriosSendGetBuffer();
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_UPDATE  object: self]; 
+	
+	return err;
+	
 }
 
 @end
