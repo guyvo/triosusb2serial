@@ -18,8 +18,8 @@
     if (self) {
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor colorWithRed:0.8 green:0.3 blue:0.2 alpha:1]CGColor];
-		self.layer.cornerRadius = 30;
-		self.layer.borderWidth = 2;
+		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
+		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
     }
     return self;

@@ -10,12 +10,14 @@
 
 // private help methods
 @interface iLightsViewController()
+
 -(void) calculateCenterPointsFromFrameSize:(CGSize) size;
 -(void) makeArrayWithIndicatorViews;
 -(void) makeArrayWithUtilityViews;
 -(void) archiveRootObject:(NSString *) fileName rootObject:(id)root ;
 -(id)   unarchiveRootObject:(NSString *) fileName;
 -(void) loadIndicatorsFromFile:(NSString*) fileName;
+
 @end
 
 @implementation iLightsViewController
@@ -23,22 +25,24 @@
 /************************************************************************************************/
 
 - (void) calculateCenterPointsFromFrameSize:(CGSize) size{
+	
 	int flatIndex=0;
 	
 	for (int rows=0 ; rows < RASTER_ROWS ; rows++){
 		for (int cols=0 ; cols < RASTER_COLS ; cols++){
 			
 			centerPoints[flatIndex + cols] = 
-					CGPointMake( RASTER_SPACING + size.width/2  + ( (size.width  + RASTER_SPACING)* cols), 
-								 RASTER_SPACING + size.height/2 + ( (size.height + RASTER_SPACING)* rows));
+			CGPointMake( RASTER_SPACING + size.width/2  + ( (size.width  + RASTER_SPACING)* cols), 
+						RASTER_SPACING + size.height/2 + ( (size.height + RASTER_SPACING)* rows));
 		}
-		flatIndex += 5;
+		flatIndex += RASTER_COLS;
 	}
 }
 
 /************************************************************************************************/
 
 -(void) makeArrayWithIndicatorViews{
+	
 	CGSize viewSize;
 	
 	viewSize.width = RASTER_SIZE;
@@ -46,36 +50,57 @@
 	
 	[self calculateCenterPointsFromFrameSize:viewSize];
 	
-	_indicatorViews = [[NSMutableArray alloc] initWithCapacity:25];
+	_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 	
-	for ( int views=0 ; views < 25 ; views++ ){
-		_lightIndicator = 
-		[[LightIndicatorView alloc] initWithMinimum:0 
-									 andMaximum:100 
-									   andIndex:views
-									   andValue: gTriosLights[views].lights.value
-										andName:[NSString stringWithCString:gpCLightNames[views] encoding:NSUTF8StringEncoding]
-										 andTag:views
-									   andFrame:CGRectMake(0, 0, RASTER_SIZE, RASTER_SIZE )];
+	for ( int views=0 ; views < RASTER_COUNT ; views++ ){
+		
+		@try {
+			if (views==24){
+				_lightIndicator = [[LightIndicatorView alloc] 
+								   initWithMinimum:0 
+								   andMaximum:100 
+								   andIndex:views
+								   andValue: 0
+								   andName:@"not implemented"
+								   andTag:views
+								   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+				
+			}
+			else{
+				_lightIndicator = [[LightIndicatorView alloc] 
+								   initWithMinimum:0 
+								   andMaximum:100 
+								   andIndex:views
+								   andValue: gTriosLights[views].lights.value
+								   andName:[NSString stringWithCString:gpCLightNames[views] encoding:NSUTF8StringEncoding]
+								   andTag:views
+								   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+			}
+			
+		}
+		@catch(NSException *e){
+			
+		}
+		
 		
 		_lightIndicator.alpha = 0;
 		
 		[self.view addSubview:_lightIndicator];
-
-		[_indicatorViews addObject:_lightIndicator];
 		
-		[_lightIndicator release];
-
 		[UIView 
-		 animateWithDuration:2
+		 animateWithDuration:RASTER_ANIM_DURATION
 		 animations:^{
 			 _lightIndicator.center = centerPoints[views];
 			 _lightIndicator.alpha = 1;
 		 }
 		 completion:^(BOOL finished){
-		 
 		 }];
 		
+		// store them for later use in touches
+		[_indicatorViews addObject:_lightIndicator];
+		
+		// retained by superview
+		[_lightIndicator release];
 		
 	}
 	
@@ -89,28 +114,33 @@
 	
 	_utilityViews = [[NSMutableArray alloc] initWithCapacity:5];
 	
-	for ( int views = 0 ; views < 5 ; views++){
-		_utililtyView = [[UtilityView alloc] initWithFrame:CGRectMake(0, 0, 2*RASTER_SIZE, RASTER_SIZE )];
+	for ( int views = 0 ; views < UTILITY_COUNT ; views++){
+		
+		_utililtyView = [[UtilityView alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
 		
 		_utililtyView.tag = views;
 		_utililtyView.alpha = 0;
 		
 		[self.view addSubview:_utililtyView];
 		
-		[_utilityViews addObject:_utililtyView];
 		
-		[_utililtyView release];
-
 		[UIView 
-		 animateWithDuration:2
+		 animateWithDuration:UTILITY_ANIM_DURATION
 		 animations:^{
-			 _utililtyView.center = CGPointMake(centerPoints[4+(views*5)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
-												centerPoints[4+(views*5)].y);
+			 _utililtyView.center = 
+			 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(views*UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+						 centerPoints[UTILITY_COUNT - 1 +(views*UTILITY_COUNT)].y);
 			 _utililtyView.alpha = 1;
 		 }
 		 completion:^(BOOL finished){
 			 
 		 }];
+		
+		// store them for later use in touches
+		[_utilityViews addObject:_utililtyView];
+		
+		// retained by superview
+		[_utililtyView release];
 	}
 }
 
@@ -150,9 +180,9 @@
 }
 
 /************************************************************************************************/
- 
-- (void)viewDidLoad {
 
+- (void)viewDidLoad {
+	
     [super viewDidLoad];
 	
 	self.view.layer.borderColor = [[UIColor whiteColor]CGColor];
@@ -162,11 +192,11 @@
 	TriosInitBuffer();
 	
 	[iLightsTriosWrapper TriosSendGetBuffer];
-
-				   
+	
+	
 	[self makeArrayWithIndicatorViews];
 	[self makeArrayWithUtilityViews];	
-
+	
 }
 
 /************************************************************************************************/
@@ -209,7 +239,7 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
 	
 	LightIndicatorView * indicator;
-
+	
 	for (UITouch * touch in touches){
 		CGPoint point = [touch locationInView:self.view];
 		for (indicator in _indicatorViews){
@@ -221,35 +251,35 @@
 					int tmpTag = indicator.tag;
 					
 					[UIView 
-					 animateWithDuration:1
+					 animateWithDuration:SWAP_ANIM_DURATION
 					 animations:^{
-						indicator.center = centerPoints[_lightIndicator.tag];
+						 indicator.center = centerPoints[_lightIndicator.tag];
 						 indicator.alpha = 1; 
 					 }
 					 completion:^(BOOL finished){
 					 }];
 					
 					indicator.tag = _lightIndicator.tag;
-
+					
 					[UIView 
-					 animateWithDuration:1
+					 animateWithDuration:SWAP_ANIM_DURATION
 					 delay:0.5
 					 options:UIViewAnimationOptionAllowUserInteraction
 					 animations:^{
-						_lightIndicator.center = centerPoints[tmpTag];
-						_lightIndicator.alpha = 1; 
-						
+						 _lightIndicator.center = centerPoints[tmpTag];
+						 _lightIndicator.alpha = 1; 
+						 
 					 }
 					 completion:^(BOOL finished){
 					 }];
-
+					
 					_lightIndicator.tag = tmpTag;	
 					
 				}
-
+				
 			}
 			else {
-				indicator.alpha = 1.0;
+				indicator.alpha = 1;
 			}
 			
 		}
@@ -281,8 +311,8 @@
 /************************************************************************************************/
 
 - (void)viewDidUnload {
+
 	// Release any retained subviews of the main view.
-	
 	LightIndicatorView * indicator;
 	
 	for (indicator in _indicatorViews) {

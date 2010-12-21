@@ -80,8 +80,8 @@
 		
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor redColor]CGColor];
-		self.layer.cornerRadius = 30;
-		self.layer.borderWidth = 2;
+		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
+		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		self.tag = _theTag;
 				
 		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
@@ -166,7 +166,7 @@
 	v = [[LightView alloc] initWithFrame:CGRectMake(0, 0, 5 , 5)];
 	v.center = [sender locationInView:self.superview];
 	v.alpha = 0.7;
-	v.tag = 50;
+	v.tag = VIEW_TAG_LIGHT_DETAIL;
 	
 	[self.superview addSubview:v];
 	

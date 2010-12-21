@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
-
+#import "triosIncludes.h"
 
 @interface LightView : UIView {
 
