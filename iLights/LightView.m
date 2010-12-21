@@ -18,14 +18,14 @@
     if (self) {
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor redColor]CGColor];
-		self.layer.cornerRadius = 30;
-		self.layer.borderWidth = 2;
+		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
+		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
 		
-		UISwipeGestureRecognizer *slider = [[UISwipeGestureRecognizer alloc]
+		UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc]
 													initWithTarget:self action:@selector(handleSlider:)];
-		slider.direction = UISwipeGestureRecognizerDirectionLeft;
-		[self  addGestureRecognizer:slider];
+		swiper.direction = UISwipeGestureRecognizerDirectionLeft;
+		[self  addGestureRecognizer:swiper];
 
     }
     return self;
@@ -38,7 +38,7 @@
 	}
 	
 	[UIView 
-	 animateWithDuration:1
+	 animateWithDuration:SWIPE_ANIM_DURATION
 	 delay:0
 	 options:UIViewAnimationCurveEaseInOut
 	 animations:^{
@@ -47,7 +47,7 @@
 		 
 	 }
 	 completion:^(BOOL finished){
-		 [[self.superview viewWithTag:50]removeFromSuperview];
+		 [[self.superview viewWithTag:VIEW_TAG_LIGHT_DETAIL]removeFromSuperview];
 	 }];
 	
 	

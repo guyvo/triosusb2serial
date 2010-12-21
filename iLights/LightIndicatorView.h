@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
-#import "LightView.h"
-#import "TriosModel.h"
-#import "iLightsTriosWrapper.h"
+#import "triosIncludes.h"
 
 // Subclassed UIView overwrites drawRect
 @interface LightIndicatorView : UIView <NSCoding> {

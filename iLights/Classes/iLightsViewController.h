@@ -7,30 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UtilityView.h"
-#import "TriosModel.h"
-#import "iLightsTriosWrapper.h"
-#import "LightIndicatorView.h"
-#import "LightView.h"
-
-#define RASTER_SIZE		136
-#define RASTER_ROWS		5
-#define RASTER_COLS		5
-#define RASTER_SPACING	10
+#import "triosIncludes.h"
 
 @interface iLightsViewController : UIViewController {
+	
 	CGPoint centerPoints[25];
-	UtilityView * _utililtyView;
-	NSMutableArray * _indicatorViews;
-	NSMutableArray * _utilityViews;
+	
+	// custom views
 	LightIndicatorView * _lightIndicator;
 	LightView * _lightView;
+	UtilityView * _utililtyView;
 	
-	Boolean _inMove;
+	// collections of views
+	NSMutableArray * _indicatorViews;
+	NSMutableArray * _utilityViews;
 	
 }
-
-
 
 @end
 

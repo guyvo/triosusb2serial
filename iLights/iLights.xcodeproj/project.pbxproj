@@ -52,6 +52,8 @@
 		8EDDB03C12BA63B200614759 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8EDDB4C512BD098300614759 /* UtilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityView.h; sourceTree = "<group>"; };
 		8EDDB4C612BD098300614759 /* UtilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityView.m; sourceTree = "<group>"; };
+		8EDDB9E512C0B6A700614759 /* triosDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triosDefines.h; sourceTree = "<group>"; };
+		8EDDB9E612C0B70100614759 /* triosIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triosIncludes.h; sourceTree = "<group>"; };
 		E43E2EFC12AAD73E00B45F8A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8EDDB9E412C0B67100614759 /* includes */,
 				8EDDAC9C12A191E300614759 /* UnitTests */,
 				8EDDAC4C12A18E3A00614759 /* Png */,
 				E448D7C312A180B500C98F78 /* Views */,
@@ -167,6 +170,15 @@
 				8EDDACA812A1926000614759 /* TriosUnitTest.m */,
 			);
 			name = UnitTests;
+			sourceTree = "<group>";
+		};
+		8EDDB9E412C0B67100614759 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDB9E512C0B6A700614759 /* triosDefines.h */,
+				8EDDB9E612C0B70100614759 /* triosIncludes.h */,
+			);
+			name = includes;
 			sourceTree = "<group>";
 		};
 		E448D7C312A180B500C98F78 /* Views */ = {

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TriosModel.h"
+#import "triosIncludes.h"
 
 /* 
  C function wrapper class used to signal 
