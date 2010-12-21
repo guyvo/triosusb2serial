@@ -225,26 +225,24 @@
 					 animations:^{
 						indicator.center = centerPoints[_lightIndicator.tag];
 						 indicator.alpha = 1; 
-						 _lightIndicator.center = centerPoints[tmpTag];
-						 _lightIndicator.alpha = 1; 
 					 }
 					 completion:^(BOOL finished){
 					 }];
 					
 					indicator.tag = _lightIndicator.tag;
-					/*
+
 					[UIView 
 					 animateWithDuration:1
 					 delay:0.5
 					 options:UIViewAnimationOptionAllowUserInteraction
 					 animations:^{
 						_lightIndicator.center = centerPoints[tmpTag];
-						 _lightIndicator.alpha = 1; 
+						_lightIndicator.alpha = 1; 
 						
 					 }
 					 completion:^(BOOL finished){
 					 }];
-					 */
+
 					_lightIndicator.tag = tmpTag;	
 					
 				}
@@ -256,6 +254,11 @@
 			
 		}
 	}
+}
+
+-(void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
+	_lightIndicator.alpha = 1; 
+	
 }
 
 /************************************************************************************************/

@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 4017}}";
-			sepNavSelRange = "{7106, 0}";
-			sepNavVisRange = "{6467, 704}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 4108}}";
+			sepNavSelRange = "{7049, 0}";
+			sepNavVisRange = "{5498, 1221}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
@@ -679,6 +679,75 @@
 			8EDDB93C12BFB08A00614759 /* PBXTextBookmark */ = 8EDDB93C12BFB08A00614759 /* PBXTextBookmark */;
 			8EDDB93D12BFB08A00614759 /* PBXTextBookmark */ = 8EDDB93D12BFB08A00614759 /* PBXTextBookmark */;
 			8EDDB93E12BFB08A00614759 /* PBXTextBookmark */ = 8EDDB93E12BFB08A00614759 /* PBXTextBookmark */;
+			8EDDB94412BFE46200614759 /* PBXTextBookmark */ = 8EDDB94412BFE46200614759 /* PBXTextBookmark */;
+			8EDDB94712BFE49A00614759 /* PBXTextBookmark */ = 8EDDB94712BFE49A00614759 /* PBXTextBookmark */;
+			8EDDB94A12BFE4B100614759 /* PBXTextBookmark */ = 8EDDB94A12BFE4B100614759 /* PBXTextBookmark */;
+			8EDDB94B12BFE4B100614759 /* PBXTextBookmark */ = 8EDDB94B12BFE4B100614759 /* PBXTextBookmark */;
+			8EDDB94F12BFE70F00614759 /* PBXTextBookmark */ = 8EDDB94F12BFE70F00614759 /* PBXTextBookmark */;
+			8EDDB95212BFE76F00614759 /* PBXTextBookmark */ = 8EDDB95212BFE76F00614759 /* PBXTextBookmark */;
+			8EDDB95512BFE87A00614759 /* PBXTextBookmark */ = 8EDDB95512BFE87A00614759 /* PBXTextBookmark */;
+			8EDDB95812BFE8B600614759 /* PBXTextBookmark */ = 8EDDB95812BFE8B600614759 /* PBXTextBookmark */;
+			8EDDB95B12BFE8D600614759 /* PBXTextBookmark */ = 8EDDB95B12BFE8D600614759 /* PBXTextBookmark */;
+			8EDDB95E12BFE92200614759 /* PBXTextBookmark */ = 8EDDB95E12BFE92200614759 /* PBXTextBookmark */;
+			8EDDB95F12BFE92200614759 /* PBXTextBookmark */ = 8EDDB95F12BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96012BFE92200614759 /* PBXTextBookmark */ = 8EDDB96012BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96112BFE92200614759 /* PBXTextBookmark */ = 8EDDB96112BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96212BFE92200614759 /* PBXTextBookmark */ = 8EDDB96212BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96312BFE92200614759 /* PBXTextBookmark */ = 8EDDB96312BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96412BFE92200614759 /* PBXTextBookmark */ = 8EDDB96412BFE92200614759 /* PBXTextBookmark */;
+			8EDDB96812BFE9C000614759 /* PBXTextBookmark */ = 8EDDB96812BFE9C000614759 /* PBXTextBookmark */;
+			8EDDB96912BFE9C000614759 /* PBXTextBookmark */ = 8EDDB96912BFE9C000614759 /* PBXTextBookmark */;
+			8EDDB96D12BFEAC800614759 /* PBXTextBookmark */ = 8EDDB96D12BFEAC800614759 /* PBXTextBookmark */;
+			8EDDB97012BFEACD00614759 /* PBXTextBookmark */ = 8EDDB97012BFEACD00614759 /* PBXTextBookmark */;
+			8EDDB97112BFEACD00614759 /* PBXTextBookmark */ = 8EDDB97112BFEACD00614759 /* PBXTextBookmark */;
+			8EDDB97212BFEACD00614759 /* PBXTextBookmark */ = 8EDDB97212BFEACD00614759 /* PBXTextBookmark */;
+			8EDDB97312BFEACD00614759 /* PBXTextBookmark */ = 8EDDB97312BFEACD00614759 /* PBXTextBookmark */;
+			8EDDB97712BFEEFE00614759 /* PBXTextBookmark */ = 8EDDB97712BFEEFE00614759 /* PBXTextBookmark */;
+			8EDDB97812BFEEFE00614759 /* PBXTextBookmark */ = 8EDDB97812BFEEFE00614759 /* PBXTextBookmark */;
+			8EDDB97912BFEEFE00614759 /* PBXTextBookmark */ = 8EDDB97912BFEEFE00614759 /* PBXTextBookmark */;
+			8EDDB97C12BFEF3300614759 /* PBXTextBookmark */ = 8EDDB97C12BFEF3300614759 /* PBXTextBookmark */;
+			8EDDB97F12BFF09800614759 /* PBXTextBookmark */ = 8EDDB97F12BFF09800614759 /* PBXTextBookmark */;
+			8EDDB98212BFF0A000614759 /* PBXTextBookmark */ = 8EDDB98212BFF0A000614759 /* PBXTextBookmark */;
+			8EDDB98312BFF0A000614759 /* PBXTextBookmark */ = 8EDDB98312BFF0A000614759 /* PBXTextBookmark */;
+			8EDDB98712BFF20300614759 /* PBXTextBookmark */ = 8EDDB98712BFF20300614759 /* PBXTextBookmark */;
+			8EDDB98A12BFF21A00614759 /* PBXTextBookmark */ = 8EDDB98A12BFF21A00614759 /* PBXTextBookmark */;
+			8EDDB98B12BFF21A00614759 /* PBXTextBookmark */ = 8EDDB98B12BFF21A00614759 /* PBXTextBookmark */;
+			8EDDB98C12BFF21A00614759 /* PBXTextBookmark */ = 8EDDB98C12BFF21A00614759 /* PBXTextBookmark */;
+			8EDDB98D12BFF21A00614759 /* PBXTextBookmark */ = 8EDDB98D12BFF21A00614759 /* PBXTextBookmark */;
+			8EDDB99112BFF2F200614759 /* PBXTextBookmark */ = 8EDDB99112BFF2F200614759 /* PBXTextBookmark */;
+			8EDDB99212BFF2F300614759 /* PBXTextBookmark */ = 8EDDB99212BFF2F300614759 /* PBXTextBookmark */;
+			8EDDB99612BFF44A00614759 /* PBXTextBookmark */ = 8EDDB99612BFF44A00614759 /* PBXTextBookmark */;
+			8EDDB99912BFF45000614759 /* PBXTextBookmark */ = 8EDDB99912BFF45000614759 /* PBXTextBookmark */;
+			8EDDB99A12BFF45100614759 /* PBXTextBookmark */ = 8EDDB99A12BFF45100614759 /* PBXTextBookmark */;
+			8EDDB99E12BFF61700614759 /* PBXTextBookmark */ = 8EDDB99E12BFF61700614759 /* PBXTextBookmark */;
+			8EDDB9A112BFF61C00614759 /* PBXTextBookmark */ = 8EDDB9A112BFF61C00614759 /* PBXTextBookmark */;
+			8EDDB9A212BFF61C00614759 /* PBXTextBookmark */ = 8EDDB9A212BFF61C00614759 /* PBXTextBookmark */;
+			8EDDB9A612BFF85500614759 /* PBXTextBookmark */ = 8EDDB9A612BFF85500614759 /* PBXTextBookmark */;
+			8EDDB9A912BFF87500614759 /* PBXTextBookmark */ = 8EDDB9A912BFF87500614759 /* PBXTextBookmark */;
+			8EDDB9AC12BFF89400614759 /* PBXTextBookmark */ = 8EDDB9AC12BFF89400614759 /* PBXTextBookmark */;
+			8EDDB9AF12BFF90D00614759 /* PBXTextBookmark */ = 8EDDB9AF12BFF90D00614759 /* PBXTextBookmark */;
+			8EDDB9B212BFF94600614759 /* PBXTextBookmark */ = 8EDDB9B212BFF94600614759 /* PBXTextBookmark */;
+			8EDDB9B512BFF94B00614759 /* PBXTextBookmark */ = 8EDDB9B512BFF94B00614759 /* PBXTextBookmark */;
+			8EDDB9B612BFF94B00614759 /* PBXTextBookmark */ = 8EDDB9B612BFF94B00614759 /* PBXTextBookmark */;
+			8EDDB9B712BFF94B00614759 /* PBXTextBookmark */ = 8EDDB9B712BFF94B00614759 /* PBXTextBookmark */;
+			8EDDB9B812BFF94B00614759 /* PBXTextBookmark */ = 8EDDB9B812BFF94B00614759 /* PBXTextBookmark */;
+			8EDDB9B912BFF94B00614759 /* PBXTextBookmark */ = 8EDDB9B912BFF94B00614759 /* PBXTextBookmark */;
+			8EDDB9BD12BFF97200614759 /* PBXTextBookmark */ = 8EDDB9BD12BFF97200614759 /* PBXTextBookmark */;
+			8EDDB9C012BFF98900614759 /* PBXTextBookmark */ = 8EDDB9C012BFF98900614759 /* PBXTextBookmark */;
+			8EDDB9C312BFFA2200614759 /* PBXTextBookmark */ = 8EDDB9C312BFFA2200614759 /* PBXTextBookmark */;
+			8EDDB9C612BFFA2700614759 /* PBXTextBookmark */ = 8EDDB9C612BFFA2700614759 /* PBXTextBookmark */;
+			8EDDB9C712BFFA2700614759 /* PBXTextBookmark */ = 8EDDB9C712BFFA2700614759 /* PBXTextBookmark */;
+			8EDDB9CB12BFFA7000614759 /* PBXTextBookmark */ = 8EDDB9CB12BFFA7000614759 /* PBXTextBookmark */;
+			8EDDB9CE12BFFA7600614759 /* PBXTextBookmark */ = 8EDDB9CE12BFFA7600614759 /* PBXTextBookmark */;
+			8EDDB9CF12BFFA7600614759 /* PBXTextBookmark */ = 8EDDB9CF12BFFA7600614759 /* PBXTextBookmark */;
+			8EDDB9D312BFFAA800614759 /* PBXTextBookmark */ = 8EDDB9D312BFFAA800614759 /* PBXTextBookmark */;
+			8EDDB9D612BFFAAC00614759 /* PBXTextBookmark */ = 8EDDB9D612BFFAAC00614759 /* PBXTextBookmark */;
+			8EDDB9D712BFFAAC00614759 /* PBXTextBookmark */ = 8EDDB9D712BFFAAC00614759 /* PBXTextBookmark */;
+			8EDDB9DC12C0B60A00614759 /* PBXTextBookmark */ = 8EDDB9DC12C0B60A00614759 /* PBXTextBookmark */;
+			8EDDB9DF12C0B61A00614759 /* PBXTextBookmark */ = 8EDDB9DF12C0B61A00614759 /* PBXTextBookmark */;
+			8EDDB9E012C0B61A00614759 /* PBXTextBookmark */ = 8EDDB9E012C0B61A00614759 /* PBXTextBookmark */;
+			8EDDB9E112C0B61A00614759 /* PBXTextBookmark */ = 8EDDB9E112C0B61A00614759 /* PBXTextBookmark */;
+			8EDDB9E212C0B61A00614759 /* PBXTextBookmark */ = 8EDDB9E212C0B61A00614759 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EDDAC3712A18C6D00614759 /* Source Control */;
 		userBuildSettings = {
@@ -739,9 +808,9 @@
 	};
 	8EDDAC3E12A18CB000614759 /* LightView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 754}}";
-			sepNavSelRange = "{935, 0}";
-			sepNavVisRange = "{658, 521}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 923}}";
+			sepNavSelRange = "{1038, 0}";
+			sepNavVisRange = "{0, 911}";
 		};
 	};
 	8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {
@@ -952,7 +1021,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicator.h: 15";
 		rLen = 0;
-		rLoc = 345;
+		rLoc = 400;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 408;
@@ -1022,7 +1091,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicator.h: 15";
 		rLen = 0;
-		rLoc = 345;
+		rLoc = 400;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -1184,7 +1253,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 39;
@@ -1280,7 +1349,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 0;
@@ -1340,7 +1409,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 0;
@@ -1400,7 +1469,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1460,7 +1529,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1500,7 +1569,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1550,7 +1619,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1630,7 +1699,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1660,7 +1729,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1700,7 +1769,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1740,7 +1809,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1800,7 +1869,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1840,7 +1909,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1880,7 +1949,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1920,7 +1989,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1960,7 +2029,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2000,7 +2069,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2040,7 +2109,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2090,7 +2159,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2150,7 +2219,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2210,7 +2279,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2270,7 +2339,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2310,7 +2379,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2360,7 +2429,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2380,7 +2449,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 184";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2390,7 +2459,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2400,7 +2469,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1827;
@@ -2410,7 +2479,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2460,7 +2529,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2470,7 +2539,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2480,7 +2549,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2490,7 +2559,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 188";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2500,7 +2569,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 189";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1827;
@@ -2510,7 +2579,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1798;
@@ -2550,7 +2619,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2560,7 +2629,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2570,7 +2639,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2590,7 +2659,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2620,7 +2689,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2650,7 +2719,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2680,7 +2749,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2690,7 +2759,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2700,7 +2769,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2720,7 +2789,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2740,7 +2809,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2760,7 +2829,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2770,7 +2839,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2790,7 +2859,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2800,7 +2869,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2830,7 +2899,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2840,7 +2909,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -2850,7 +2919,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2870,7 +2939,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2880,7 +2949,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -2890,7 +2959,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2910,7 +2979,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2920,7 +2989,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 197";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -2930,7 +2999,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 197";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2940,7 +3009,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2950,7 +3019,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2960,7 +3029,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 165";
 		rLen = 0;
-		rLoc = 6815;
+		rLoc = 6719;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 4194;
@@ -2970,7 +3039,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -2980,7 +3049,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1769;
@@ -2990,7 +3059,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 4157;
@@ -3000,7 +3069,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3010,7 +3079,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3020,7 +3089,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3030,7 +3099,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3040,7 +3109,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3050,7 +3119,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3060,7 +3129,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3070,7 +3139,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3080,7 +3149,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3090,7 +3159,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3100,7 +3169,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 4092;
@@ -3110,7 +3179,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 7149;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 4092;
@@ -3120,7 +3189,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3130,7 +3199,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1798;
@@ -3150,7 +3219,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3160,7 +3229,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 198";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3170,7 +3239,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 199";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3180,7 +3249,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 201";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1711;
@@ -3190,7 +3259,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1682;
@@ -3200,7 +3269,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 1721;
@@ -3210,7 +3279,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 174";
 		rLen = 0;
-		rLoc = 7155;
+		rLoc = 7050;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 4191;
@@ -3220,7 +3289,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 53";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -3230,7 +3299,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 1721;
@@ -3240,7 +3309,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 8515;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 1645;
@@ -3309,7 +3378,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 238;
+		rLoc = 273;
 		rType = 1;
 	};
 	8EDDB69612BE3E7100614759 /* PBXTextBookmark */ = {
@@ -3317,7 +3386,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 202";
 		rLen = 0;
-		rLoc = 5930;
+		rLoc = 6816;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 4519;
@@ -3366,7 +3435,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 21";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 527;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 208;
@@ -3396,7 +3465,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3496,7 +3565,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3526,7 +3595,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3566,7 +3635,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 7088;
+		rLoc = 6991;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 4562;
@@ -3576,7 +3645,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3606,7 +3675,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 7036;
+		rLoc = 6939;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 4767;
@@ -3616,7 +3685,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3666,7 +3735,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3706,7 +3775,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3746,7 +3815,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3786,7 +3855,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3826,7 +3895,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3866,7 +3935,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3906,7 +3975,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3946,7 +4015,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -3976,7 +4045,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4016,7 +4085,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4056,7 +4125,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4106,7 +4175,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4136,7 +4205,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4186,7 +4255,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 214";
 		rLen = 0;
-		rLoc = 7143;
+		rLoc = 7038;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 5039;
@@ -4196,7 +4265,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4236,7 +4305,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4296,7 +4365,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4346,7 +4415,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4386,7 +4455,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4456,7 +4525,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 7572;
+		rLoc = 7571;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 7431;
@@ -4486,7 +4555,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4516,7 +4585,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4556,7 +4625,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 7572;
+		rLoc = 7571;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 7431;
@@ -4566,7 +4635,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4142;
+		rLoc = 4911;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 2847;
@@ -4576,7 +4645,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4606,7 +4675,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 7572;
+		rLoc = 7571;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 4720;
@@ -4616,7 +4685,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4142;
+		rLoc = 4911;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 2847;
@@ -4626,7 +4695,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 3885;
+		rLoc = 4704;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 2620;
@@ -4636,7 +4705,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 55";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 0;
@@ -4686,7 +4755,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 11";
 		rLen = 0;
-		rLoc = 228;
+		rLoc = 283;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 24;
@@ -4696,7 +4765,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 3575;
+		rLoc = 4442;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 3139;
@@ -4706,7 +4775,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 4142;
+		rLoc = 4911;
 		rType = 0;
 		vrLen = 799;
 		vrLoc = 3136;
@@ -4716,7 +4785,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -4746,7 +4815,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 3907;
+		rLoc = 4726;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 3171;
@@ -4756,7 +4825,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -4776,7 +4845,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 126";
 		rLen = 0;
-		rLoc = 3737;
+		rLoc = 4604;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 3136;
@@ -4786,7 +4855,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -4926,7 +4995,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 3876;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 3420;
@@ -4946,7 +5015,7 @@
 		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
 		name = "LightView.m: 39";
 		rLen = 0;
-		rLoc = 929;
+		rLoc = 1145;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 460;
@@ -4956,7 +5025,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -4986,7 +5055,7 @@
 		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
 		name = "LightView.m: 39";
 		rLen = 0;
-		rLoc = 929;
+		rLoc = 1145;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 392;
@@ -4996,7 +5065,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 3876;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 3420;
@@ -5006,7 +5075,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 3372;
@@ -5016,7 +5085,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5056,7 +5125,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 3477;
@@ -5066,7 +5135,7 @@
 		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
 		name = "LightView.m: 39";
 		rLen = 0;
-		rLoc = 929;
+		rLoc = 1145;
 		rType = 0;
 		vrLen = 698;
 		vrLoc = 424;
@@ -5086,7 +5155,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5116,7 +5185,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5156,7 +5225,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5196,7 +5265,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5236,7 +5305,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 3477;
@@ -5246,7 +5315,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 3860;
+		rLoc = 4681;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 3477;
@@ -5256,7 +5325,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5276,7 +5345,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 3860;
+		rLoc = 4681;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 2498;
@@ -5306,7 +5375,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5346,7 +5415,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5376,7 +5445,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 3860;
+		rLoc = 4681;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 3468;
@@ -5386,7 +5455,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 3860;
+		rLoc = 4681;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 3468;
@@ -5396,7 +5465,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5416,7 +5485,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 3879;
+		rLoc = 4698;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 3471;
@@ -5426,7 +5495,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5436,7 +5505,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 3879;
+		rLoc = 4698;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 3471;
@@ -5446,7 +5515,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5486,7 +5555,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 3879;
+		rLoc = 4698;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 3471;
@@ -5496,7 +5565,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 7572;
+		rLoc = 7571;
 		rType = 0;
 		vrLen = 877;
 		vrLoc = 5077;
@@ -5516,7 +5585,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5566,7 +5635,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5636,7 +5705,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5666,7 +5735,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 247";
 		rLen = 0;
-		rLoc = 7155;
+		rLoc = 7050;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 6530;
@@ -5676,7 +5745,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5706,7 +5775,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 251";
 		rLen = 0;
-		rLoc = 7203;
+		rLoc = 7098;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 4078;
@@ -5716,7 +5785,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5765,7 +5834,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 223";
-		rLen = 293;
+		rLen = 204;
 		rLoc = 6467;
 		rType = 0;
 		vrLen = 710;
@@ -5776,7 +5845,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 3879;
+		rLoc = 4698;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 3471;
@@ -5786,7 +5855,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 142";
 		rLen = 0;
-		rLoc = 4097;
+		rLoc = 4866;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 3488;
@@ -5796,7 +5865,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5826,7 +5895,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3760;
+		rLoc = 4627;
 		rType = 0;
 		vrLen = 571;
 		vrLoc = 3488;
@@ -5836,7 +5905,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5856,7 +5925,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 131";
 		rLen = 0;
-		rLoc = 3874;
+		rLoc = 4695;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 3591;
@@ -5866,7 +5935,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5896,7 +5965,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3749;
+		rLoc = 4616;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 3488;
@@ -5906,7 +5975,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -5986,7 +6055,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3846;
+		rLoc = 4667;
 		rType = 0;
 		vrLen = 598;
 		vrLoc = 3471;
@@ -5996,7 +6065,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6026,7 +6095,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 142";
 		rLen = 0;
-		rLoc = 4054;
+		rLoc = 4823;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 3471;
@@ -6036,7 +6105,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6066,7 +6135,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 143";
 		rLen = 0;
-		rLoc = 4094;
+		rLoc = 4863;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 3471;
@@ -6076,7 +6145,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6106,7 +6175,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 3760;
+		rLoc = 4627;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 3372;
@@ -6116,7 +6185,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6156,7 +6225,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3861;
+		rLoc = 4682;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 3477;
@@ -6166,7 +6235,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6176,7 +6245,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3861;
+		rLoc = 4682;
 		rType = 0;
 		vrLen = 558;
 		vrLoc = 3488;
@@ -6186,7 +6255,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3861;
+		rLoc = 4682;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 3488;
@@ -6196,7 +6265,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6256,7 +6325,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3815;
+		rLoc = 4667;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 3488;
@@ -6266,7 +6335,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 56";
 		rLen = 0;
-		rLoc = 1278;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 0;
@@ -6296,7 +6365,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 143";
 		rLen = 0;
-		rLoc = 4017;
+		rLoc = 4786;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 3505;
@@ -6326,7 +6395,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 3682;
+		rLoc = 4549;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 3505;
@@ -6335,7 +6404,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 223";
-		rLen = 293;
+		rLen = 204;
 		rLoc = 6467;
 		rType = 0;
 		vrLen = 700;
@@ -6346,7 +6415,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 237";
 		rLen = 0;
-		rLoc = 6929;
+		rLoc = 6833;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 6291;
@@ -6376,7 +6445,7 @@
 		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
 		name = "LightView.m: 43";
 		rLen = 0;
-		rLoc = 935;
+		rLoc = 1148;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 658;
@@ -6386,7 +6455,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 237";
 		rLen = 0;
-		rLoc = 6929;
+		rLoc = 6833;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 6467;
@@ -6396,39 +6465,729 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 247";
 		rLen = 0;
-		rLoc = 7106;
+		rLoc = 7001;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 6467;
 	};
+	8EDDB94412BFE46200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB94712BFE49A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB94A12BFE4B100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB94B12BFE4B100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 234";
+		rLen = 0;
+		rLoc = 6661;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 6219;
+	};
+	8EDDB94F12BFE70F00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1350;
+	};
+	8EDDB95212BFE76F00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1350;
+	};
+	8EDDB95512BFE87A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1275;
+	};
+	8EDDB95812BFE8B600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 1323;
+	};
+	8EDDB95B12BFE8D600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 1323;
+	};
+	8EDDB95E12BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 1323;
+	};
+	8EDDB95F12BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 240";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 7001;
+	};
+	8EDDB96012BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		name = "TriosModel.c: 33";
+		rLen = 30;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 372;
+	};
+	8EDDB96112BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4712A1780300CB93F2 /* TriosModel.h */;
+		name = "TriosModel.h: 242";
+		rLen = 0;
+		rLoc = 5454;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 4840;
+	};
+	8EDDB96212BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
+		name = "LightIndicatorView.h: 13";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 36;
+	};
+	8EDDB96312BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 144";
+		rLen = 0;
+		rLoc = 4368;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 3643;
+	};
+	8EDDB96412BFE92200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 144";
+		rLen = 0;
+		rLoc = 4368;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 3748;
+	};
+	8EDDB96812BFE9C000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 1325;
+	};
+	8EDDB96912BFE9C000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 144";
+		rLen = 0;
+		rLoc = 4324;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 3759;
+	};
+	8EDDB96D12BFEAC800614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1325;
+	};
+	8EDDB97012BFEACD00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB97112BFEACD00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
+		name = "LightIndicatorView.h: 13";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	8EDDB97212BFEACD00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 133";
+		rLen = 0;
+		rLoc = 4070;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 3174;
+	};
+	8EDDB97312BFEACD00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 133";
+		rLen = 0;
+		rLoc = 4070;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 3742;
+	};
+	8EDDB97712BFEEFE00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 133";
+		rLen = 0;
+		rLoc = 4070;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 3748;
+	};
+	8EDDB97812BFEEFE00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 240";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 6467;
+	};
+	8EDDB97912BFEEFE00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 240";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 6467;
+	};
+	8EDDB97C12BFEF3300614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 240";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 6467;
+	};
+	8EDDB97F12BFF09800614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB98212BFF0A000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB98312BFF0A000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 260";
+		rLen = 0;
+		rLoc = 7210;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 6719;
+	};
+	8EDDB98712BFF20300614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1325;
+	};
+	8EDDB98A12BFF21A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB98B12BFF21A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 260";
+		rLen = 0;
+		rLoc = 7210;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 7093;
+	};
+	8EDDB98C12BFF21A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 133";
+		rLen = 0;
+		rLoc = 4070;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 3748;
+	};
+	8EDDB98D12BFF21A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 119";
+		rLen = 0;
+		rLoc = 3842;
+		rType = 0;
+		vrLen = 1536;
+		vrLoc = 2316;
+	};
+	8EDDB99112BFF2F200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 1325;
+	};
+	8EDDB99212BFF2F300614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 119";
+		rLen = 0;
+		rLoc = 3842;
+		rType = 0;
+		vrLen = 1488;
+		vrLoc = 2367;
+	};
+	8EDDB99612BFF44A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1325;
+	};
+	8EDDB99912BFF45000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB99A12BFF45100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 114";
+		rLen = 0;
+		rLoc = 3477;
+		rType = 0;
+		vrLen = 1342;
+		vrLoc = 2620;
+	};
+	8EDDB99E12BFF61700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1325;
+	};
+	8EDDB9A112BFF61C00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB9A212BFF61C00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 117";
+		rLen = 0;
+		rLoc = 3634;
+		rType = 0;
+		vrLen = 1445;
+		vrLoc = 2498;
+	};
+	8EDDB9A612BFF85500614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9A912BFF87500614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9AC12BFF89400614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9AF12BFF90D00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9B212BFF94600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9B512BFF94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB9B612BFF94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 248";
+		rLen = 0;
+		rLoc = 7049;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 5498;
+	};
+	8EDDB9B712BFF94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 177";
+		rLen = 27;
+		rLoc = 4800;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 4371;
+	};
+	8EDDB9B812BFF94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 45";
+		rLen = 0;
+		rLoc = 977;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 192;
+	};
+	8EDDB9B912BFF94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 50";
+		rLen = 0;
+		rLoc = 1135;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 337;
+	};
+	8EDDB9BD12BFF97200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9C012BFF98900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9C312BFFA2200614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9C612BFFA2700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB9C712BFFA2700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 45";
+		rLen = 0;
+		rLoc = 977;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 424;
+	};
+	8EDDB9CB12BFFA7000614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9CE12BFFA7600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB9CF12BFFA7600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 45";
+		rLen = 0;
+		rLoc = 977;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 457;
+	};
+	8EDDB9D312BFFAA800614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9D612BFFAAC00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 1374;
+	};
+	8EDDB9D712BFFAAC00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 46";
+		rLen = 0;
+		rLoc = 1038;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 460;
+	};
+	8EDDB9DC12C0B60A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 69";
+		rLen = 0;
+		rLoc = 1654;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 1374;
+	};
+	8EDDB9DF12C0B61A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 137";
+		rLen = 0;
+		rLoc = 3961;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 3477;
+	};
+	8EDDB9E012C0B61A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
+		name = "LightIndicatorView.h: 13";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	8EDDB9E112C0B61A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 46";
+		rLen = 0;
+		rLoc = 1038;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 531;
+	};
+	8EDDB9E212C0B61A00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 46";
+		rLen = 0;
+		rLoc = 1038;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 5863}}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 5733}}";
 			sepNavSelRange = "{649, 30}";
-			sepNavVisRange = "{394, 616}";
+			sepNavVisRange = "{372, 555}";
 			sepNavWindowFrame = "{{38, 102}, {875, 650}}";
 		};
 	};
 	E4930D4712A1780300CB93F2 /* TriosModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 3419}}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3484}}";
 			sepNavSelRange = "{5454, 0}";
-			sepNavVisRange = "{4690, 991}";
+			sepNavVisRange = "{4840, 840}";
 		};
 	};
 	E4F54C7712BA5240000F1935 /* LightIndicatorView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {816, 728}}";
-			sepNavSelRange = "{1278, 0}";
-			sepNavVisRange = "{0, 918}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 754}}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRange = "{0, 931}";
 			sepNavWindowFrame = "{{131, 86}, {875, 650}}";
 		};
 	};
 	E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 3029}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3497}}";
 			sepNavSelRange = "{1654, 0}";
-			sepNavVisRange = "{1374, 666}";
+			sepNavVisRange = "{1374, 639}";
 			sepNavWindowFrame = "{{150, 81}, {875, 650}}";
 		};
 	};

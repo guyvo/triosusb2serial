@@ -108,10 +108,25 @@
 		
 		UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
 													initWithTarget:self action:@selector(handleSingleDoubleTap:)];
+		UITapGestureRecognizer *singleFingerSTap = [[UITapGestureRecognizer alloc]
+													initWithTarget:self action:@selector(handleSingleTap:)];
+		
 		singleFingerDTap.numberOfTapsRequired = 2;
+		singleFingerSTap.numberOfTapsRequired = 1;
+		
+		[singleFingerSTap requireGestureRecognizerToFail:singleFingerDTap];
+
+		[singleFingerSTap setDelaysTouchesBegan:YES];
+		[singleFingerDTap setDelaysTouchesBegan:YES];
+		
+		
+		[self addGestureRecognizer:singleFingerSTap];
 		[self addGestureRecognizer:singleFingerDTap];
+		
+		
+		[singleFingerSTap release];
 		[singleFingerDTap release];
-	 
+		
 		return self;
 		
     }
@@ -120,6 +135,26 @@
 		return nil;
 	}
 }
+
+- (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
+	if ( self._value == 0 ){
+		self._value = 100;
+		gTriosLights[self._index].lights.value = 100;
+	}
+	else if ( self._value == 100 ){
+		self._value = 0;
+		gTriosLights[self._index].lights.value = 0;
+	}
+	else {
+		self._value = 0;
+		gTriosLights[self._index].lights.value = 0;
+	}
+	
+	[self setNeedsDisplay];
+	[iLightsTriosWrapper TriosSendPostBuffer];
+	
+}
+
 
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
 	LightView * v;
@@ -130,18 +165,16 @@
 	
 	v = [[LightView alloc] initWithFrame:CGRectMake(0, 0, 5 , 5)];
 	v.center = [sender locationInView:self.superview];
-	NSLog(@"x,y : %f,%f",v.center.x,v.center.y);
 	v.alpha = 0.7;
 	v.tag = 50;
-	
 	
 	[self.superview addSubview:v];
 	
 	[UIView 
 	 animateWithDuration:1 
 	 animations:^{
-		 v.center = [sender locationInView:self.superview];
-		 v.frame = CGRectMake(0,0, 300 , 300);
+		 
+		 v.frame = CGRectMake(0,0, 500 , 500);
 		 v.center= CGPointMake(512, 368);
 		
 	 }
@@ -150,7 +183,6 @@
 	
 	
 }
-
 
 // customized init method calling overwrite init at the end
 - (id)initWithMinimum:(NSInteger)minimum 
@@ -225,6 +257,9 @@
 	
 	CGGradientRelease(myGradient);
 	CGColorSpaceRelease(myColorSpace);
+	
+	//ensure that label is updated when refreshing
+	_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
 
 }
 
