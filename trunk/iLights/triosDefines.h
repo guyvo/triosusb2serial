@@ -35,4 +35,4 @@
 #define VIEW_TAG_LIGHT_DETAIL		50
 
 // strings
-#define FILE_NAME_ARCHIVE_INDICATORS	@"lights.archive"
+#define FILE_NAME_ARCHIVE_INDICATORS	@"lightsindicators.archive"

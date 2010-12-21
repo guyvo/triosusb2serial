@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 4836}}";
-			sepNavSelRange = "{5135, 0}";
-			sepNavVisRange = "{866, 1091}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 4784}}";
+			sepNavSelRange = "{7886, 0}";
+			sepNavVisRange = "{3981, 1401}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
@@ -928,6 +928,24 @@
 			8EDDBB4012C0DEEF00614759 /* PBXTextBookmark */ = 8EDDBB4012C0DEEF00614759 /* PBXTextBookmark */;
 			8EDDBB4412C0DF3400614759 /* PBXTextBookmark */ = 8EDDBB4412C0DF3400614759 /* PBXTextBookmark */;
 			8EDDBB4512C0DF3400614759 /* PBXTextBookmark */ = 8EDDBB4512C0DF3400614759 /* PBXTextBookmark */;
+			8EDDBB5012C0E38600614759 /* PBXTextBookmark */ = 8EDDBB5012C0E38600614759 /* PBXTextBookmark */;
+			8EDDBB5112C0E38700614759 /* PBXTextBookmark */ = 8EDDBB5112C0E38700614759 /* PBXTextBookmark */;
+			8EDDBB5212C0E38700614759 /* PBXTextBookmark */ = 8EDDBB5212C0E38700614759 /* PBXTextBookmark */;
+			8EDDBB5312C0E38700614759 /* PBXTextBookmark */ = 8EDDBB5312C0E38700614759 /* PBXTextBookmark */;
+			8EDDBB5812C0E86100614759 /* PBXTextBookmark */ = 8EDDBB5812C0E86100614759 /* PBXTextBookmark */;
+			8EDDBB5B12C0E8B100614759 /* PBXTextBookmark */ = 8EDDBB5B12C0E8B100614759 /* PBXTextBookmark */;
+			8EDDBB5C12C0E8B100614759 /* PBXTextBookmark */ = 8EDDBB5C12C0E8B100614759 /* PBXTextBookmark */;
+			8EDDBB6112C0E8BA00614759 /* PBXTextBookmark */ = 8EDDBB6112C0E8BA00614759 /* PBXTextBookmark */;
+			8EDDBB6212C0E8BA00614759 /* PBXTextBookmark */ = 8EDDBB6212C0E8BA00614759 /* PBXTextBookmark */;
+			8EDDBB6412C0E94B00614759 /* PBXTextBookmark */ = 8EDDBB6412C0E94B00614759 /* PBXTextBookmark */;
+			8EDDBB6712C0EA3300614759 /* PBXTextBookmark */ = 8EDDBB6712C0EA3300614759 /* PBXTextBookmark */;
+			8EDDBB6A12C0EA3900614759 /* PBXTextBookmark */ = 8EDDBB6A12C0EA3900614759 /* PBXTextBookmark */;
+			8EDDBB6B12C0EA3900614759 /* PBXTextBookmark */ = 8EDDBB6B12C0EA3900614759 /* PBXTextBookmark */;
+			8EDDBB6C12C0EA3900614759 /* PBXTextBookmark */ = 8EDDBB6C12C0EA3900614759 /* PBXTextBookmark */;
+			8EDDBB6D12C0EA3900614759 /* PBXTextBookmark */ = 8EDDBB6D12C0EA3900614759 /* PBXTextBookmark */;
+			8EDDBB6E12C0EA3900614759 /* PBXTextBookmark */ = 8EDDBB6E12C0EA3900614759 /* PBXTextBookmark */;
+			8EDDBB7612C0EA6900614759 /* PBXTextBookmark */ = 8EDDBB7612C0EA6900614759 /* PBXTextBookmark */;
+			8EDDBB7712C0EA6900614759 /* PBXTextBookmark */ = 8EDDBB7712C0EA6900614759 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EDDAC3712A18C6D00614759 /* Source Control */;
 		userBuildSettings = {
@@ -1599,7 +1617,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 76";
 		rLen = 221;
-		rLoc = 1809;
+		rLoc = 1810;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1270;
@@ -2499,7 +2517,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 76";
 		rLen = 221;
-		rLoc = 1809;
+		rLoc = 1810;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 1321;
@@ -2509,7 +2527,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 79";
 		rLen = 0;
-		rLoc = 2006;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1369;
@@ -2549,7 +2567,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 79";
 		rLen = 0;
-		rLoc = 2006;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1369;
@@ -2579,7 +2597,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 79";
 		rLen = 0;
-		rLoc = 2006;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1369;
@@ -3518,7 +3536,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 70";
 		rLen = 0;
-		rLoc = 1665;
+		rLoc = 1666;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1076;
@@ -3537,7 +3555,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 61";
 		rLen = 0;
-		rLoc = 1380;
+		rLoc = 1381;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1076;
@@ -3547,7 +3565,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 70";
 		rLen = 0;
-		rLoc = 1673;
+		rLoc = 1674;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 1080;
@@ -3566,7 +3584,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 202";
 		rLen = 0;
-		rLoc = 6830;
+		rLoc = 6831;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 4519;
@@ -3585,7 +3603,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 1322;
@@ -3595,7 +3613,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3625,7 +3643,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 64";
 		rLen = 0;
-		rLoc = 1459;
+		rLoc = 1460;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 849;
@@ -3635,7 +3653,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 60";
 		rLen = 0;
-		rLoc = 1382;
+		rLoc = 1383;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 1002;
@@ -3655,7 +3673,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3665,7 +3683,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3675,7 +3693,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3685,7 +3703,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3695,7 +3713,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3705,7 +3723,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3715,7 +3733,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 60";
 		rLen = 0;
-		rLoc = 1382;
+		rLoc = 1383;
 		rType = 0;
 		vrLen = 491;
 		vrLoc = 0;
@@ -3755,7 +3773,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3785,7 +3803,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3795,7 +3813,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3805,7 +3823,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3835,7 +3853,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3845,7 +3863,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3875,7 +3893,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3885,7 +3903,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3895,7 +3913,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3925,7 +3943,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3935,7 +3953,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -3965,7 +3983,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -3975,7 +3993,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4005,7 +4023,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4015,7 +4033,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4045,7 +4063,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4055,7 +4073,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4085,7 +4103,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4095,7 +4113,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4125,7 +4143,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4135,7 +4153,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4165,7 +4183,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4175,7 +4193,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4205,7 +4223,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4235,7 +4253,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4245,7 +4263,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4275,7 +4293,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1273;
@@ -4285,7 +4303,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 68";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1273;
@@ -4315,7 +4333,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -4335,7 +4353,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 60";
 		rLen = 0;
-		rLoc = 1382;
+		rLoc = 1383;
 		rType = 0;
 		vrLen = 491;
 		vrLoc = 0;
@@ -4365,7 +4383,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 1374;
@@ -4395,7 +4413,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4405,7 +4423,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 1374;
@@ -4455,7 +4473,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4465,7 +4483,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 1374;
@@ -4495,7 +4513,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4505,7 +4523,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4515,7 +4533,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4525,7 +4543,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4555,7 +4573,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4565,7 +4583,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4575,7 +4593,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -4605,7 +4623,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4615,7 +4633,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -4645,7 +4663,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4655,7 +4673,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4665,7 +4683,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4675,7 +4693,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4685,7 +4703,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -4695,7 +4713,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -4745,7 +4763,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -4775,7 +4793,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1350;
@@ -4785,7 +4803,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -4815,7 +4833,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4925;
+		rLoc = 4926;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 2847;
@@ -4835,7 +4853,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -4845,7 +4863,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -4865,7 +4883,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4925;
+		rLoc = 4926;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 2847;
@@ -4875,7 +4893,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4718;
+		rLoc = 4719;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 2620;
@@ -4895,7 +4913,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -4905,7 +4923,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -4945,7 +4963,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 125";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4438;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 3139;
@@ -4955,7 +4973,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 4925;
+		rLoc = 4926;
 		rType = 0;
 		vrLen = 799;
 		vrLoc = 3136;
@@ -4975,7 +4993,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -4985,7 +5003,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -4995,7 +5013,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 4740;
+		rLoc = 4741;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 3171;
@@ -5015,7 +5033,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1300;
@@ -5025,7 +5043,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 126";
 		rLen = 0;
-		rLoc = 4599;
+		rLoc = 4600;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 3136;
@@ -5045,7 +5063,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -5055,7 +5073,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -5065,7 +5083,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5075,7 +5093,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5085,7 +5103,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5095,7 +5113,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5105,7 +5123,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5115,7 +5133,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5125,7 +5143,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5135,7 +5153,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5145,7 +5163,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5155,7 +5173,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5175,7 +5193,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 4710;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 3420;
@@ -5215,7 +5233,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -5225,7 +5243,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5245,7 +5263,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 128";
 		rLen = 0;
-		rLoc = 4710;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 3420;
@@ -5255,7 +5273,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4710;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 3372;
@@ -5275,7 +5293,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5285,7 +5303,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5295,7 +5313,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5305,7 +5323,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4710;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 3477;
@@ -5375,7 +5393,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5385,7 +5403,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5415,7 +5433,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5425,7 +5443,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5455,7 +5473,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1275;
@@ -5465,7 +5483,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 1221;
@@ -5485,7 +5503,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4710;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 3477;
@@ -5495,7 +5513,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 4676;
+		rLoc = 4677;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 3477;
@@ -5515,7 +5533,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 1221;
@@ -5525,7 +5543,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 4676;
+		rLoc = 4677;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 2498;
@@ -5565,7 +5583,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 1221;
@@ -5575,7 +5593,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 1221;
@@ -5605,7 +5623,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 1221;
@@ -5625,7 +5643,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 4676;
+		rLoc = 4677;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 3468;
@@ -5635,7 +5653,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 127";
 		rLen = 0;
-		rLoc = 4676;
+		rLoc = 4677;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 3468;
@@ -5655,7 +5673,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1275;
@@ -5665,7 +5683,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 4712;
+		rLoc = 4713;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 3471;
@@ -5685,7 +5703,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 4712;
+		rLoc = 4713;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 3471;
@@ -5705,7 +5723,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5715,7 +5733,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5725,7 +5743,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5735,7 +5753,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 4712;
+		rLoc = 4713;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 3471;
@@ -5775,7 +5793,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5785,7 +5803,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5795,7 +5813,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5825,7 +5843,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5835,7 +5853,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5845,7 +5863,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5855,7 +5873,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5865,7 +5883,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5895,7 +5913,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5905,7 +5923,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5935,7 +5953,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5945,7 +5963,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -5975,7 +5993,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5985,7 +6003,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 1274;
@@ -5995,7 +6013,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6005,7 +6023,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -6025,7 +6043,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 132";
 		rLen = 0;
-		rLoc = 4712;
+		rLoc = 4713;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 3471;
@@ -6035,7 +6053,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 142";
 		rLen = 0;
-		rLoc = 4880;
+		rLoc = 4881;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 3488;
@@ -6055,7 +6073,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6065,7 +6083,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 1274;
@@ -6075,7 +6093,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4622;
+		rLoc = 4623;
 		rType = 0;
 		vrLen = 571;
 		vrLoc = 3488;
@@ -6095,7 +6113,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1300;
@@ -6105,7 +6123,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 131";
 		rLen = 0;
-		rLoc = 4709;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 3591;
@@ -6125,7 +6143,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6135,7 +6153,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -6145,7 +6163,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4611;
+		rLoc = 4612;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 3488;
@@ -6165,7 +6183,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6175,7 +6193,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6185,7 +6203,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6195,7 +6213,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6205,7 +6223,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6215,7 +6233,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -6225,7 +6243,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -6235,7 +6253,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4662;
+		rLoc = 4663;
 		rType = 0;
 		vrLen = 598;
 		vrLoc = 3471;
@@ -6255,7 +6273,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6265,7 +6283,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -6275,7 +6293,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 142";
 		rLen = 0;
-		rLoc = 4837;
+		rLoc = 4838;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 3471;
@@ -6295,7 +6313,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6305,7 +6323,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -6315,7 +6333,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 143";
 		rLen = 0;
-		rLoc = 4877;
+		rLoc = 4878;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 3471;
@@ -6335,7 +6353,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6345,7 +6363,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1300;
@@ -6355,7 +6373,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 129";
 		rLen = 0;
-		rLoc = 4622;
+		rLoc = 4623;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 3372;
@@ -6375,7 +6393,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6385,7 +6403,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1300;
@@ -6395,7 +6413,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 1372;
@@ -6405,7 +6423,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4677;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 3477;
@@ -6425,7 +6443,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4677;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 558;
 		vrLoc = 3488;
@@ -6435,7 +6453,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4677;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 3488;
@@ -6455,7 +6473,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 1372;
@@ -6465,7 +6483,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1300;
@@ -6475,7 +6493,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -6485,7 +6503,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -6495,7 +6513,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -6505,7 +6523,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4662;
+		rLoc = 4663;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 3488;
@@ -6525,7 +6543,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -6535,7 +6553,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6545,7 +6563,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 143";
 		rLen = 0;
-		rLoc = 4800;
+		rLoc = 4801;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 3505;
@@ -6555,7 +6573,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -6565,7 +6583,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6575,7 +6593,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 130";
 		rLen = 0;
-		rLoc = 4544;
+		rLoc = 4545;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 3505;
@@ -6605,7 +6623,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -6615,7 +6633,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6655,7 +6673,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -6665,7 +6683,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -6675,7 +6693,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6695,7 +6713,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1350;
@@ -6705,7 +6723,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1350;
@@ -6715,7 +6733,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1275;
@@ -6725,7 +6743,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 1323;
@@ -6735,7 +6753,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 1323;
@@ -6745,7 +6763,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 1323;
@@ -6795,7 +6813,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 144";
 		rLen = 0;
-		rLoc = 4363;
+		rLoc = 4364;
 		rType = 0;
 		vrLen = 522;
 		vrLoc = 3643;
@@ -6805,7 +6823,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 144";
 		rLen = 0;
-		rLoc = 4363;
+		rLoc = 4364;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 3748;
@@ -6815,7 +6833,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -6825,7 +6843,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 144";
 		rLen = 0;
-		rLoc = 4319;
+		rLoc = 4320;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 3759;
@@ -6835,7 +6853,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -6845,7 +6863,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6865,7 +6883,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 133";
 		rLen = 0;
-		rLoc = 4065;
+		rLoc = 4066;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 3174;
@@ -6875,7 +6893,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 133";
 		rLen = 0;
-		rLoc = 4065;
+		rLoc = 4066;
 		rType = 0;
 		vrLen = 806;
 		vrLoc = 3742;
@@ -6885,7 +6903,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 133";
 		rLen = 0;
-		rLoc = 4065;
+		rLoc = 4066;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 3748;
@@ -6925,7 +6943,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -6935,7 +6953,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6955,7 +6973,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -6965,7 +6983,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -6985,7 +7003,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 133";
 		rLen = 0;
-		rLoc = 4065;
+		rLoc = 4066;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 3748;
@@ -6995,7 +7013,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 119";
 		rLen = 0;
-		rLoc = 3837;
+		rLoc = 3838;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 2316;
@@ -7005,7 +7023,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 1325;
@@ -7015,7 +7033,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 119";
 		rLen = 0;
-		rLoc = 3837;
+		rLoc = 3838;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 2367;
@@ -7025,7 +7043,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -7035,7 +7053,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7045,7 +7063,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 114";
 		rLen = 0;
-		rLoc = 3472;
+		rLoc = 3473;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 2620;
@@ -7055,7 +7073,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -7065,7 +7083,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7075,7 +7093,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 117";
 		rLen = 0;
-		rLoc = 3629;
+		rLoc = 3630;
 		rType = 0;
 		vrLen = 1445;
 		vrLoc = 2498;
@@ -7085,7 +7103,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7095,7 +7113,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7105,7 +7123,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7115,7 +7133,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7125,7 +7143,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7135,7 +7153,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7155,7 +7173,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 177";
 		rLen = 27;
-		rLoc = 4814;
+		rLoc = 4815;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 4371;
@@ -7185,7 +7203,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7195,7 +7213,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7205,7 +7223,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7215,7 +7233,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7235,7 +7253,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7245,7 +7263,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7265,7 +7283,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7275,7 +7293,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7295,7 +7313,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7305,7 +7323,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 137";
 		rLen = 0;
-		rLoc = 3956;
+		rLoc = 3957;
 		rType = 0;
 		vrLen = 892;
 		vrLoc = 3477;
@@ -7343,8 +7361,8 @@
 	8EDDB9E512C0B6A700614759 /* triosDefines.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {914, 530}}";
-			sepNavSelRange = "{700, 28}";
-			sepNavVisRange = "{0, 747}";
+			sepNavSelRange = "{747, 0}";
+			sepNavVisRange = "{0, 757}";
 		};
 	};
 	8EDDB9E612C0B70100614759 /* triosIncludes.h */ = {
@@ -7359,7 +7377,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7369,7 +7387,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7379,7 +7397,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7389,7 +7407,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7399,7 +7417,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7409,7 +7427,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7419,7 +7437,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7429,7 +7447,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7549,7 +7567,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7559,7 +7577,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7619,7 +7637,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7629,7 +7647,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7639,7 +7657,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7649,7 +7667,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7659,7 +7677,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7699,7 +7717,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7709,7 +7727,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7729,7 +7747,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7739,7 +7757,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7749,7 +7767,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7759,7 +7777,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7789,7 +7807,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7799,7 +7817,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7839,7 +7857,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7849,7 +7867,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7889,7 +7907,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7899,7 +7917,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7919,7 +7937,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7929,7 +7947,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7949,7 +7967,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7959,7 +7977,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 666;
 		vrLoc = 1374;
@@ -7979,7 +7997,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7989,7 +8007,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -7999,7 +8017,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 1374;
@@ -8009,7 +8027,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -8019,7 +8037,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1350;
@@ -8029,7 +8047,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 1374;
@@ -8119,7 +8137,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 169";
 		rLen = 2;
-		rLoc = 4687;
+		rLoc = 4688;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 4156;
@@ -8129,7 +8147,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 169";
 		rLen = 0;
-		rLoc = 4708;
+		rLoc = 4709;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 4408;
@@ -8139,7 +8157,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 69";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 1374;
@@ -8149,7 +8167,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 169";
 		rLen = 0;
-		rLoc = 4708;
+		rLoc = 4709;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 4408;
@@ -8179,7 +8197,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 1325;
@@ -8189,7 +8207,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8219,7 +8237,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 104";
 		rLen = 0;
-		rLoc = 3133;
+		rLoc = 3134;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 2362;
@@ -8249,7 +8267,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8269,7 +8287,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 104";
 		rLen = 0;
-		rLoc = 3133;
+		rLoc = 3134;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 1021;
@@ -8309,7 +8327,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8319,7 +8337,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8329,7 +8347,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8339,7 +8357,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8349,7 +8367,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8409,7 +8427,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8419,7 +8437,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8429,7 +8447,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8439,7 +8457,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8449,7 +8467,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8489,7 +8507,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8519,7 +8537,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8529,7 +8547,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8539,7 +8557,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8549,7 +8567,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8619,7 +8637,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8639,7 +8657,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8669,7 +8687,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8679,7 +8697,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 104";
 		rLen = 0;
-		rLoc = 3133;
+		rLoc = 3134;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 860;
@@ -8706,7 +8724,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8716,7 +8734,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8726,7 +8744,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8756,7 +8774,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8766,7 +8784,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8776,7 +8794,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8786,7 +8804,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8806,7 +8824,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8816,7 +8834,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8826,7 +8844,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8846,7 +8864,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8856,7 +8874,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8876,7 +8894,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1380;
@@ -8886,7 +8904,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8906,7 +8924,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 67";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1615;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1380;
@@ -8920,6 +8938,186 @@
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 866;
+	};
+	8EDDBB5012C0E38600614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1380;
+	};
+	8EDDBB5112C0E38700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iLightsViewController.h */;
+		name = "iLightsViewController.h: 28";
+		rLen = 0;
+		rLoc = 539;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	8EDDBB5212C0E38700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 61";
+		rLen = 0;
+		rLoc = 1567;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 1116;
+	};
+	8EDDBB5312C0E38700614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 53";
+		rLen = 0;
+		rLoc = 1397;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 1117;
+	};
+	8EDDBB5812C0E86100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1380;
+	};
+	8EDDBB5B12C0E8B100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 53";
+		rLen = 0;
+		rLoc = 1397;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 7294;
+	};
+	8EDDBB5C12C0E8B100614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 53";
+		rLen = 0;
+		rLoc = 1397;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 7294;
+	};
+	8EDDBB6112C0E8BA00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1380;
+	};
+	8EDDBB6212C0E8BA00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 53";
+		rLen = 0;
+		rLoc = 1397;
+		rType = 0;
+		vrLen = 1116;
+		vrLoc = 7394;
+	};
+	8EDDBB6412C0E94B00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 53";
+		rLen = 0;
+		rLoc = 1397;
+		rType = 0;
+		vrLen = 1116;
+		vrLoc = 7394;
+	};
+	8EDDBB6712C0EA3300614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1325;
+	};
+	8EDDBB6A12C0EA3900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 1335;
+	};
+	8EDDBB6B12C0EA3900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 287";
+		rLen = 0;
+		rLoc = 7886;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 3981;
+	};
+	8EDDBB6C12C0EA3900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 45";
+		rLen = 0;
+		rLoc = 962;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 358;
+	};
+	8EDDBB6D12C0EA3900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDB9E512C0B6A700614759 /* triosDefines.h */;
+		name = "triosDefines.h: 38";
+		rLen = 28;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	8EDDBB6E12C0EA3900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDB9E512C0B6A700614759 /* triosDefines.h */;
+		name = "triosDefines.h: 38";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
+	};
+	8EDDBB7612C0EA6900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1615;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 1335;
+	};
+	8EDDBB7712C0EA6900614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDB9E512C0B6A700614759 /* triosDefines.h */;
+		name = "triosDefines.h: 38";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
 	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {
@@ -8946,9 +9144,9 @@
 	};
 	E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 3497}}";
-			sepNavSelRange = "{1614, 0}";
-			sepNavVisRange = "{1380, 791}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3484}}";
+			sepNavSelRange = "{1615, 0}";
+			sepNavVisRange = "{1335, 701}";
 			sepNavWindowFrame = "{{150, 81}, {875, 650}}";
 		};
 	};

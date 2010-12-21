@@ -39,7 +39,7 @@
 	[coder encodeInteger: _minimum forKey: @"_minimum"];
 	[coder encodeInteger: _value forKey: @"_value"];
 	[coder encodeInteger: _index forKey: @"_index"];
-	[coder encodeInteger: _theTag forKey:@"_tag"];
+	[coder encodeInteger: self.tag forKey:@"_tag"];
 	
 	[coder encodeObject:(id)_name forKey: @"_name"];
 }
