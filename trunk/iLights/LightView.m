@@ -37,7 +37,20 @@
 		[view setUserInteractionEnabled:YES];
 	}
 	
-	[[self.superview viewWithTag:50]removeFromSuperview];
+	[UIView 
+	 animateWithDuration:1
+	 delay:0
+	 options:UIViewAnimationCurveEaseInOut
+	 animations:^{
+		 self.center = CGPointMake(-250, 368);
+		 self.alpha = 0.2;
+		 
+	 }
+	 completion:^(BOOL finished){
+		 [[self.superview viewWithTag:50]removeFromSuperview];
+	 }];
+	
+	
 }
 
 
