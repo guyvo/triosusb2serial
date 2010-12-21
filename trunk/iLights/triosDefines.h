@@ -7,6 +7,10 @@
  *
  */
 
+
+// tekst related
+#define FONT_SIZE 13
+
 // raster view 
 #define RASTER_SIZE		136
 #define RASTER_ROWS		5
@@ -29,3 +33,6 @@
 
 // view tags ids
 #define VIEW_TAG_LIGHT_DETAIL		50
+
+// strings
+#define FILE_NAME_ARCHIVE_INDICATORS	@"lights.archive"

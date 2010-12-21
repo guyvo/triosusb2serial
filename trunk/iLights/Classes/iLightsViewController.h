@@ -24,5 +24,7 @@
 	
 }
 
+-(void) saveIndicatorsToFile:(NSString*) fileName;
+
 @end
 

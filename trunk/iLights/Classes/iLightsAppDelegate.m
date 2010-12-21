@@ -48,7 +48,17 @@
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
      */
+	
+	// persist latest positions when end app
+	[viewController saveIndicatorsToFile:FILE_NAME_ARCHIVE_INDICATORS];
 }
+
+- (void) applicationDidEnterBackground:(UIApplication *)application{
+
+	// persist latest positions when go to background
+	[viewController saveIndicatorsToFile:FILE_NAME_ARCHIVE_INDICATORS];
+}
+
 
 
 #pragma mark -
