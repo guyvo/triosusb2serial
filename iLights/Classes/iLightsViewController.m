@@ -224,11 +224,10 @@
 	TriosSetEthernet("192.168.1.24", 6969);
 	TriosInitBuffer();
 	
-	[iLightsTriosWrapper TriosSendGetBuffer];
-	
-	
 	[self makeArrayWithIndicatorViews];
-	[self makeArrayWithUtilityViews];	
+	[self makeArrayWithUtilityViews];
+	
+	[iLightsTriosWrapper TriosSendGetBuffer];
 	
 }
 

@@ -36,3 +36,4 @@
 
 // strings
 #define FILE_NAME_ARCHIVE_INDICATORS	@"lightsindicators.archive"
+#define NOTIFICATION_UPDATE				@"updateViews"

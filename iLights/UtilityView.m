@@ -21,8 +21,42 @@
 		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
+		UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
+													initWithTarget:self action:@selector(handleSingleDoubleTap:)];
+		UITapGestureRecognizer *singleFingerSTap = [[UITapGestureRecognizer alloc]
+													initWithTarget:self action:@selector(handleSingleTap:)];
+		
+		singleFingerDTap.numberOfTapsRequired = 2;
+		singleFingerSTap.numberOfTapsRequired = 1;
+		
+		[singleFingerSTap requireGestureRecognizerToFail:singleFingerDTap];
+		
+		[singleFingerSTap setDelaysTouchesBegan:YES];
+		[singleFingerDTap setDelaysTouchesBegan:YES];
+		
+		
+		[self addGestureRecognizer:singleFingerSTap];
+		[self addGestureRecognizer:singleFingerDTap];
+		
+		
+		[singleFingerSTap release];
+		[singleFingerDTap release];
+		
+		return self;
+		
     }
     return self;
+}
+
+- (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
+	
+	//[iLightsTriosWrapper TriosSendPostBuffer];
+	[iLightsTriosWrapper TriosSendGetBuffer ];
+}
+
+
+- (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
+
 }
 
 /*

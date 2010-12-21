@@ -125,6 +125,13 @@
 		[singleFingerSTap release];
 		[singleFingerDTap release];
 		
+		NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+		
+		[notificationCenter addObserver: self
+							   selector: @selector (updateView:)
+								   name: NOTIFICATION_UPDATE
+								 object: nil];
+
 		return self;
 		
     }
@@ -134,22 +141,30 @@
 	}
 }
 
+- (void) updateView:(id) notification{
+	
+	self._value = gTriosLights[self._index].lights.value;
+	[self setNeedsDisplay];
+	
+}
+
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
 	if ( self._value == 0 ){
-		self._value = 100;
+		//self._value = 100;
 		gTriosLights[self._index].lights.value = 100;
 	}
 	else if ( self._value == 100 ){
-		self._value = 0;
+		//self._value = 0;
 		gTriosLights[self._index].lights.value = 0;
 	}
 	else {
-		self._value = 0;
+		//self._value = 0;
 		gTriosLights[self._index].lights.value = 0;
 	}
 	
-	[self setNeedsDisplay];
+	//[self setNeedsDisplay];
 	[iLightsTriosWrapper TriosSendPostBuffer];
+	[iLightsTriosWrapper TriosSendGetBuffer];
 	
 }
 

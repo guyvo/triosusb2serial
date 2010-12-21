@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "triosIncludes.h"
 
+@class iLightsTriosWrapper;
+
 // Subclassed UIView overwrites drawRect
 @interface LightIndicatorView : UIView <NSCoding> {
 	
