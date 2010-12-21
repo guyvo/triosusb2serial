@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 4719}}";
-			sepNavSelRange = "{5484, 0}";
-			sepNavVisRange = "{4978, 1000}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 4836}}";
+			sepNavSelRange = "{5135, 0}";
+			sepNavVisRange = "{866, 1091}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
@@ -923,6 +923,11 @@
 			8EDDBB3012C0DB7300614759 /* PBXTextBookmark */ = 8EDDBB3012C0DB7300614759 /* PBXTextBookmark */;
 			8EDDBB3312C0DB7700614759 /* PBXTextBookmark */ = 8EDDBB3312C0DB7700614759 /* PBXTextBookmark */;
 			8EDDBB3412C0DB7700614759 /* PBXTextBookmark */ = 8EDDBB3412C0DB7700614759 /* PBXTextBookmark */;
+			8EDDBB3C12C0DE3400614759 /* PBXTextBookmark */ = 8EDDBB3C12C0DE3400614759 /* PBXTextBookmark */;
+			8EDDBB3F12C0DEEE00614759 /* PBXTextBookmark */ = 8EDDBB3F12C0DEEE00614759 /* PBXTextBookmark */;
+			8EDDBB4012C0DEEF00614759 /* PBXTextBookmark */ = 8EDDBB4012C0DEEF00614759 /* PBXTextBookmark */;
+			8EDDBB4412C0DF3400614759 /* PBXTextBookmark */ = 8EDDBB4412C0DF3400614759 /* PBXTextBookmark */;
+			8EDDBB4512C0DF3400614759 /* PBXTextBookmark */ = 8EDDBB4512C0DF3400614759 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EDDAC3712A18C6D00614759 /* Source Control */;
 		userBuildSettings = {
@@ -2304,7 +2309,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 142";
 		rLen = 0;
-		rLoc = 7494;
+		rLoc = 7516;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 1740;
@@ -2374,7 +2379,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 142";
 		rLen = 0;
-		rLoc = 7494;
+		rLoc = 7516;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 1740;
@@ -2624,7 +2629,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 184";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2634,7 +2639,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2644,7 +2649,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1827;
@@ -2654,7 +2659,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2694,7 +2699,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 146";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 3702;
@@ -2714,7 +2719,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2724,7 +2729,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 187";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2734,7 +2739,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 188";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1745;
@@ -2744,7 +2749,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 189";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1827;
@@ -2754,7 +2759,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1798;
@@ -2774,7 +2779,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 146";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 3702;
@@ -2784,7 +2789,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 148";
 		rLen = 0;
-		rLoc = 7265;
+		rLoc = 7287;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 3617;
@@ -2804,7 +2809,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -2814,7 +2819,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2824,7 +2829,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 3770;
@@ -2844,7 +2849,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2854,7 +2859,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2874,7 +2879,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2884,7 +2889,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2904,7 +2909,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2914,7 +2919,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2934,7 +2939,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2944,7 +2949,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -2954,7 +2959,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2974,7 +2979,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3658;
@@ -2994,7 +2999,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 3582;
@@ -3014,7 +3019,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3024,7 +3029,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 3582;
@@ -3044,7 +3049,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3054,7 +3059,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 3702;
@@ -3064,7 +3069,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 147";
 		rLen = 0;
-		rLoc = 7262;
+		rLoc = 7284;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 3702;
@@ -3084,7 +3089,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3094,7 +3099,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3104,7 +3109,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 128";
 		rLen = 0;
-		rLoc = 6410;
+		rLoc = 6432;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 3697;
@@ -3124,7 +3129,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3134,7 +3139,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3144,7 +3149,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 135";
 		rLen = 0;
-		rLoc = 6857;
+		rLoc = 6879;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 3890;
@@ -3164,7 +3169,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 197";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3174,7 +3179,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 197";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -3184,7 +3189,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1798;
@@ -3194,7 +3199,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3204,7 +3209,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 165";
 		rLen = 0;
-		rLoc = 8122;
+		rLoc = 8144;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 4194;
@@ -3224,7 +3229,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1769;
@@ -3234,7 +3239,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 4157;
@@ -3244,7 +3249,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3264,7 +3269,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3274,7 +3279,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3294,7 +3299,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3304,7 +3309,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3314,7 +3319,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 4157;
@@ -3334,7 +3339,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1745;
@@ -3344,7 +3349,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 4092;
@@ -3354,7 +3359,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 167";
 		rLen = 0;
-		rLoc = 8472;
+		rLoc = 8494;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 4092;
@@ -3374,7 +3379,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 195";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1798;
@@ -3384,7 +3389,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 155";
 		rLen = 0;
-		rLoc = 7391;
+		rLoc = 7413;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 4159;
@@ -3404,7 +3409,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 198";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3414,7 +3419,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 199";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1769;
@@ -3424,7 +3429,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 201";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1711;
@@ -3434,7 +3439,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1682;
@@ -3444,7 +3449,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 1721;
@@ -3454,7 +3459,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 174";
 		rLen = 0;
-		rLoc = 8482;
+		rLoc = 8504;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 4191;
@@ -3474,7 +3479,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 1721;
@@ -3484,7 +3489,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 202";
 		rLen = 0;
-		rLoc = 9946;
+		rLoc = 9968;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 1645;
@@ -3730,7 +3735,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 169";
 		rLen = 0;
-		rLoc = 7847;
+		rLoc = 7869;
 		rType = 0;
 		vrLen = 802;
 		vrLoc = 4329;
@@ -3760,7 +3765,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 168";
 		rLen = 0;
-		rLoc = 7847;
+		rLoc = 7869;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 4374;
@@ -3810,7 +3815,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 185";
 		rLen = 0;
-		rLoc = 8414;
+		rLoc = 8436;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 4562;
@@ -3850,7 +3855,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 186";
 		rLen = 0;
-		rLoc = 8361;
+		rLoc = 8383;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 4767;
@@ -4430,7 +4435,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 214";
 		rLen = 0;
-		rLoc = 8466;
+		rLoc = 8488;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 5039;
@@ -4470,7 +4475,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 7906;
+		rLoc = 7928;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 5039;
@@ -4580,7 +4585,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 100";
 		rLen = 0;
-		rLoc = 3522;
+		rLoc = 3523;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 2451;
@@ -4620,7 +4625,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 67";
 		rLen = 0;
-		rLoc = 2509;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 1385;
@@ -4700,7 +4705,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 9001;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 7431;
@@ -4800,7 +4805,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 9001;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 7431;
@@ -4850,7 +4855,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 9001;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 4720;
@@ -5740,7 +5745,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 252";
 		rLen = 0;
-		rLoc = 9001;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 877;
 		vrLoc = 5077;
@@ -5750,7 +5755,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 181";
 		rLen = 0;
-		rLoc = 6737;
+		rLoc = 6759;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 5012;
@@ -5800,7 +5805,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 181";
 		rLen = 0;
-		rLoc = 6734;
+		rLoc = 6756;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 5011;
@@ -5870,7 +5875,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 216";
 		rLen = 0;
-		rLoc = 7669;
+		rLoc = 7691;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 5878;
@@ -5910,7 +5915,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 247";
 		rLen = 0;
-		rLoc = 8482;
+		rLoc = 8504;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 6530;
@@ -5950,7 +5955,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 251";
 		rLen = 0;
-		rLoc = 8528;
+		rLoc = 8550;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 4078;
@@ -6010,7 +6015,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 223";
 		rLen = 222;
-		rLoc = 7847;
+		rLoc = 7869;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 6291;
@@ -6580,7 +6585,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 223";
 		rLen = 222;
-		rLoc = 7847;
+		rLoc = 7869;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 6291;
@@ -6590,7 +6595,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 237";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8275;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 6291;
@@ -6630,7 +6635,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 237";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8275;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 6467;
@@ -6640,7 +6645,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 247";
 		rLen = 0;
-		rLoc = 8429;
+		rLoc = 8451;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 6467;
@@ -6680,7 +6685,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 234";
 		rLen = 0;
-		rLoc = 8059;
+		rLoc = 8081;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 6219;
@@ -6750,7 +6755,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 240";
 		rLen = 0;
-		rLoc = 8335;
+		rLoc = 8357;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 7001;
@@ -6890,7 +6895,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 240";
 		rLen = 0;
-		rLoc = 8335;
+		rLoc = 8357;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 6467;
@@ -6900,7 +6905,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 240";
 		rLen = 0;
-		rLoc = 8335;
+		rLoc = 8357;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 6467;
@@ -6910,7 +6915,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 240";
 		rLen = 0;
-		rLoc = 8335;
+		rLoc = 8357;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 6467;
@@ -6940,7 +6945,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 260";
 		rLen = 0;
-		rLoc = 8640;
+		rLoc = 8662;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 6719;
@@ -6970,7 +6975,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 260";
 		rLen = 0;
-		rLoc = 8640;
+		rLoc = 8662;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 7093;
@@ -7140,7 +7145,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 248";
 		rLen = 0;
-		rLoc = 8477;
+		rLoc = 8499;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 5498;
@@ -7524,7 +7529,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2839;
+		rLoc = 2840;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 1339;
@@ -7534,7 +7539,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 64";
 		rLen = 0;
-		rLoc = 2378;
+		rLoc = 2379;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 1471;
@@ -7564,7 +7569,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 64";
 		rLen = 0;
-		rLoc = 2378;
+		rLoc = 2379;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 0;
@@ -7684,7 +7689,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 75";
 		rLen = 0;
-		rLoc = 2410;
+		rLoc = 2411;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 1341;
@@ -7714,7 +7719,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 77";
 		rLen = 0;
-		rLoc = 2410;
+		rLoc = 2411;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 1394;
@@ -7764,7 +7769,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 58";
 		rLen = 0;
-		rLoc = 2378;
+		rLoc = 2379;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 1471;
@@ -7774,7 +7779,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 58";
 		rLen = 0;
-		rLoc = 2378;
+		rLoc = 2379;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 1394;
@@ -7804,7 +7809,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 73";
 		rLen = 0;
-		rLoc = 2410;
+		rLoc = 2411;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 1394;
@@ -7864,7 +7869,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 73";
 		rLen = 0;
-		rLoc = 2410;
+		rLoc = 2411;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 1396;
@@ -7874,7 +7879,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 64";
 		rLen = 0;
-		rLoc = 1858;
+		rLoc = 1859;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 1471;
@@ -7904,7 +7909,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 58";
 		rLen = 0;
-		rLoc = 1654;
+		rLoc = 1655;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 1341;
@@ -7934,7 +7939,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 58";
 		rLen = 0;
-		rLoc = 1656;
+		rLoc = 1657;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 1396;
@@ -7964,7 +7969,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 77";
 		rLen = 0;
-		rLoc = 2336;
+		rLoc = 2337;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 1473;
@@ -8074,7 +8079,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 146";
 		rLen = 0;
-		rLoc = 4039;
+		rLoc = 4040;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 1083;
@@ -8164,7 +8169,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 119";
 		rLen = 0;
-		rLoc = 3384;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 2731;
@@ -8224,7 +8229,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 122";
 		rLen = 0;
-		rLoc = 3475;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 2733;
@@ -8234,7 +8239,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 315";
 		rLen = 0;
-		rLoc = 9486;
+		rLoc = 9508;
 		rType = 0;
 		vrLen = 878;
 		vrLoc = 8473;
@@ -8284,7 +8289,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 319";
 		rLen = 1;
-		rLoc = 9571;
+		rLoc = 9593;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 7950;
@@ -8294,7 +8299,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 319";
 		rLen = 1;
-		rLoc = 9571;
+		rLoc = 9593;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 7951;
@@ -8364,7 +8369,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 184";
 		rLen = 20;
-		rLoc = 5716;
+		rLoc = 5738;
 		rType = 0;
 		vrLen = 1515;
 		vrLoc = 3990;
@@ -8464,7 +8469,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 184";
 		rLen = 20;
-		rLoc = 5716;
+		rLoc = 5738;
 		rType = 0;
 		vrLen = 1514;
 		vrLoc = 3990;
@@ -8474,7 +8479,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 56";
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1474;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 1116;
@@ -8494,7 +8499,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 56";
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1474;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 4507;
@@ -8504,7 +8509,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 56";
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1474;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 4607;
@@ -8584,7 +8589,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1546;
+		rLoc = 1471;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 1117;
@@ -8594,7 +8599,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1536;
+		rLoc = 1461;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 1216;
@@ -8604,7 +8609,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1536;
+		rLoc = 1461;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 1216;
@@ -8624,7 +8629,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1536;
+		rLoc = 1461;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 1216;
@@ -8644,7 +8649,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1536;
+		rLoc = 1461;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 5723;
@@ -8654,7 +8659,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 55";
 		rLen = 0;
-		rLoc = 1536;
+		rLoc = 1461;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 5746;
@@ -8683,7 +8688,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		rLen = 0;
-		rLoc = 238;
+		rLoc = 240;
 		rType = 1;
 	};
 	8EDDBB0812C0D7C900614759 /* PBXTextBookmark */ = {
@@ -8691,7 +8696,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 227";
 		rLen = 0;
-		rLoc = 6493;
+		rLoc = 6515;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 5377;
@@ -8731,7 +8736,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 181";
 		rLen = 0;
-		rLoc = 5239;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 4517;
@@ -8741,7 +8746,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 181";
 		rLen = 0;
-		rLoc = 5239;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 4517;
@@ -8791,7 +8796,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 181";
 		rLen = 0;
-		rLoc = 5239;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 4520;
@@ -8831,7 +8836,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 193";
 		rLen = 0;
-		rLoc = 5437;
+		rLoc = 5459;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 4916;
@@ -8861,10 +8866,60 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
 		name = "iLightsViewController.m: 194";
 		rLen = 0;
-		rLoc = 5484;
+		rLoc = 5506;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 4978;
+	};
+	8EDDBB3C12C0DE3400614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1614;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 1380;
+	};
+	8EDDBB3F12C0DEEE00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1614;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1380;
+	};
+	8EDDBB4012C0DEEF00614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 181";
+		rLen = 0;
+		rLoc = 5135;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 767;
+	};
+	8EDDBB4412C0DF3400614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 67";
+		rLen = 0;
+		rLoc = 1614;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1380;
+	};
+	8EDDBB4512C0DF3400614759 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 181";
+		rLen = 0;
+		rLoc = 5135;
+		rType = 0;
+		vrLen = 1091;
+		vrLoc = 866;
 	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {

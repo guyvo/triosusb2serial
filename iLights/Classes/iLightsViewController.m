@@ -50,7 +50,6 @@
 	
 	[self calculateCenterPointsFromFrameSize:viewSize];
 	
-	_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 	
 	if ( [self loadIndicatorsFromFile:FILE_NAME_ARCHIVE_INDICATORS] != nil){
 		
@@ -58,6 +57,7 @@
 	}
 	else{
 		
+		_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 		
 		for ( int views=0 ; views < RASTER_COUNT ; views++ ){
 			
@@ -178,10 +178,12 @@
 
 -(id) loadIndicatorsFromFile:(NSString*) fileName{
 	
-	// retain array after loaded from archive
-	_indicatorViews = [[self unarchiveRootObject:fileName]retain];
+	_indicatorViews = [self unarchiveRootObject:fileName];
 	
 	if (_indicatorViews == nil ) return nil;
+	
+	// retain array after loaded from archive
+	[_indicatorViews retain];
 	
 	LightIndicatorView * indicator;
 	
