@@ -8,8 +8,6 @@
 
 #import "LightIndicatorView.h"
 
-// private defines
-#define FONT_SIZE 13
 
 // private method declarations
 @interface LightIndicatorView()

@@ -16,7 +16,7 @@
 -(void) makeArrayWithUtilityViews;
 -(void) archiveRootObject:(NSString *) fileName rootObject:(id)root ;
 -(id)   unarchiveRootObject:(NSString *) fileName;
--(void) loadIndicatorsFromFile:(NSString*) fileName;
+-(id)   loadIndicatorsFromFile:(NSString*) fileName;
 
 @end
 
@@ -52,56 +52,64 @@
 	
 	_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 	
-	for ( int views=0 ; views < RASTER_COUNT ; views++ ){
+	if ( [self loadIndicatorsFromFile:FILE_NAME_ARCHIVE_INDICATORS] != nil){
 		
-		@try {
-			if (views==24){
-				_lightIndicator = [[LightIndicatorView alloc] 
-								   initWithMinimum:0 
-								   andMaximum:100 
-								   andIndex:views
-								   andValue: 0
-								   andName:@"not implemented"
-								   andTag:views
-								   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+		
+	}
+	else{
+		
+		
+		for ( int views=0 ; views < RASTER_COUNT ; views++ ){
+			
+			@try {
+				if (views==24){
+					_lightIndicator = [[LightIndicatorView alloc] 
+									   initWithMinimum:0 
+									   andMaximum:100 
+									   andIndex:views
+									   andValue: 0
+									   andName:@"not implemented"
+									   andTag:views
+									   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+					
+				}
+				else{
+					_lightIndicator = [[LightIndicatorView alloc] 
+									   initWithMinimum:0 
+									   andMaximum:100 
+									   andIndex:views
+									   andValue: gTriosLights[views].lights.value
+									   andName:[NSString stringWithCString:gpCLightNames[views] encoding:NSUTF8StringEncoding]
+									   andTag:views
+									   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+				}
 				
 			}
-			else{
-				_lightIndicator = [[LightIndicatorView alloc] 
-								   initWithMinimum:0 
-								   andMaximum:100 
-								   andIndex:views
-								   andValue: gTriosLights[views].lights.value
-								   andName:[NSString stringWithCString:gpCLightNames[views] encoding:NSUTF8StringEncoding]
-								   andTag:views
-								   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
+			@catch(NSException *e){
+				
 			}
 			
-		}
-		@catch(NSException *e){
+			
+			_lightIndicator.alpha = 0;
+			
+			[self.view addSubview:_lightIndicator];
+			
+			[UIView 
+			 animateWithDuration:RASTER_ANIM_DURATION
+			 animations:^{
+				 _lightIndicator.center = centerPoints[views];
+				 _lightIndicator.alpha = 1;
+			 }
+			 completion:^(BOOL finished){
+			 }];
+			
+			// store them for later use in touches
+			[_indicatorViews addObject:_lightIndicator];
+			
+			// retained by superview
+			[_lightIndicator release];
 			
 		}
-		
-		
-		_lightIndicator.alpha = 0;
-		
-		[self.view addSubview:_lightIndicator];
-		
-		[UIView 
-		 animateWithDuration:RASTER_ANIM_DURATION
-		 animations:^{
-			 _lightIndicator.center = centerPoints[views];
-			 _lightIndicator.alpha = 1;
-		 }
-		 completion:^(BOOL finished){
-		 }];
-		
-		// store them for later use in touches
-		[_indicatorViews addObject:_lightIndicator];
-		
-		// retained by superview
-		[_lightIndicator release];
-		
 	}
 	
 	//[self archiveRootObject:@"/myview.archive" rootObject:_indicatorViews];
@@ -168,15 +176,38 @@
 
 /************************************************************************************************/
 
--(void) loadIndicatorsFromFile:(NSString*) fileName{
+-(id) loadIndicatorsFromFile:(NSString*) fileName{
 	
-	_indicatorViews = [self unarchiveRootObject:fileName];
+	// retain array after loaded from archive
+	_indicatorViews = [[self unarchiveRootObject:fileName]retain];
+	
+	if (_indicatorViews == nil ) return nil;
 	
 	LightIndicatorView * indicator;
 	
 	for (indicator in _indicatorViews) {
 		[self.view addSubview:indicator];
+		
+		indicator.alpha = 0.1;
+		
+		[UIView 
+		 animateWithDuration:RASTER_ANIM_DURATION * 3
+		 animations:^{
+			 indicator.alpha = 1;
+		 }
+		 completion:^(BOOL finished){
+		 }];
+		
 	}
+	
+	return _indicatorViews;
+}
+
+/************************************************************************************************/
+
+-(void) saveIndicatorsToFile:(NSString*) fileName{
+	// persist the raster first
+	[self archiveRootObject:fileName rootObject:_indicatorViews];
 }
 
 /************************************************************************************************/
@@ -311,7 +342,8 @@
 /************************************************************************************************/
 
 - (void)viewDidUnload {
-
+	
+	
 	// Release any retained subviews of the main view.
 	LightIndicatorView * indicator;
 	

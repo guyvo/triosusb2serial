@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "triosIncludes.h"
 
 @class iLightsViewController;
 
