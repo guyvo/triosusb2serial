@@ -10,6 +10,7 @@
 
 // tekst related
 #define FONT_SIZE 13
+#define FONT_SIZE_SLIDERS 25
 
 // raster view 
 #define RASTER_SIZE		136
@@ -33,6 +34,11 @@
 
 // view tags ids
 #define VIEW_TAG_LIGHT_DETAIL		50
+
+// sliders
+#define SLIDERS_LEFT_POS			100
+#define SLIDERS_SPACING				100
+#define SLIDERS_SCALE				2.2
 
 // strings
 #define FILE_NAME_ARCHIVE_INDICATORS	@"lightsindicators.archive"
