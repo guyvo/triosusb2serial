@@ -12,7 +12,12 @@
 @implementation LightView
 @synthesize 
 _textDesciption,
-_textValue;
+_textValue,
+_textMin,
+_textMax,
+_textStep
+;
+
 
 
 - (UISlider*) createSlider:(CGPoint)point{
@@ -24,7 +29,7 @@ _textValue;
 	sliderValue.minimumValue = 0.0;
 	sliderValue.maximumValue = 100.0;
 	sliderValue.continuous = YES;
-	sliderValue.value = 50.0;
+	//sliderValue.value = 50.0;
 	
 	UIImage* thumbImage = [UIImage imageNamed:@"raster.png"];
 	[sliderValue setThumbImage:thumbImage forState:UIControlStateNormal];
@@ -40,6 +45,12 @@ _textValue;
 	
 }
 
+- (id) initWithIndex:(NSInteger)index andFrame:(CGRect)frame{
+	_indexLight = index;
+	return [self initWithFrame:frame];
+	
+}
+
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
@@ -50,15 +61,19 @@ _textValue;
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
 		UISlider * sliderValue = [self createSlider:CGPointMake(SLIDERS_LEFT_POS, 250)];
+		sliderValue.value = gTriosLights[_indexLight].lights.value;
 		[sliderValue addTarget:(id)self action:@selector(handleSliderValue:) forControlEvents:UIControlEventValueChanged];
 
 		UISlider * sliderMin = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + SLIDERS_SPACING, 250)];
+		sliderMin.value = gTriosLights[_indexLight].lights.minimum;
 		[sliderMin addTarget:(id)self action:@selector(handleSliderMin:) forControlEvents:UIControlEventValueChanged];
 		
 		UISlider * sliderMax = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + 2*SLIDERS_SPACING, 250)];
+		sliderMax.value = gTriosLights[_indexLight].lights.maximum;
 		[sliderMax addTarget:(id)self action:@selector(handleSliderMax:) forControlEvents:UIControlEventValueChanged];
 		
 		UISlider * sliderStep = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + 3*SLIDERS_SPACING, 250)];
+		sliderStep.value = gTriosLights[_indexLight].lights.step;
 		[sliderStep addTarget:(id)self action:@selector(handleSliderStep:) forControlEvents:UIControlEventValueChanged];
 		
 		[self addSubview:sliderValue];
@@ -66,12 +81,14 @@ _textValue;
 		[self addSubview:sliderMax];
 		[self addSubview:sliderStep];
 		
+		
 		[sliderValue release];
 		[sliderMin release];
 		[sliderMax release];
 		[sliderStep release];
 		
-		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS-20, 450, 50 , 35)];
+		// label value
+		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS-25, 425, 50 , 35)];
 		_textDesciption.text = @"value";
 		_textDesciption.backgroundColor = [UIColor blackColor];
 		_textDesciption.textColor = [UIColor redColor];
@@ -82,8 +99,44 @@ _textValue;
 		
 		[self addSubview:_textDesciption];
 		
-		_textValue = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS-20, 20, 50 , 35)];
-		_textValue.text = @"100%";
+		// label Min
+		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + 1*SLIDERS_SPACING-25, 425, 50 , 35)];
+		_textDesciption.text = @"min";
+		_textDesciption.backgroundColor = [UIColor blackColor];
+		_textDesciption.textColor = [UIColor redColor];
+		_textDesciption.adjustsFontSizeToFitWidth = YES;
+		_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textDesciption.textAlignment =  UITextAlignmentCenter;
+		_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textDesciption];
+		
+		// label Max
+		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + 2*SLIDERS_SPACING-25, 425, 50 , 35)];
+		_textDesciption.text = @"max";
+		_textDesciption.backgroundColor = [UIColor blackColor];
+		_textDesciption.textColor = [UIColor redColor];
+		_textDesciption.adjustsFontSizeToFitWidth = YES;
+		_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textDesciption.textAlignment =  UITextAlignmentCenter;
+		_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textDesciption];
+		
+		// label Step
+		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + 3*SLIDERS_SPACING-25, 425, 50 , 35)];
+		_textDesciption.text = @"step";
+		_textDesciption.backgroundColor = [UIColor blackColor];
+		_textDesciption.textColor = [UIColor redColor];
+		_textDesciption.adjustsFontSizeToFitWidth = YES;
+		_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textDesciption.textAlignment =  UITextAlignmentCenter;
+		_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textDesciption];
+		
+		_textValue = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS-20, 40, 50 , 35)];
+		_textValue.text = [NSString stringWithFormat:@"%d%@",gTriosLights[_indexLight].lights.value,@"%"];
 		_textValue.backgroundColor = [UIColor blackColor];
 		_textValue.textColor = [UIColor redColor];
 		_textValue.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
@@ -93,6 +146,38 @@ _textValue;
 		
 		[self addSubview:_textValue];
 		
+		_textMin = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + SLIDERS_SPACING -20, 40, 50 , 35)];
+		_textMin.text = [NSString stringWithFormat:@"%d%@",gTriosLights[_indexLight].lights.minimum,@"%"];
+		_textMin.backgroundColor = [UIColor blackColor];
+		_textMin.textColor = [UIColor redColor];
+		_textMin.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textMin.adjustsFontSizeToFitWidth = YES;
+		_textMin.textAlignment =  UITextAlignmentCenter;
+		_textMin.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textMin];
+
+		_textMax = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + 2*SLIDERS_SPACING -20, 40, 50 , 35)];
+		_textMax.text =[NSString stringWithFormat:@"%d%@",gTriosLights[_indexLight].lights.maximum,@"%"];
+		_textMax.backgroundColor = [UIColor blackColor];
+		_textMax.textColor = [UIColor redColor];
+		_textMax.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textMax.adjustsFontSizeToFitWidth = YES;
+		_textMax.textAlignment =  UITextAlignmentCenter;
+		_textMax.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textMax];
+		
+		_textStep = [[UILabel alloc]initWithFrame:CGRectMake(SLIDERS_LEFT_POS + 3*SLIDERS_SPACING - 20, 40, 50 , 35)];
+		_textStep.text = [NSString stringWithFormat:@"%d%@",gTriosLights[_indexLight].lights.step,@"%"];
+		_textStep.backgroundColor = [UIColor blackColor];
+		_textStep.textColor = [UIColor redColor];
+		_textStep.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+		_textStep.adjustsFontSizeToFitWidth = YES;
+		_textStep.textAlignment =  UITextAlignmentCenter;
+		_textStep.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE_SLIDERS];
+		
+		[self addSubview:_textStep];
 		
 		UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc]
 													initWithTarget:self action:@selector(handleSwipeLeft:)];
@@ -104,18 +189,40 @@ _textValue;
 }
 
 - (IBAction)handleSliderValue:(id)sender{
-
+	UISlider * slider = sender;
+	
+	if ((int)[slider value] < gTriosLights[_indexLight].lights.minimum){
+		slider.value = 0;
+		
+	}
+	else if ((int)[slider value] > gTriosLights[_indexLight].lights.maximum){
+		slider.value = 100;
+	}
+	_textValue.text = [NSString stringWithFormat:@"%d%@",(int)[slider value],@"%"];
+	gTriosLights[_indexLight].lights.value = (ushort)[slider value];
+	
 }
 
 - (IBAction)handleSliderMin:(id)sender{
+	UISlider * slider = sender;
+	
+	_textMin.text = [NSString stringWithFormat:@"%d%@",(int)[slider value],@"%"];
+	gTriosLights[_indexLight].lights.minimum = (ushort)[slider value];
 	
 }
 
 - (IBAction)handleSliderMax:(id)sender{
+	UISlider * slider = sender;
 	
+	_textMax.text = [NSString stringWithFormat:@"%d%@",(int)[slider value],@"%"];
+	gTriosLights[_indexLight].lights.maximum = (ushort)[slider value];
 }
 
 - (IBAction)handleSliderStep:(id)sender{
+	UISlider * slider = sender;
+	
+	_textStep.text = [NSString stringWithFormat:@"%d%@",(int)[slider value],@"%"];
+	gTriosLights[_indexLight].lights.step = (ushort)[slider value];
 	
 }
 
@@ -131,11 +238,13 @@ _textValue;
 	 options:UIViewAnimationCurveEaseInOut
 	 animations:^{
 		 self.center = CGPointMake(-250, 368);
-		 self.alpha = 0.2;
+		 self.alpha = 0.1;
 		 
 	 }
 	 completion:^(BOOL finished){
 		 [[self.superview viewWithTag:VIEW_TAG_LIGHT_DETAIL]removeFromSuperview];
+		 [iLightsTriosWrapper TriosSendPostBuffer];
+		 [iLightsTriosWrapper TriosSendGetBuffer];
 	 }];
 	
 	
@@ -151,6 +260,9 @@ _textValue;
 */
 
 - (void)dealloc {
+	[_textMax release];
+	[_textMin release];
+	[_textStep release];
 	[_textValue release];
 	[_textDesciption release];
 
