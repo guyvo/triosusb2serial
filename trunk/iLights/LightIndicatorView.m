@@ -178,7 +178,7 @@
 	
 	v = [[LightView alloc] initWithFrame:CGRectMake(0, 0, 5 , 5)];
 	v.center = [sender locationInView:self.superview];
-	v.alpha = 0.7;
+	v.alpha = 0.8;
 	v.tag = VIEW_TAG_LIGHT_DETAIL;
 	
 	[self.superview addSubview:v];

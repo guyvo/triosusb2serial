@@ -10,7 +10,12 @@
 #import "triosIncludes.h"
 
 @interface LightView : UIView {
+	UILabel * _textDesciption;
+	UILabel * _textValue;
 
 }
+// properties not multithreade and retained after assign
+@property (nonatomic,retain) UILabel * _textDesciption;
+@property (nonatomic,retain) UILabel * _textValue;
 
 @end
