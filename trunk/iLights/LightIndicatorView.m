@@ -149,16 +149,32 @@
 }
 
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
+	
+	[self.superview bringSubviewToFront:self];
+	
+	[UIView 
+	 animateWithDuration:SCALE_ANIM_INDICATOR 
+	 animations:^{
+		 self.transform = CGAffineTransformMakeScale(1.5, 1.5);
+	 }
+	 completion:^(BOOL finished){
+		 [UIView 
+		  animateWithDuration:SCALE_ANIM_INDICATOR 
+		  animations:^{
+			  self.transform = CGAffineTransformMakeScale(1,1);
+		  }
+		  completion:^(BOOL finished){
+		  }];
+	 }];
+	
+	// _value is updated via the notification center
 	if ( self._value == 0 ){
-		//self._value = 100;
 		gTriosLights[self._index].lights.value = 100;
 	}
 	else if ( self._value == 100 ){
-		//self._value = 0;
 		gTriosLights[self._index].lights.value = 0;
 	}
 	else {
-		//self._value = 0;
 		gTriosLights[self._index].lights.value = 0;
 	}
 	
@@ -172,9 +188,14 @@
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
 	LightView * v;
 
+	[self.superview bringSubviewToFront:self];
+	
 	for( UIView * view in self.superview.subviews){
 		[view setUserInteractionEnabled:NO];
 	}
+
+	CGPoint tmp = [self center];
+	
 	
 	v = [[LightView alloc] initWithIndex:self._index andFrame:CGRectMake(0, 0, 5 , 5)];
 	v.center = [sender locationInView:self.superview];
@@ -188,10 +209,30 @@
 	 animations:^{
 		 
 		 v.frame = CGRectMake(0,0, 500 , 500);
-		 v.center= CGPointMake(512, 368);
-		
+		 v.center= CGPointMake(300 , 368);
+		 
 	 }
 	 completion:^(BOOL finished){
+		 [UIView 
+		  animateWithDuration:SCALE_ANIM_INDICATOR * 5
+		  delay:0
+		  options:UIViewAnimationOptionBeginFromCurrentState
+		  animations:^{
+			  self.transform = CGAffineTransformMakeScale(1.5, 1.5);
+			  self.center = CGPointMake(800, 368);
+		  }
+		  completion:^(BOOL finished){
+			  [UIView 
+			   animateWithDuration:SCALE_ANIM_INDICATOR * 5
+			   delay:5
+			   options:UIViewAnimationOptionCurveEaseInOut
+			   animations:^{
+				   self.transform = CGAffineTransformMakeScale(1.0, 1.0);
+				   self.center = tmp;
+			   }
+			   completion:^(BOOL finished){
+			   }];
+		  }];
 	 }];
 	
 	
