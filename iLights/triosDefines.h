@@ -27,6 +27,7 @@
 #define UTILITY_ANIM_DURATION		2
 #define SWAP_ANIM_DURATION			1
 #define SWIPE_ANIM_DURATION			1
+#define SCALE_ANIM_INDICATOR		0.3
 
 // view properties
 #define VIEW_CORNER_RADIUS			30
