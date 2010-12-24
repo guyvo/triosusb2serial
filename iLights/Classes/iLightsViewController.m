@@ -126,7 +126,7 @@
 		
 		_utililtyView = [[UtilityView alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
 		
-		_utililtyView.tag = views;
+		_utililtyView.tag = views + 24;
 		_utililtyView.alpha = 0;
 		
 		[self.view addSubview:_utililtyView];

@@ -216,7 +216,7 @@
 		 [UIView 
 		  animateWithDuration:SCALE_ANIM_INDICATOR * 5
 		  delay:0
-		  options:UIViewAnimationOptionBeginFromCurrentState
+		  options:UIViewAnimationOptionAllowUserInteraction
 		  animations:^{
 			  self.transform = CGAffineTransformMakeScale(1.5, 1.5);
 			  self.center = CGPointMake(800, 368);
@@ -225,7 +225,7 @@
 			  [UIView 
 			   animateWithDuration:SCALE_ANIM_INDICATOR * 5
 			   delay:5
-			   options:UIViewAnimationOptionCurveEaseInOut
+			   options:UIViewAnimationOptionAllowUserInteraction
 			   animations:^{
 				   self.transform = CGAffineTransformMakeScale(1.0, 1.0);
 				   self.center = tmp;
