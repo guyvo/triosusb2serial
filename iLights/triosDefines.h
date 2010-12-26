@@ -30,8 +30,8 @@
 #define SCALE_ANIM_INDICATOR		0.3
 
 // view properties
-#define VIEW_CORNER_RADIUS			30
-#define VIEW_BORDER_THIKNESS		2
+#define VIEW_CORNER_RADIUS			20
+#define VIEW_BORDER_THIKNESS		0.5
 
 // view tags ids
 #define VIEW_TAG_LIGHT_DETAIL		50
