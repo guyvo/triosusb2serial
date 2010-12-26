@@ -219,7 +219,7 @@
     [super viewDidLoad];
 	
 	self.view.layer.borderColor = [[UIColor whiteColor]CGColor];
-	self.view.layer.borderWidth = 2;
+	self.view.layer.borderWidth = VIEW_BORDER_THIKNESS;
 	
 	TriosSetEthernet("192.168.1.24", 6969);
 	TriosInitBuffer();
