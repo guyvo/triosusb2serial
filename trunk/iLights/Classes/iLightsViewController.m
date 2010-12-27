@@ -22,6 +22,14 @@
 
 @implementation iLightsViewController
 
+@synthesize
+_lightIndicator,
+_lightView,
+_utililtyView,
+_indicatorViews,
+_utilityViews
+;
+
 /************************************************************************************************/
 
 - (void) calculateCenterPointsFromFrameSize:(CGSize) size{
@@ -243,9 +251,16 @@
 		CGPoint point = [touch locationInView:self.view];
 		for (indicator in _indicatorViews){
 			if ( CGRectContainsPoint(indicator.frame,point) && ( indicator.isUserInteractionEnabled )){
-				_lightIndicator = indicator;
-				_lightIndicator.alpha = 0.5;
-				[self.view bringSubviewToFront:_lightIndicator];
+				if (indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
+					
+					_lightIndicator = indicator;
+					_lightIndicator.alpha = 0.5;
+					[self.view bringSubviewToFront:_lightIndicator];
+					
+				}
+				else{
+					NSLog(@"taps : %d",[touch tapCount]);
+				}
 			}
 			
 		}
@@ -354,6 +369,8 @@
 	
 	[_indicatorViews release];
 	
+	_indicatorViews = nil;
+	
 	UtilityView * utilityView;
 	
 	for (utilityView in _utilityViews ){
@@ -362,11 +379,19 @@
 	
 	[_utilityViews release];
 	
+	_utililtyView = nil;
+	
+	
 }
 
 /************************************************************************************************/
 
 - (void)dealloc {
+	[_lightIndicator release];
+	[_lightView release],
+	[_utililtyView release];
+	[_indicatorViews release];
+	[_utilityViews release];
     [super dealloc];
 }
 

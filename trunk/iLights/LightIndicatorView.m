@@ -19,13 +19,13 @@
 
 // setter/getter automation
 @synthesize 
-	_textDesciption,
-	_textValue,
-	_name,
-	_value,
-	_index,
-	_minimum,
-	_maximum
+_textDesciption,
+_textValue,
+_name,
+_value,
+_index,
+_minimum,
+_maximum
 ;
 
 
@@ -33,7 +33,7 @@
 -(void) encodeWithCoder: (NSCoder*) coder {
 	
 	[coder encodeCGRect:self.frame forKey:@"_frame"];
-
+	
 	[coder encodeInteger: 1 forKey: @"_version"];
 	[coder encodeInteger: _maximum forKey: @"_maximum"];
 	[coder encodeInteger: _minimum forKey: @"_minimum"];
@@ -81,58 +81,65 @@
 		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		self.tag = _theTag;
-				
-		_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
-		_textDesciption.text = _name;
-		_textDesciption.backgroundColor = [UIColor blackColor];
-		_textDesciption.textColor = [UIColor redColor];
-		_textDesciption.adjustsFontSizeToFitWidth = YES;
-		_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		_textDesciption.textAlignment =  UITextAlignmentCenter;
-		_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
 		
-		[self addSubview:_textDesciption];
+		if ( self.tag != VIEW_TAG_SAVE_LIGTHS ){
+			
+			_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
+			_textDesciption.text = _name;
+			_textDesciption.backgroundColor = [UIColor blackColor];
+			_textDesciption.textColor = [UIColor redColor];
+			_textDesciption.adjustsFontSizeToFitWidth = YES;
+			_textDesciption.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+			_textDesciption.textAlignment =  UITextAlignmentCenter;
+			_textDesciption.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
+			
+			[self addSubview:_textDesciption];
+			
+			_textValue = [[UILabel alloc]initWithFrame:CGRectMake((self.bounds.size.width - 35), 20, 30 , 15)];
+			_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
+			_textValue.backgroundColor = [UIColor blackColor];
+			_textValue.textColor = [UIColor redColor];
+			_textValue.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+			_textValue.adjustsFontSizeToFitWidth = YES;
+			_textValue.textAlignment =  UITextAlignmentCenter;
+			_textValue.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
+			
+			[self addSubview:_textValue];
+			
+			UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
+														initWithTarget:self action:@selector(handleSingleDoubleTap:)];
+			UITapGestureRecognizer *singleFingerSTap = [[UITapGestureRecognizer alloc]
+														initWithTarget:self action:@selector(handleSingleTap:)];
+			
+			singleFingerDTap.numberOfTapsRequired = 2;
+			singleFingerSTap.numberOfTapsRequired = 1;
+			
+			[singleFingerSTap requireGestureRecognizerToFail:singleFingerDTap];
+			
+			[singleFingerSTap setDelaysTouchesBegan:YES];
+			[singleFingerDTap setDelaysTouchesBegan:YES];
+			
+			
+			[self addGestureRecognizer:singleFingerSTap];
+			[self addGestureRecognizer:singleFingerDTap];
+			
+			
+			[singleFingerSTap release];
+			[singleFingerDTap release];
+			
+			NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+			
+			[notificationCenter addObserver: self
+								   selector: @selector (updateView:)
+									   name: NOTIFICATION_UPDATE
+									 object: nil];
+			
+			return self;
+		}
+		else{
 		
-		_textValue = [[UILabel alloc]initWithFrame:CGRectMake((self.bounds.size.width - 35), 20, 30 , 15)];
-		_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
-		_textValue.backgroundColor = [UIColor blackColor];
-		_textValue.textColor = [UIColor redColor];
-		_textValue.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		_textValue.adjustsFontSizeToFitWidth = YES;
-		_textValue.textAlignment =  UITextAlignmentCenter;
-		_textValue.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
-		
-		[self addSubview:_textValue];
-		
-		UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
-													initWithTarget:self action:@selector(handleSingleDoubleTap:)];
-		UITapGestureRecognizer *singleFingerSTap = [[UITapGestureRecognizer alloc]
-													initWithTarget:self action:@selector(handleSingleTap:)];
-		
-		singleFingerDTap.numberOfTapsRequired = 2;
-		singleFingerSTap.numberOfTapsRequired = 1;
-		
-		[singleFingerSTap requireGestureRecognizerToFail:singleFingerDTap];
-
-		[singleFingerSTap setDelaysTouchesBegan:YES];
-		[singleFingerDTap setDelaysTouchesBegan:YES];
-		
-		
-		[self addGestureRecognizer:singleFingerSTap];
-		[self addGestureRecognizer:singleFingerDTap];
-		
-		
-		[singleFingerSTap release];
-		[singleFingerDTap release];
-		
-		NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
-		
-		[notificationCenter addObserver: self
-							   selector: @selector (updateView:)
-								   name: NOTIFICATION_UPDATE
-								 object: nil];
-
-		return self;
+			return self;
+		}
 		
     }
 	else {
@@ -140,6 +147,7 @@
 		return nil;
 	}
 }
+
 
 - (void) updateView:(id) notification{
 	
@@ -151,6 +159,7 @@
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
 	
 	[self.superview bringSubviewToFront:self];
+	
 	
 	[UIView 
 	 animateWithDuration:SCALE_ANIM_INDICATOR 
@@ -187,13 +196,13 @@
 
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
 	LightView * v;
-
+	
 	[self.superview bringSubviewToFront:self];
 	
 	for( UIView * view in self.superview.subviews){
 		[view setUserInteractionEnabled:NO];
 	}
-
+	
 	CGPoint tmp = [self center];
 	
 	
@@ -265,56 +274,62 @@
 
 // overwrite parent class to change draw behaviour
 - (void)drawRect:(CGRect)rect {
-    
-	// create so release ref
-	CGGradientRef myGradient;
-	CGColorSpaceRef myColorSpace;
 	
-	// no create no release
-	CGContextRef context;
-
-	size_t locationCount;
+    if ( self.tag != VIEW_TAG_SAVE_LIGTHS ){
+		
+		// create so release ref
+		CGGradientRef myGradient;
+		CGColorSpaceRef myColorSpace;
+		
+		// no create no release
+		CGContextRef context;
+		
+		size_t locationCount;
+		
+		CGPoint startPoint;
+		CGPoint endPoint;
+		
+		CGFloat startRadius;
+		CGFloat endRadius;
+		
+		CGFloat locationList[2];
+		
+		CGFloat colorList[] = {
+			0.0, 0.1, 0.1, 0.95,
+			0.85, 0.85, 0.0, 1.0,
+		};
+		
+		context = UIGraphicsGetCurrentContext();
+		
+		locationCount = 2;
+		
+		locationList[0] = (100 - _value)/100.0;
+		locationList[1] = 1.0;
+		
+		myColorSpace	= CGColorSpaceCreateDeviceRGB();
+		myGradient		= CGGradientCreateWithColorComponents(myColorSpace, colorList, locationList, locationCount);
+		
+		startPoint.x	= 10;
+		startPoint.y	= 10;
+		
+		endPoint.x		= CGRectGetMaxX(self.bounds)/2;
+		endPoint.y		= CGRectGetMaxY(self.bounds)/2+5;
+		
+		startRadius		= 0;
+		endRadius		= CGRectGetMaxY(self.bounds)/2-20;
+		
+		CGContextDrawRadialGradient(context, myGradient, startPoint, startRadius, endPoint, endRadius, 0);
+		
+		CGGradientRelease(myGradient);
+		CGColorSpaceRelease(myColorSpace);
+		
+		//ensure that label is updated when refreshing
+		_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
+	}
+	else{
+		
+	}
 	
-	CGPoint startPoint;
-	CGPoint endPoint;
-
-	CGFloat startRadius;
-	CGFloat endRadius;
-
-	CGFloat locationList[2];
-
-	CGFloat colorList[] = {
-		0.0, 0.1, 0.1, 0.95,
-		0.85, 0.85, 0.0, 1.0,
-	};
-	
-	context = UIGraphicsGetCurrentContext();
-	
-	locationCount = 2;
-	
-	locationList[0] = (100 - _value)/100.0;
-	locationList[1] = 1.0;
-	
-	myColorSpace	= CGColorSpaceCreateDeviceRGB();
-	myGradient		= CGGradientCreateWithColorComponents(myColorSpace, colorList, locationList, locationCount);
-	
-	startPoint.x	= 10;
-	startPoint.y	= 10;
-	
-	endPoint.x		= CGRectGetMaxX(self.bounds)/2;
-	endPoint.y		= CGRectGetMaxY(self.bounds)/2+5;
-	
-	startRadius		= 0;
-	endRadius		= CGRectGetMaxY(self.bounds)/2-20;
-	
-	CGContextDrawRadialGradient(context, myGradient, startPoint, startRadius, endPoint, endRadius, 0);
-	
-	CGGradientRelease(myGradient);
-	CGColorSpaceRelease(myColorSpace);
-	
-	//ensure that label is updated when refreshing
-	_textValue.text = [NSString stringWithFormat:@"%d%@",_value,@"%"];
-
 }
 
 // release resources

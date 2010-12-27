@@ -27,6 +27,7 @@
 @property (nonatomic,retain) UILabel * _textMin;
 @property (nonatomic,retain) UILabel * _textMax;
 @property (nonatomic,retain) UILabel * _textStep;
+@property (nonatomic) NSInteger _indexLight;
 
 - (id) initWithIndex:(NSInteger)index andFrame:(CGRect)frame;
 

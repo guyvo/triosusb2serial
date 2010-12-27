@@ -15,10 +15,9 @@ _textDesciption,
 _textValue,
 _textMin,
 _textMax,
-_textStep
+_textStep,
+_indexLight
 ;
-
-
 
 - (UISlider*) createSlider:(CGPoint)point{
 	
@@ -29,7 +28,6 @@ _textStep
 	sliderValue.minimumValue = 0.0;
 	sliderValue.maximumValue = 100.0;
 	sliderValue.continuous = YES;
-	//sliderValue.value = 50.0;
 	
 	UIImage* thumbImage = [UIImage imageNamed:@"raster.png"];
 	[sliderValue setThumbImage:thumbImage forState:UIControlStateNormal];
@@ -81,7 +79,7 @@ _textStep
 		[self addSubview:sliderMax];
 		[self addSubview:sliderStep];
 		
-		
+		// retained by view
 		[sliderValue release];
 		[sliderMin release];
 		[sliderMax release];
@@ -183,6 +181,9 @@ _textStep
 													initWithTarget:self action:@selector(handleSwipeLeft:)];
 		swiper.direction = UISwipeGestureRecognizerDirectionLeft;
 		[self  addGestureRecognizer:swiper];
+		
+		// retained by view
+		[swiper release];
 
     }
     return self;
