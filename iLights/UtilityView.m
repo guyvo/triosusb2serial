@@ -38,7 +38,7 @@
 		[self addGestureRecognizer:singleFingerSTap];
 		[self addGestureRecognizer:singleFingerDTap];
 		
-		
+		// retained by view
 		[singleFingerSTap release];
 		[singleFingerDTap release];
 		

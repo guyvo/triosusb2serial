@@ -24,6 +24,14 @@
 	
 }
 
+// properties not multithreade and retained after assign
+@property (nonatomic,retain) LightIndicatorView * _lightIndicator;
+@property (nonatomic,retain) LightView * _lightView;
+@property (nonatomic,retain) UtilityView * _utililtyView;
+@property (nonatomic,retain) NSMutableArray * _indicatorViews;
+@property (nonatomic,retain) NSMutableArray * _utilityViews;
+
+
 -(void) saveIndicatorsToFile:(NSString*) fileName;
 
 @end
