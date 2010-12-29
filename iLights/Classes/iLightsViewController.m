@@ -8,6 +8,8 @@
 
 #import "iLightsViewController.h"
 
+static int staticPreset;
+
 // private help methods
 @interface iLightsViewController()
 
@@ -29,6 +31,22 @@ _utililtyView,
 _indicatorViews,
 _utilityViews
 ;
+
+/************************************************************************************************/
+
++(void) loadFromFileWithPresetNumber:(NSInteger) preset{
+	staticPreset = preset;
+	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_LOAD_PRESET  object: self]; 
+		
+}
+
+/************************************************************************************************/
+
++(void) savetoFileWithPresetNumber:(NSInteger) preset{
+	staticPreset = preset;
+	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_SAVE_PRESET  object: self]; 
+	
+}
 
 /************************************************************************************************/
 
@@ -76,7 +94,7 @@ _utilityViews
 									   andMaximum:100 
 									   andIndex:views
 									   andValue: 0
-									   andName:@"not implemented"
+									   andName:[NSString stringWithFormat:@"presets"]
 									   andTag:views
 									   andFrame:CGRectMake(512, 368, RASTER_SIZE, RASTER_SIZE )];
 					
@@ -120,8 +138,30 @@ _utilityViews
 		}
 	}
 	
-	//[self archiveRootObject:@"/myview.archive" rootObject:_indicatorViews];
+	notifyLoadPreset = [NSNotificationCenter defaultCenter];
+	
+	[notifyLoadPreset addObserver: self
+						 selector: @selector (handleLoadPreset:)
+							 name: NOTIFICATION_LOAD_PRESET
+						   object: nil];
+	
+	notifySavePreset = [NSNotificationCenter defaultCenter];
+	
+	[notifySavePreset addObserver: self
+						 selector: @selector (handleSavePreset:)
+							 name: NOTIFICATION_SAVE_PRESET
+						   object: nil];
 }
+
+- (void) handleLoadPreset:(id) notification{
+	[self loadIndicatorsFromFile:[NSString stringWithFormat:@"preset_%d",staticPreset]];
+
+}
+
+- (void) handleSavePreset:(id) notification{
+	[self saveIndicatorsToFile:[NSString stringWithFormat:@"preset_%d",staticPreset]];
+}
+
 
 /************************************************************************************************/
 // makeArrayWithIndicatorViews must be called first otherwise the result is unpredictable
@@ -185,15 +225,27 @@ _utilityViews
 /************************************************************************************************/
 
 -(id) loadIndicatorsFromFile:(NSString*) fileName{
+	LightIndicatorView * indicator;
+	
+	if ( _indicatorViews != nil){
+		for (indicator in _indicatorViews) {
+			[indicator removeFromSuperview];
+		}
+		
+		[_indicatorViews release];
+	}
+	NSLog(@"retain count views %d\n",[_indicatorViews retainCount]);
+
 	
 	_indicatorViews = [self unarchiveRootObject:fileName];
 	
+
 	if (_indicatorViews == nil ) return nil;
 	
 	// retain array after loaded from archive
 	[_indicatorViews retain];
 	
-	LightIndicatorView * indicator;
+	NSLog(@"retain count views %d\n",[_indicatorViews retainCount]);
 	
 	for (indicator in _indicatorViews) {
 		[self.view addSubview:indicator];
@@ -259,7 +311,6 @@ _utilityViews
 					
 				}
 				else{
-					NSLog(@"taps : %d",[touch tapCount]);
 				}
 			}
 			
@@ -290,7 +341,7 @@ _utilityViews
 	for (UITouch * touch in touches){
 		CGPoint point = [touch locationInView:self.view];
 		for (indicator in _indicatorViews){
-			if ( (indicator != _lightIndicator) && ( _lightIndicator != nil ) ){
+			if ( (indicator != _lightIndicator) && ( _lightIndicator != nil && (indicator.tag != VIEW_TAG_SAVE_LIGTHS )) ){
 				if ( CGRectContainsPoint(indicator.frame,point) && ( indicator.isUserInteractionEnabled ) ){
 					
 					indicator.alpha = 0.5;
@@ -387,6 +438,7 @@ _utilityViews
 /************************************************************************************************/
 
 - (void)dealloc {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];	
 	[_lightIndicator release];
 	[_lightView release],
 	[_utililtyView release];
