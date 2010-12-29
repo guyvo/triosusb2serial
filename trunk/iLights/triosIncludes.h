@@ -16,6 +16,7 @@
 #import "LightIndicatorView.h";
 #import "LightView.h"
 #import "iLightsTriosWrapper.h"
+//#import "iLightsViewController.h"
 
 #import <QuartzCore/QuartzCore.h>
 

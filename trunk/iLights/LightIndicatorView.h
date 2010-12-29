@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "triosIncludes.h"
 
-@class iLightsTriosWrapper;
+#import "triosIncludes.h"
 
 // Subclassed UIView overwrites drawRect
 @interface LightIndicatorView : UIView <NSCoding> {
@@ -26,6 +25,8 @@
 	
 	UILabel * _textDesciption;
 	UILabel * _textValue;
+	
+	NSNotificationCenter * notificationUpdateViews;
 	
 }
 

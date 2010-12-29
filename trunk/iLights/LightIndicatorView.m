@@ -8,6 +8,11 @@
 
 #import "LightIndicatorView.h"
 
+// must be imported in m obj file otherwise compile errors
+#import "iLightsViewController.h"
+
+// forward declarations for acces the static methods
+@class iLightsTriosWrapper,iLightsViewController;
 
 // private method declarations
 @interface LightIndicatorView()
@@ -82,6 +87,14 @@ _maximum
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		self.tag = _theTag;
 		
+		notificationUpdateViews = [NSNotificationCenter defaultCenter];
+		
+		[notificationUpdateViews addObserver: self
+									selector: @selector (updateView:)
+										name: NOTIFICATION_UPDATE
+									  object: nil];
+		
+		
 		if ( self.tag != VIEW_TAG_SAVE_LIGTHS ){
 			
 			_textDesciption = [[UILabel alloc]initWithFrame:CGRectMake(5, (self.bounds.size.height - 15.0), (self.bounds.size.width - 5.0), 15)];
@@ -127,20 +140,60 @@ _maximum
 			[singleFingerSTap release];
 			[singleFingerDTap release];
 			
-			NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
-			
-			[notificationCenter addObserver: self
-								   selector: @selector (updateView:)
-									   name: NOTIFICATION_UPDATE
-									 object: nil];
 			
 			return self;
 		}
 		else{
+			int tag = 100;
+			for (int rows=0 ; rows < 3 ; rows++){
+				for ( int cols=0 ; cols < 2 ; cols++){
+					CGRect subFrame = 
+						CGRectMake(cols * self.bounds.size.width/2, 
+								   rows * self.bounds.size.height/3, 
+								   self.bounds.size.width/2, 
+								   self.bounds.size.height/3);
+					
+					UIImageView * view = [[UIView alloc]initWithFrame:subFrame];
+					
+					view.backgroundColor = [UIColor blackColor];
+					view.layer.borderColor =[[UIColor redColor]CGColor];
+					view.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+					view.layer.borderWidth = VIEW_BORDER_THIKNESS;
+					view.tag = tag + cols;
+					
+					
+					
+					[self addSubview:view];
+					
+					UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
+																initWithTarget:self action:@selector(handleSaveView:)];
+					UITapGestureRecognizer *singleFingerSTap = [[UITapGestureRecognizer alloc]
+																initWithTarget:self action:@selector(handleLoadView:)];
+					
+					singleFingerDTap.numberOfTapsRequired = 2;
+					singleFingerSTap.numberOfTapsRequired = 1;
+					
+					[singleFingerSTap requireGestureRecognizerToFail:singleFingerDTap];
+					
+					[singleFingerSTap setDelaysTouchesBegan:YES];
+					[singleFingerDTap setDelaysTouchesBegan:YES];
+					
+					
+					[view addGestureRecognizer:singleFingerSTap];
+					[view addGestureRecognizer:singleFingerDTap];
+					
+					
+					[singleFingerSTap release];
+					[singleFingerDTap release];
+					[view release];
+					
+				}
+				tag += 2;
+			}	
 		
 			return self;
 		}
-		
+	
     }
 	else {
 		
@@ -148,6 +201,32 @@ _maximum
 	}
 }
 
+- (IBAction)handleSaveView:(UIGestureRecognizer *)sender {
+	
+	[iLightsViewController savetoFileWithPresetNumber:sender.view.tag-100];
+
+}
+
+- (IBAction)handleLoadView:(UIGestureRecognizer *)sender {
+
+	[UIView 
+	 animateWithDuration:SCALE_ANIM_INDICATOR 
+	 animations:^{
+		 sender.view.transform = CGAffineTransformMakeScale(1.2, 1.2);
+	 }
+	 completion:^(BOOL finished){
+		 [UIView 
+		  animateWithDuration:SCALE_ANIM_INDICATOR 
+		  animations:^{
+			  sender.view.transform = CGAffineTransformMakeScale(1,1);
+		  }
+		  completion:^(BOOL finished){
+		  }];
+	 }];
+	
+	[iLightsViewController loadFromFileWithPresetNumber:sender.view.tag-100];
+
+}
 
 - (void) updateView:(id) notification{
 	
@@ -260,7 +339,7 @@ _maximum
 	_maximum	= maximum;
 	_minimum	= minimum;
 	_index		= index;
-	_name		= name;
+	_name		= [name retain];
 	_value		= value;
 	_theTag		= theTag;
 	
@@ -334,6 +413,7 @@ _maximum
 
 // release resources
 - (void)dealloc {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	[_name release];
 	[_textValue release];
 	[_textDesciption release];

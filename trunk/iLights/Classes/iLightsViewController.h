@@ -22,6 +22,9 @@
 	NSMutableArray * _indicatorViews;
 	NSMutableArray * _utilityViews;
 	
+	NSNotificationCenter * notifyLoadPreset;
+	NSNotificationCenter * notifySavePreset;
+	
 }
 
 // properties not multithreade and retained after assign
@@ -33,6 +36,9 @@
 
 
 -(void) saveIndicatorsToFile:(NSString*) fileName;
+
++(void) loadFromFileWithPresetNumber:(NSInteger) preset;
++(void) savetoFileWithPresetNumber:(NSInteger) preset;
 
 @end
 

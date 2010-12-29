@@ -45,3 +45,5 @@
 // strings
 #define FILE_NAME_ARCHIVE_INDICATORS	@"lightsindicators.archive"
 #define NOTIFICATION_UPDATE				@"updateViews"
+#define NOTIFICATION_SAVE_PRESET		@"savePreset"
+#define NOTIFICATION_LOAD_PRESET		@"loadPreset"
