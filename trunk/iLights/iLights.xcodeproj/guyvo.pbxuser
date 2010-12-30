@@ -30,9 +30,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 5850}}";
-			sepNavSelRange = "{2329, 0}";
-			sepNavVisRange = "{7466, 1071}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 5876}}";
+			sepNavSelRange = "{4924, 0}";
+			sepNavVisRange = "{4429, 1088}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
@@ -491,6 +491,14 @@
 			8EFCF39512CCFAF700797E85 /* PBXTextBookmark */ = 8EFCF39512CCFAF700797E85 /* PBXTextBookmark */;
 			8EFCF39612CCFAF700797E85 /* PBXTextBookmark */ = 8EFCF39612CCFAF700797E85 /* PBXTextBookmark */;
 			8EFCF39712CCFAF700797E85 /* PBXTextBookmark */ = 8EFCF39712CCFAF700797E85 /* PBXTextBookmark */;
+			8EFCF39D12CCFCD200797E85 /* PBXTextBookmark */ = 8EFCF39D12CCFCD200797E85 /* PBXTextBookmark */;
+			8EFCF3A012CCFD6700797E85 /* PBXTextBookmark */ = 8EFCF3A012CCFD6700797E85 /* PBXTextBookmark */;
+			8EFCF3A312CCFD6E00797E85 /* PBXTextBookmark */ = 8EFCF3A312CCFD6E00797E85 /* PBXTextBookmark */;
+			8EFCF3A412CCFD6F00797E85 /* PBXTextBookmark */ = 8EFCF3A412CCFD6F00797E85 /* PBXTextBookmark */;
+			8EFCF3A512CCFD6F00797E85 /* PBXTextBookmark */ = 8EFCF3A512CCFD6F00797E85 /* PBXTextBookmark */;
+			8EFCF3A612CCFD6F00797E85 /* PBXTextBookmark */ = 8EFCF3A612CCFD6F00797E85 /* PBXTextBookmark */;
+			8EFCF3A712CCFD6F00797E85 /* PBXTextBookmark */ = 8EFCF3A712CCFD6F00797E85 /* PBXTextBookmark */;
+			8EFCF3A812CCFD6F00797E85 /* PBXTextBookmark */ = 8EFCF3A812CCFD6F00797E85 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8EDDAC3712A18C6D00614759 /* Source Control */;
 		userBuildSettings = {
@@ -673,9 +681,9 @@
 	};
 	8EDDB4C612BD098300614759 /* UtilityView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 988}}";
-			sepNavSelRange = "{1224, 0}";
-			sepNavVisRange = "{0, 1203}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1053}}";
+			sepNavSelRange = "{1522, 0}";
+			sepNavVisRange = "{1050, 848}";
 		};
 	};
 	8EDDB96012BFE92200614759 /* PBXTextBookmark */ = {
@@ -850,7 +858,7 @@
 		fRef = 8EDDB4C612BD098300614759 /* UtilityView.m */;
 		name = "UtilityView.m: 53";
 		rLen = 0;
-		rLoc = 1397;
+		rLoc = 1394;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 1206;
@@ -860,7 +868,7 @@
 		fRef = 8EDDB4C612BD098300614759 /* UtilityView.m */;
 		name = "UtilityView.m: 53";
 		rLen = 0;
-		rLoc = 1397;
+		rLoc = 1394;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 280;
@@ -870,7 +878,7 @@
 		fRef = 8EDDB4C612BD098300614759 /* UtilityView.m */;
 		name = "UtilityView.m: 53";
 		rLen = 0;
-		rLoc = 1397;
+		rLoc = 1394;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 296;
@@ -2487,7 +2495,7 @@
 		fRef = E4DA405212C0EC4E009392C0 /* triosDefines.h */;
 		name = "triosDefines.h: 49";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1125;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 141;
@@ -2666,7 +2674,7 @@
 		fRef = E4DA405212C0EC4E009392C0 /* triosDefines.h */;
 		name = "triosDefines.h: 48";
 		rLen = 24;
-		rLoc = 1012;
+		rLoc = 1045;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 141;
@@ -2956,7 +2964,7 @@
 		fRef = E4DA405212C0EC4E009392C0 /* triosDefines.h */;
 		name = "triosDefines.h: 46";
 		rLen = 28;
-		rLoc = 901;
+		rLoc = 934;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 85;
@@ -4350,6 +4358,86 @@
 		vrLen = 806;
 		vrLoc = 5978;
 	};
+	8EFCF39D12CCFCD200797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 188";
+		rLen = 0;
+		rLoc = 5900;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 5473;
+	};
+	8EFCF3A012CCFD6700797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 188";
+		rLen = 0;
+		rLoc = 5900;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 5473;
+	};
+	8EFCF3A312CCFD6E00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 188";
+		rLen = 0;
+		rLoc = 5900;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 5473;
+	};
+	8EFCF3A412CCFD6F00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4DA405212C0EC4E009392C0 /* triosDefines.h */;
+		name = "triosDefines.h: 39";
+		rLen = 19;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 167;
+	};
+	8EFCF3A512CCFD6F00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */;
+		name = "iLightsViewController.m: 183";
+		rLen = 0;
+		rLoc = 4924;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 4429;
+	};
+	8EFCF3A612CCFD6F00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 225";
+		rLen = 0;
+		rLoc = 6639;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 5978;
+	};
+	8EFCF3A712CCFD6F00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDB4C612BD098300614759 /* UtilityView.m */;
+		name = "UtilityView.m: 57";
+		rLen = 0;
+		rLoc = 1622;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 1002;
+	};
+	8EFCF3A812CCFD6F00797E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDB4C612BD098300614759 /* UtilityView.m */;
+		name = "UtilityView.m: 57";
+		rLen = 0;
+		rLoc = 1522;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 1050;
+	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {914, 5577}}";
@@ -4367,9 +4455,9 @@
 	};
 	E4DA405212C0EC4E009392C0 /* triosDefines.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 650}}";
-			sepNavSelRange = "{753, 20}";
-			sepNavVisRange = "{141, 959}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 663}}";
+			sepNavSelRange = "{786, 19}";
+			sepNavVisRange = "{167, 966}";
 		};
 	};
 	E4F54C7712BA5240000F1935 /* LightIndicatorView.h */ = {
@@ -4382,9 +4470,9 @@
 	};
 	E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 5421}}";
-			sepNavSelRange = "{6639, 0}";
-			sepNavVisRange = "{5978, 806}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 5512}}";
+			sepNavSelRange = "{5900, 0}";
+			sepNavVisRange = "{5473, 536}";
 			sepNavWindowFrame = "{{150, 81}, {875, 650}}";
 		};
 	};
