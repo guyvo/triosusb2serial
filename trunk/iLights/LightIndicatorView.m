@@ -225,6 +225,7 @@ _maximum
 	 }];
 	
 	[iLightsViewController loadFromFileWithPresetNumber:sender.view.tag-100];
+	
 
 }
 
