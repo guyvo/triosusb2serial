@@ -50,8 +50,18 @@
 
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
 	
-	//[iLightsTriosWrapper TriosSendPostBuffer];
-	[iLightsTriosWrapper TriosSendGetBuffer ];
+	
+	switch (sender.view.tag) {
+		case VIEW_TAG_LIGHTS_OFF:
+			for (int i = 0 ; i < 24; i++){
+				gTriosLights[i].lights.value = 0;
+			}
+			[iLightsTriosWrapper TriosSendPostBuffer ];
+			[iLightsTriosWrapper TriosSendGetBuffer ];
+			break;
+		default:
+			break;
+	}
 }
 
 

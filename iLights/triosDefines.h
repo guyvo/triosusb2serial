@@ -36,6 +36,7 @@
 // view tags ids
 #define VIEW_TAG_LIGHT_DETAIL		50
 #define VIEW_TAG_SAVE_LIGTHS		24
+#define VIEW_TAG_LIGHTS_OFF			29
 
 // sliders
 #define SLIDERS_LEFT_POS			100
