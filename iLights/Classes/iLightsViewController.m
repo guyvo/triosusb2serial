@@ -83,9 +83,10 @@ _utilityViews
 	
 	if ( [self loadIndicatorsFromFile:FILE_NAME_ARCHIVE_INDICATORS] != nil){
 		
-		
+		// created from archive here
 	}
 	else{
+		// fresh install
 		
 		_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 		
@@ -231,46 +232,46 @@ _utilityViews
 
 -(id) loadIndicatorsFromFile:(NSString*) fileName{
 	LightIndicatorView * indicator;
+	NSMutableArray * temp;
 	
-	if ( _indicatorViews != nil){
+	// in autorelease pool
+	temp = [self unarchiveRootObject:fileName];
+	
+	if (temp != nil){
+		if ( _indicatorViews != nil){
+			for (indicator in _indicatorViews) {
+				[indicator removeFromSuperview];
+			}
+			
+			[_indicatorViews release];
+		}
+		
+		_indicatorViews = [self unarchiveRootObject:fileName];
+		
+		// retain array after loaded from archive
+		[_indicatorViews retain];
+		
 		for (indicator in _indicatorViews) {
-			[indicator removeFromSuperview];
+			[self.view addSubview:indicator];
+			
+			indicator.alpha = 0.1;
+			
+			[UIView 
+			 animateWithDuration:RASTER_ANIM_DURATION 
+			 animations:^{
+				 indicator.alpha = 1;
+			 }
+			 completion:^(BOOL finished){
+			 }];
+			
+			if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
+				gTriosLights[indicator._index].lights.value = indicator._value;
+			}
 		}
 		
-		[_indicatorViews release];
+		return _indicatorViews;
 	}
-	NSLog(@"retain count views %d\n",[_indicatorViews retainCount]);
-
-	
-	_indicatorViews = [self unarchiveRootObject:fileName];
-	
-
-	if (_indicatorViews == nil ) return nil;
-	
-	// retain array after loaded from archive
-	[_indicatorViews retain];
-	
-	NSLog(@"retain count views %d\n",[_indicatorViews retainCount]);
-	
-	for (indicator in _indicatorViews) {
-		[self.view addSubview:indicator];
-		
-		indicator.alpha = 0.1;
-		
-		[UIView 
-		 animateWithDuration:RASTER_ANIM_DURATION 
-		 animations:^{
-			 indicator.alpha = 1;
-		 }
-		 completion:^(BOOL finished){
-		 }];
-		
-		if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
-			gTriosLights[indicator._index].lights.value = indicator._value;
-		}
-	}
-	
-	return _indicatorViews;
+	return nil;
 }
 
 /************************************************************************************************/

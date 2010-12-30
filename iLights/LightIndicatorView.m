@@ -221,10 +221,10 @@ _maximum
 			  sender.view.transform = CGAffineTransformMakeScale(1,1);
 		  }
 		  completion:^(BOOL finished){
+			  [iLightsViewController loadFromFileWithPresetNumber:sender.view.tag-100];
 		  }];
 	 }];
 	
-	[iLightsViewController loadFromFileWithPresetNumber:sender.view.tag-100];
 	
 
 }
