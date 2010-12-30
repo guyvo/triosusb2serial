@@ -51,6 +51,10 @@
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
 	
 	
+}
+
+
+- (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
 	switch (sender.view.tag) {
 		case VIEW_TAG_LIGHTS_OFF:
 			for (int i = 0 ; i < 24; i++){
@@ -62,11 +66,6 @@
 		default:
 			break;
 	}
-}
-
-
-- (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
-
 }
 
 /*
