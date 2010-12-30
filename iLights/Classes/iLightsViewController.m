@@ -7,6 +7,9 @@
 //
 
 #import "iLightsViewController.h"
+#import "iLightsTriosWrapper.h"
+
+@class iLightsTriosWrapper;
 
 static int staticPreset;
 
@@ -36,7 +39,8 @@ _utilityViews
 
 +(void) loadFromFileWithPresetNumber:(NSInteger) preset{
 	staticPreset = preset;
-	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_LOAD_PRESET  object: self]; 
+	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_LOAD_PRESET  object: self];
+	[iLightsTriosWrapper TriosSendPostBuffer];
 		
 }
 
@@ -155,6 +159,7 @@ _utilityViews
 
 - (void) handleLoadPreset:(id) notification{
 	[self loadIndicatorsFromFile:[NSString stringWithFormat:@"preset_%d",staticPreset]];
+	
 
 }
 
@@ -253,13 +258,16 @@ _utilityViews
 		indicator.alpha = 0.1;
 		
 		[UIView 
-		 animateWithDuration:RASTER_ANIM_DURATION * 3
+		 animateWithDuration:RASTER_ANIM_DURATION 
 		 animations:^{
 			 indicator.alpha = 1;
 		 }
 		 completion:^(BOOL finished){
 		 }];
 		
+		if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
+			gTriosLights[indicator._index].lights.value = indicator._value;
+		}
 	}
 	
 	return _indicatorViews;
