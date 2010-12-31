@@ -153,7 +153,7 @@ _maximum
 								   self.bounds.size.width/2, 
 								   self.bounds.size.height/3);
 					
-					UIImageView * view = [[UIView alloc]initWithFrame:subFrame];
+					UIImageView * view = [[UIImageView alloc]initWithFrame:subFrame];
 					
 					view.backgroundColor = [UIColor blackColor];
 					view.layer.borderColor =[[UIColor redColor]CGColor];
@@ -161,7 +161,7 @@ _maximum
 					view.layer.borderWidth = VIEW_BORDER_THIKNESS;
 					view.tag = tag + cols;
 					
-					
+					view.image = [[UIImage alloc] initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  stringByAppendingPathComponent:@"preset1.png"]];
 					
 					[self addSubview:view];
 					
