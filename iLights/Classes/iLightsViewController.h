@@ -16,11 +16,14 @@
 	// custom views
 	LightIndicatorView * _lightIndicator;
 	LightView * _lightView;
-	UtilityView * _utililtyView;
+	UtilityViewCortex * _utilityViewCortex;
+	UtilityViewSetup * _utilityViewSetup;
+	UtilityViewFree1 * _utilityViewFree1;
+	UtilityViewFree2 * _utilityViewFree2;
+	UtilityViewAllOff * _utilityViewAllOff;
 	
 	// collections of views
 	NSMutableArray * _indicatorViews;
-	NSMutableArray * _utilityViews;
 	
 	NSNotificationCenter * notifyLoadPreset;
 	NSNotificationCenter * notifySavePreset;
@@ -30,9 +33,12 @@
 // properties not multithreade and retained after assign
 @property (nonatomic,retain) LightIndicatorView * _lightIndicator;
 @property (nonatomic,retain) LightView * _lightView;
-@property (nonatomic,retain) UtilityView * _utililtyView;
+@property (nonatomic,retain) UtilityViewCortex * _utilityViewCortex;
+@property (nonatomic,retain) UtilityViewSetup * _utilityViewSetup;
+@property (nonatomic,retain) UtilityViewFree1 * _utilityViewFree1;
+@property (nonatomic,retain) UtilityViewFree2 * _utilityViewFree2;
+@property (nonatomic,retain) UtilityViewAllOff * _utilityViewAllOff;
 @property (nonatomic,retain) NSMutableArray * _indicatorViews;
-@property (nonatomic,retain) NSMutableArray * _utilityViews;
 
 
 -(void) saveIndicatorsToFile:(NSString*) fileName;

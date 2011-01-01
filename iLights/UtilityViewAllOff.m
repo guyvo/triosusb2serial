@@ -6,10 +6,10 @@
 //  Copyright 2010 ATOS worldline. All rights reserved.
 //
 
-#import "UtilityView.h"
+#import "UtilityViewAllOff.h"
 
 
-@implementation UtilityView
+@implementation UtilityViewAllOff
 
 
 - (id)initWithFrame:(CGRect)frame {
@@ -55,17 +55,11 @@
 
 
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
-	switch (sender.view.tag) {
-		case VIEW_TAG_LIGHTS_OFF:
-			for (int i = 0 ; i < 24; i++){
-				gTriosLights[i].lights.value = 0;
-			}
-			[iLightsTriosWrapper TriosSendPostBuffer ];
-			[iLightsTriosWrapper TriosSendGetBuffer ];
-			break;
-		default:
-			break;
+	for (int i = 0 ; i < 24; i++){
+		gTriosLights[i].lights.value = 0;
 	}
+	[iLightsTriosWrapper TriosSendPostBuffer ];
+	[iLightsTriosWrapper TriosSendGetBuffer ];
 }
 
 /*
