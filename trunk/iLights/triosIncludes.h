@@ -12,11 +12,14 @@
 
 #import "triosDefines.h"
 #import "TriosModel.h"
-#import "UtilityView.h"
+#import "UtilityViewAllOff.h"
+#import "UtilityViewFree1.h"
+#import "UtilityViewFree2.h"
+#import "UtilityViewSetup.h"
+#import "UtilityViewCortex.h"
 #import "LightIndicatorView.h";
 #import "LightView.h"
 #import "iLightsTriosWrapper.h"
-//#import "iLightsViewController.h"
 
 #import <QuartzCore/QuartzCore.h>
 

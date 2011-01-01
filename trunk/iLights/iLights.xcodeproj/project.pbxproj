@@ -18,7 +18,11 @@
 		8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
 		8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDACA812A1926000614759 /* TriosUnitTest.m */; };
 		8EDDB03D12BA63B200614759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
-		8EDDB4C712BD098300614759 /* UtilityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB4C612BD098300614759 /* UtilityView.m */; };
+		8EDDB4C712BD098300614759 /* UtilityViewAllOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */; };
+		8EFCF40B12CF63B700797E85 /* UtilityViewCortex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */; };
+		8EFCF40E12CF63D600797E85 /* UtilityViewSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40D12CF63D600797E85 /* UtilityViewSetup.m */; };
+		8EFCF41112CF641100797E85 /* UtilityViewFree1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF41012CF641100797E85 /* UtilityViewFree1.m */; };
+		8EFCF41412CF642300797E85 /* UtilityViewFree2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF41312CF642300797E85 /* UtilityViewFree2.m */; };
 		E43E2EFD12AAD73E00B45F8A /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = E43E2EFC12AAD73E00B45F8A /* smile.png */; };
 		E448D79A12A1744000C98F78 /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
@@ -59,9 +63,17 @@
 		8EDDACA712A1926000614759 /* TriosUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosUnitTest.h; sourceTree = "<group>"; };
 		8EDDACA812A1926000614759 /* TriosUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriosUnitTest.m; sourceTree = "<group>"; };
 		8EDDB03C12BA63B200614759 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8EDDB4C512BD098300614759 /* UtilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityView.h; sourceTree = "<group>"; };
-		8EDDB4C612BD098300614759 /* UtilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityView.m; sourceTree = "<group>"; };
+		8EDDB4C512BD098300614759 /* UtilityViewAllOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewAllOff.h; sourceTree = "<group>"; };
+		8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewAllOff.m; sourceTree = "<group>"; };
 		8EDDB9E612C0B70100614759 /* triosIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triosIncludes.h; sourceTree = "<group>"; };
+		8EFCF40912CF63B700797E85 /* UtilityViewCortex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewCortex.h; sourceTree = "<group>"; };
+		8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewCortex.m; sourceTree = "<group>"; };
+		8EFCF40C12CF63D600797E85 /* UtilityViewSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewSetup.h; sourceTree = "<group>"; };
+		8EFCF40D12CF63D600797E85 /* UtilityViewSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewSetup.m; sourceTree = "<group>"; };
+		8EFCF40F12CF641100797E85 /* UtilityViewFree1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewFree1.h; sourceTree = "<group>"; };
+		8EFCF41012CF641100797E85 /* UtilityViewFree1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewFree1.m; sourceTree = "<group>"; };
+		8EFCF41212CF642300797E85 /* UtilityViewFree2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewFree2.h; sourceTree = "<group>"; };
+		8EFCF41312CF642300797E85 /* UtilityViewFree2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewFree2.m; sourceTree = "<group>"; };
 		E43E2EFC12AAD73E00B45F8A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
@@ -215,8 +227,16 @@
 				8EDDAC3E12A18CB000614759 /* LightView.m */,
 				E4F54C7712BA5240000F1935 /* LightIndicatorView.h */,
 				E4F54C7812BA5240000F1935 /* LightIndicatorView.m */,
-				8EDDB4C512BD098300614759 /* UtilityView.h */,
-				8EDDB4C612BD098300614759 /* UtilityView.m */,
+				8EDDB4C512BD098300614759 /* UtilityViewAllOff.h */,
+				8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */,
+				8EFCF40912CF63B700797E85 /* UtilityViewCortex.h */,
+				8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */,
+				8EFCF40C12CF63D600797E85 /* UtilityViewSetup.h */,
+				8EFCF40D12CF63D600797E85 /* UtilityViewSetup.m */,
+				8EFCF40F12CF641100797E85 /* UtilityViewFree1.h */,
+				8EFCF41012CF641100797E85 /* UtilityViewFree1.m */,
+				8EFCF41212CF642300797E85 /* UtilityViewFree2.h */,
+				8EFCF41312CF642300797E85 /* UtilityViewFree2.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -351,7 +371,11 @@
 				8EDDAC3F12A18CB000614759 /* LightView.m in Sources */,
 				8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */,
 				E4F54C7912BA5240000F1935 /* LightIndicatorView.m in Sources */,
-				8EDDB4C712BD098300614759 /* UtilityView.m in Sources */,
+				8EDDB4C712BD098300614759 /* UtilityViewAllOff.m in Sources */,
+				8EFCF40B12CF63B700797E85 /* UtilityViewCortex.m in Sources */,
+				8EFCF40E12CF63D600797E85 /* UtilityViewSetup.m in Sources */,
+				8EFCF41112CF641100797E85 /* UtilityViewFree1.m in Sources */,
+				8EFCF41412CF642300797E85 /* UtilityViewFree2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,9 +30,12 @@ static int staticPreset;
 @synthesize
 _lightIndicator,
 _lightView,
-_utililtyView,
 _indicatorViews,
-_utilityViews
+_utilityViewCortex,
+_utilityViewSetup,
+_utilityViewFree1,
+_utilityViewFree2,
+_utilityViewAllOff
 ;
 
 /************************************************************************************************/
@@ -174,36 +177,125 @@ _utilityViews
 
 -(void) makeArrayWithUtilityViews{
 	
-	_utilityViews = [[NSMutableArray alloc] initWithCapacity:5];
+	// ************************* cortex
 	
-	for ( int views = 0 ; views < UTILITY_COUNT ; views++){
-		
-		_utililtyView = [[UtilityView alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
-		
-		_utililtyView.tag = views + 25;
-		_utililtyView.alpha = 0;
-		
-		[self.view addSubview:_utililtyView];
-		
-		
-		[UIView 
-		 animateWithDuration:UTILITY_ANIM_DURATION
-		 animations:^{
-			 _utililtyView.center = 
-			 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(views*UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
-						 centerPoints[UTILITY_COUNT - 1 +(views*UTILITY_COUNT)].y);
-			 _utililtyView.alpha = 1;
-		 }
-		 completion:^(BOOL finished){
-			 
-		 }];
-		
-		// store them for later use in touches
-		[_utilityViews addObject:_utililtyView];
-		
-		// retained by superview
-		[_utililtyView release];
-	}
+	_utilityViewCortex = [[UtilityViewCortex alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
+	
+	_utilityViewCortex.alpha = 0;
+	
+	[self.view addSubview:_utilityViewCortex];
+	
+	
+	[UIView 
+	 animateWithDuration:UTILITY_ANIM_DURATION
+	 animations:^{
+		 _utilityViewCortex.center = 
+		 CGPointMake(centerPoints[UTILITY_COUNT - 1 ].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+					 centerPoints[UTILITY_COUNT - 1 ].y);
+		 _utilityViewCortex.alpha = 1;
+	 }
+	 completion:^(BOOL finished){
+		 
+	 }];
+	
+	// retained by superview
+	[_utilityViewCortex release];
+	
+	// ************************* setup
+	
+	_utilityViewSetup = [[UtilityViewSetup alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
+	
+	_utilityViewSetup.alpha = 0;
+	
+	[self.view addSubview:_utilityViewSetup];
+	
+	
+	[UIView 
+	 animateWithDuration:UTILITY_ANIM_DURATION
+	 animations:^{
+		 _utilityViewSetup.center = 
+		 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+					 centerPoints[UTILITY_COUNT - 1 +(UTILITY_COUNT)].y);
+		 _utilityViewSetup.alpha = 1;
+	 }
+	 completion:^(BOOL finished){
+		 
+	 }];
+	
+	// retained by superview
+	[_utilityViewSetup release];
+
+	// ************************* free1
+	
+	_utilityViewFree1 = [[UtilityViewFree1 alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
+	
+	_utilityViewFree1.alpha = 0;
+	
+	[self.view addSubview:_utilityViewFree1];
+	
+	
+	[UIView 
+	 animateWithDuration:UTILITY_ANIM_DURATION
+	 animations:^{
+		 _utilityViewFree1.center = 
+		 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(2*UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+					 centerPoints[UTILITY_COUNT - 1 +(2*UTILITY_COUNT)].y);
+		 _utilityViewFree1.alpha = 1;
+	 }
+	 completion:^(BOOL finished){
+		 
+	 }];
+	
+	// retained by superview
+	[_utilityViewFree1 release];
+
+	// ************************* free2
+	
+	_utilityViewFree2 = [[UtilityViewFree2 alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
+	
+	_utilityViewFree2.alpha = 0;
+	
+	[self.view addSubview:_utilityViewFree2];
+	
+	
+	[UIView 
+	 animateWithDuration:UTILITY_ANIM_DURATION
+	 animations:^{
+		 _utilityViewFree2.center = 
+		 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(3*UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+					 centerPoints[UTILITY_COUNT - 1 +(3*UTILITY_COUNT)].y);
+		 _utilityViewFree2.alpha = 1;
+	 }
+	 completion:^(BOOL finished){
+		 
+	 }];
+	
+	// retained by superview
+	[_utilityViewFree2 release];
+	
+	// ************************* all off
+
+	_utilityViewAllOff = [[UtilityViewAllOff alloc] initWithFrame:CGRectMake(512, 368, 2*RASTER_SIZE, RASTER_SIZE )];
+	
+	_utilityViewAllOff.alpha = 0;
+	
+	[self.view addSubview:_utilityViewAllOff];
+	
+	
+	[UIView 
+	 animateWithDuration:UTILITY_ANIM_DURATION
+	 animations:^{
+		 _utilityViewAllOff.center = 
+		 CGPointMake(centerPoints[UTILITY_COUNT - 1 +(4*UTILITY_COUNT)].x + RASTER_SPACING + RASTER_SIZE+RASTER_SIZE/2, 
+					 centerPoints[UTILITY_COUNT - 1 +(4*UTILITY_COUNT)].y);
+		 _utilityViewAllOff.alpha = 1;
+	 }
+	 completion:^(BOOL finished){
+		 
+	 }];
+	
+	// retained by superview
+	[_utilityViewAllOff release];
 }
 
 /************************************************************************************************/
@@ -420,27 +512,6 @@ _utilityViews
 - (void)viewDidUnload {
 	
 	
-	// Release any retained subviews of the main view.
-	LightIndicatorView * indicator;
-	
-	for (indicator in _indicatorViews) {
-		[indicator release];
-	}
-	
-	[_indicatorViews release];
-	
-	_indicatorViews = nil;
-	
-	UtilityView * utilityView;
-	
-	for (utilityView in _utilityViews ){
-		[utilityView release];
-	}
-	
-	[_utilityViews release];
-	
-	_utililtyView = nil;
-	
 	
 }
 
@@ -450,9 +521,8 @@ _utilityViews
 	[[NSNotificationCenter defaultCenter] removeObserver:self];	
 	[_lightIndicator release];
 	[_lightView release],
-	[_utililtyView release];
+	[_utilityViewAllOff release];
 	[_indicatorViews release];
-	[_utilityViews release];
     [super dealloc];
 }
 
