@@ -160,8 +160,13 @@ _maximum
 					view.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
 					view.layer.borderWidth = VIEW_BORDER_THIKNESS;
 					view.tag = tag + cols;
+					view.userInteractionEnabled = YES;
+					view.alpha = 0.5;
 					
-					view.image = [[UIImage alloc] initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  stringByAppendingPathComponent:@"preset1.png"]];
+					view.image = 
+					[[UIImage alloc] initWithContentsOfFile:
+					 [[[NSBundle mainBundle] resourcePath]  
+					  stringByAppendingPathComponent:[NSString stringWithFormat:@"preset%d.png",view.tag-99]]];
 					
 					[self addSubview:view];
 					
