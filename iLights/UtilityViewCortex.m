@@ -56,7 +56,7 @@
 		[singleFingerSTap release];
 		[singleFingerDTap release];
 		
-		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(75, 2, 130, 130)];
+		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(85, 25, 90, 90)];
 		
 		//view.backgroundColor = [UIColor blackColor];
 		//view.layer.borderColor =[[UIColor redColor]CGColor];
@@ -67,6 +67,18 @@
 																		 stringByAppendingPathComponent:@"cortex.png"]];
 		
 		[self addSubview:view];
+		
+		[UIView 
+		 animateWithDuration:SWIPE_ANIM_DURATION
+		 delay:0
+		 options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat
+		 animations:^{
+			 view.layer.transform = CATransform3DMakeRotation(-M_PI, 1, 1, 1);
+			 
+		 }
+		 completion:^(BOOL finished){
+			 //view.layer.transform = CATransform3DMakeRotation(0, 0, 1, 1);
+		 }];
 		
 		return self;
 		
