@@ -37,6 +37,7 @@
 		E4DA439412CE3934009392C0 /* preset4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438E12CE3934009392C0 /* preset4.png */; };
 		E4DA439512CE3934009392C0 /* preset3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438F12CE3934009392C0 /* preset3.png */; };
 		E4DA439612CE3934009392C0 /* preset2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA439012CE3934009392C0 /* preset2.png */; };
+		E4DA440B12D0BC75009392C0 /* cortex.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA440A12D0BC75009392C0 /* cortex.png */; };
 		E4F54C7912BA5240000F1935 /* LightIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		E4DA438E12CE3934009392C0 /* preset4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preset4.png; sourceTree = "<group>"; };
 		E4DA438F12CE3934009392C0 /* preset3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preset3.png; sourceTree = "<group>"; };
 		E4DA439012CE3934009392C0 /* preset2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preset2.png; sourceTree = "<group>"; };
+		E4DA440A12D0BC75009392C0 /* cortex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cortex.png; sourceTree = "<group>"; };
 		E4F54C7712BA5240000F1935 /* LightIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightIndicatorView.h; sourceTree = "<group>"; };
 		E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +189,7 @@
 		8EDDAC4C12A18E3A00614759 /* Png */ = {
 			isa = PBXGroup;
 			children = (
+				E4DA440A12D0BC75009392C0 /* cortex.png */,
 				E4DA438B12CE3934009392C0 /* preset1.png */,
 				E4DA438C12CE3934009392C0 /* preset6.png */,
 				E4DA438D12CE3934009392C0 /* preset5.png */,
@@ -331,6 +334,7 @@
 				E4DA439412CE3934009392C0 /* preset4.png in Resources */,
 				E4DA439512CE3934009392C0 /* preset3.png in Resources */,
 				E4DA439612CE3934009392C0 /* preset2.png in Resources */,
+				E4DA440B12D0BC75009392C0 /* cortex.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
