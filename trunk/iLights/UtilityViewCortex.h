@@ -14,4 +14,6 @@
 
 }
 
+-(id) initWithIcon:(UIImage *) icon andFrame:(CGRect)frame;
+
 @end
