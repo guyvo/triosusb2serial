@@ -11,6 +11,20 @@
 
 @implementation UtilityViewCortex
 
+-(id) initWithIcon:(UIImage *) icon andFrame:(CGRect)frame{
+	[self initWithFrame:frame];
+	if (self != nil){
+		
+		UIImageView * icon = [[UIImageView alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+																 stringByAppendingPathComponent:@"cortex.png"]];
+		
+		[self addSubview:icon];
+		
+	}
+	
+	return nil;
+}
+
 
 - (id)initWithFrame:(CGRect)frame {
     
@@ -41,6 +55,18 @@
 		// retained by view
 		[singleFingerSTap release];
 		[singleFingerDTap release];
+		
+		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(75, 2, 130, 130)];
+		
+		//view.backgroundColor = [UIColor blackColor];
+		//view.layer.borderColor =[[UIColor redColor]CGColor];
+		//view.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+		//view.layer.borderWidth = VIEW_BORDER_THIKNESS;
+		
+		view.image = [[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+																		 stringByAppendingPathComponent:@"cortex.png"]];
+		
+		[self addSubview:view];
 		
 		return self;
 		
