@@ -16,7 +16,7 @@
 	if (self != nil){
 		
 		UIImageView * icon = [[UIImageView alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
-																 stringByAppendingPathComponent:@"cortex.png"]];
+																		 stringByAppendingPathComponent:@"cortex.png"]];
 		
 		[self addSubview:icon];
 		
@@ -58,61 +58,61 @@
 		
 		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(85, 25, 90, 90)];
 		
-		//view.backgroundColor = [UIColor blackColor];
-		//view.layer.borderColor =[[UIColor redColor]CGColor];
-		//view.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
-		//view.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
 		view.image = [[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
-																		 stringByAppendingPathComponent:@"cortex.png"]];
+															 stringByAppendingPathComponent:@"cortex.png"]];
 		
-		
+		view.alpha = 0.6;
 		
 		[self addSubview:view];
 		
-		CGMutablePathRef  path = CGPathCreateMutable();
-		
-		CGPathMoveToPoint(path, NULL, 150, 50);
-		CGPathAddLineToPoint(path, NULL, 200, 50);
-		CGPathAddLineToPoint(path, NULL, 200, 0);
-		CGPathAddLineToPoint(path, NULL, 50, 0);
-		CGPathAddLineToPoint(path, NULL, 50, 75);
-		CGPathAddLineToPoint(path, NULL, 150, 50);
+		[self bringSubviewToFront:view];
 		
 		
-		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
-
-		animation.path = path;
-		animation.duration = 10;
-		animation.repeatCount = 10;
-		animation.removedOnCompletion = YES;
-		animation.fillMode = kCAFillModeForwards;
-		animation.calculationMode = kCAAnimationCubicPaced;
-/*
-		animation.values = [NSArray arrayWithObjects:
-							//[NSNumber numberWithFloat:(0.0 / 180.0) * M_PI],
-							[NSNumber numberWithFloat:(179.0 / 180.0) * M_PI],
-							[NSNumber numberWithFloat:(-179.0 / 180.0) * M_PI], nil];
-		
-*/		
-//		view.layer.anchorPoint = CGPointMake(0,0);
-		[view.layer addAnimation:animation forKey:@"position"];
-		
-		
-		/*
+		for (int i = 0 ; i< NUMBER_OF_ONES ; i++){
+			
+			CGMutablePathRef  path = CGPathCreateMutable();
+			
+			CGPathMoveToPoint(path, NULL, 0 + (i*5), 75);
+			CGPathAddLineToPoint(path, NULL, 250 + (i*1) , 75);
+			
+			CATextLayer * one = [CATextLayer layer];
+			
+			if ( i % 2 ){
+				one.string = @"1";
+			}else{
+				one.string = @"0";
+			}
+			
+			one.fontSize = 20;
+			one.frame = CGRectMake(0, 0, 20, 20);
+			one.foregroundColor = [[UIColor colorWithHue:0.99 saturation:0.9 brightness:0.9 alpha:0.8]CGColor];
+			
+			CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+			
+			animation.path = path;
+			CGPathRelease(path);
+			animation.duration = 5+(i*0.75);
+			animation.repeatCount = 10000;// must be MAX_INT
+			animation.removedOnCompletion = YES;
+			animation.fillMode = kCAFillModeForwards;
+			animation.calculationMode = kCAAnimationPaced;
+			
+			[one addAnimation:animation forKey:@"position"];
+			[self.layer insertSublayer:one below:view.layer];
+			
+		}
 		[UIView 
 		 animateWithDuration:SWIPE_ANIM_DURATION
 		 delay:0
 		 options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat
 		 animations:^{
-			 view.layer.transform = CATransform3DMakeRotation(M_PI*0.99, 0, 0, 1);
-			 view.layer.transform = CATransform3DMakeRotation(-M_PI*0.99, 0, 0, 1);
-			 
+			 view.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1);
+			 view.layer.transform = CATransform3DMakeScale(0.3, 0.3, 1);
 		 }
 		 completion:^(BOOL finished){
-			 //view.layer.transform = CATransform3DMakeRotation(0, 0, 1, 1);
 		 }];
-		*/
+		
 		return self;
 		
     }
@@ -126,7 +126,7 @@
 
 
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
-
+	
 }
 
 /*

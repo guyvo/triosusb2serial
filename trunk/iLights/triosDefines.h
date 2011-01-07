@@ -29,6 +29,8 @@
 #define SWIPE_ANIM_DURATION			1
 #define SCALE_ANIM_INDICATOR		0.3
 
+#define NUMBER_OF_ONES				20	
+
 // view properties
 #define VIEW_CORNER_RADIUS			20
 #define VIEW_BORDER_THIKNESS		0.5
