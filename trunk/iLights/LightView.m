@@ -19,7 +19,7 @@ _textStep,
 _indexLight
 ;
 
-- (UISlider*) createSlider:(CGPoint)point{
+- (UISlider*) newSlider:(CGPoint)point{
 	
 	UISlider * sliderValue = [[UISlider alloc] initWithFrame:CGRectMake(0,0,300,20)];
 	sliderValue.transform = CGAffineTransformScale(sliderValue.transform,SLIDERS_SCALE, 1);
@@ -58,19 +58,19 @@ _indexLight
 		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
-		UISlider * sliderValue = [self createSlider:CGPointMake(SLIDERS_LEFT_POS, 250)];
+		UISlider * sliderValue = [self newSlider:CGPointMake(SLIDERS_LEFT_POS, 250)];
 		sliderValue.value = gTriosLights[_indexLight].lights.value;
 		[sliderValue addTarget:(id)self action:@selector(handleSliderValue:) forControlEvents:UIControlEventValueChanged];
 
-		UISlider * sliderMin = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + SLIDERS_SPACING, 250)];
+		UISlider * sliderMin = [self newSlider:CGPointMake(SLIDERS_LEFT_POS + SLIDERS_SPACING, 250)];
 		sliderMin.value = gTriosLights[_indexLight].lights.minimum;
 		[sliderMin addTarget:(id)self action:@selector(handleSliderMin:) forControlEvents:UIControlEventValueChanged];
 		
-		UISlider * sliderMax = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + 2*SLIDERS_SPACING, 250)];
+		UISlider * sliderMax = [self newSlider:CGPointMake(SLIDERS_LEFT_POS + 2*SLIDERS_SPACING, 250)];
 		sliderMax.value = gTriosLights[_indexLight].lights.maximum;
 		[sliderMax addTarget:(id)self action:@selector(handleSliderMax:) forControlEvents:UIControlEventValueChanged];
 		
-		UISlider * sliderStep = [self createSlider:CGPointMake(SLIDERS_LEFT_POS + 3*SLIDERS_SPACING, 250)];
+		UISlider * sliderStep = [self newSlider:CGPointMake(SLIDERS_LEFT_POS + 3*SLIDERS_SPACING, 250)];
 		sliderStep.value = gTriosLights[_indexLight].lights.step;
 		[sliderStep addTarget:(id)self action:@selector(handleSliderStep:) forControlEvents:UIControlEventValueChanged];
 		
