@@ -42,6 +42,24 @@
 		[singleFingerSTap release];
 		[singleFingerDTap release];
 		
+		CGMutablePathRef  path = CGPathCreateMutable();
+		
+		CGPathMoveToPoint(path, NULL, 150, 50);
+		CGPathAddLineToPoint(path, NULL, 200, 50);
+		CGPathAddLineToPoint(path, NULL, 200, 0);
+		CGPathAddLineToPoint(path, NULL, 50, 0);
+		CGPathAddLineToPoint(path, NULL, 50, 75);
+		CGPathAddLineToPoint(path, NULL, 150, 50);
+		
+		CAShapeLayer * shape = [CAShapeLayer layer];
+		
+		shape.path = path;
+		shape.strokeColor = [[UIColor colorWithHue:0.15 saturation:0.2 brightness:0.5 alpha:0.8]CGColor];
+		shape.strokeEnd = 1;
+		shape.strokeStart= 0;
+		
+		[self.layer addSublayer:shape];
+		
 		return self;
 		
     }
