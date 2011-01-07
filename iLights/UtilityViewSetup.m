@@ -41,7 +41,7 @@
 		// retained by view
 		[singleFingerSTap release];
 		[singleFingerDTap release];
-		
+		/*
 		CGMutablePathRef  path = CGPathCreateMutable();
 		
 		CGPathMoveToPoint(path, NULL, 150, 50);
@@ -59,7 +59,7 @@
 		shape.strokeStart= 0;
 		
 		[self.layer addSublayer:shape];
-		
+		*/
 		return self;
 		
     }
