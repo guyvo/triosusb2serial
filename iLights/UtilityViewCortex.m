@@ -14,9 +14,11 @@
 - (void) animateTheView{
 	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(85, 25, 90, 90)];
 	
+	UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+															 stringByAppendingPathComponent:@"cortex.png"]];
+	view.image = image;
 	
-	view.image = [[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
-														 stringByAppendingPathComponent:@"cortex.png"]];
+	[image release];
 	
 	view.alpha = 0.6;
 	
@@ -68,42 +70,18 @@
 	 }
 	 completion:^(BOOL finished){
 	 }];
-	
-	
-}
-
--(id) initWithIcon:(UIImage *) icon andFrame:(CGRect)frame{
-	[self initWithFrame:frame];
-	if (self != nil){
 		
-		UIImageView * icon = [[UIImageView alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
-																		 stringByAppendingPathComponent:@"cortex.png"]];
-		
-		[self addSubview:icon];
-		
-	}
+	// release allocs
+	[image release];
+	[view release];
 	
-	return nil;
 }
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
-		NSNotificationCenter * enterBackground = [NSNotificationCenter defaultCenter];
-		
-		[enterBackground addObserver: self
-							selector: @selector (stopAnimating:)
-								name: UIApplicationDidEnterBackgroundNotification
-							  object: nil];
 
-		NSNotificationCenter * enterForeground = [NSNotificationCenter defaultCenter];
-		
-		[enterForeground addObserver: self
-							selector: @selector (startAnimating:)
-								name: UIApplicationWillEnterForegroundNotification
-							  object: nil];
-		
 		self.backgroundColor = [UIColor blackColor];
 		self.layer.borderColor =[[UIColor colorWithRed:0.8 green:0.3 blue:0.2 alpha:1]CGColor];
 		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
@@ -138,18 +116,6 @@
     }
     return self;
 }
-
-
-
-- (void) stopAnimating:(id) notification{
-	[self.layer removeAllAnimations];
-	
-}
-
-- (void) startAnimating:(id) notification{
-	[self animateTheView];
-}
-
 
 - (IBAction)handleSingleTap:(UIGestureRecognizer *)sender {
 	

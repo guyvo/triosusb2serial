@@ -63,15 +63,34 @@ _maximum
 	_name = [coder decodeObjectForKey:@"_name"];
 	_theTag = [coder decodeIntegerForKey:@"_tag"];
 	
+	return ([self initWithMinimum:_minimum 
+					   andMaximum:_maximum
+						 andIndex:_index 
+						 andValue:_value
+						  andName:_name
+						   andTag:_theTag
+						 andFrame:theFrame]);
 	
-	return ([[LightIndicatorView alloc] initWithMinimum:_minimum 
-											 andMaximum:_maximum
-											   andIndex:_index 
-											   andValue:_value
-												andName:_name
-												 andTag:_theTag
-											   andFrame:theFrame]);
 	
+}
+// customized init method calling overwrite init at the end
+- (id)initWithMinimum:(NSInteger)minimum 
+		   andMaximum:(NSInteger)maximum 
+			 andIndex:(NSInteger)index 
+			 andValue:(NSInteger)value 
+			  andName:(NSString *)name
+			   andTag:(NSInteger)theTag
+			 andFrame:(CGRect)frame
+{
+	
+	_maximum	= maximum;
+	_minimum	= minimum;
+	_index		= index;
+	_name		= [name retain];
+	_value		= value;
+	_theTag		= theTag;
+	
+	return [self initWithFrame:frame];
 }
 
 // overwrite init method
@@ -163,11 +182,14 @@ _maximum
 					view.userInteractionEnabled = YES;
 					view.alpha = 0.5;
 					
-					view.image = 
-					[[UIImage alloc] initWithContentsOfFile:
-					 [[[NSBundle mainBundle] resourcePath]  
-					  stringByAppendingPathComponent:[NSString stringWithFormat:@"preset%d.png",view.tag-99]]];
+					UIImage * image = [[UIImage alloc] initWithContentsOfFile:
+									   [[[NSBundle mainBundle] resourcePath]  
+										stringByAppendingPathComponent:[NSString stringWithFormat:@"preset%d.png",view.tag-99]]];
 					
+					view.image = image;
+					
+					[image release];
+
 					[self addSubview:view];
 					
 					UITapGestureRecognizer *singleFingerDTap = [[UITapGestureRecognizer alloc]
@@ -329,28 +351,10 @@ _maximum
 		  }];
 	 }];
 	
-	
+	[v release];
 }
 
-// customized init method calling overwrite init at the end
-- (id)initWithMinimum:(NSInteger)minimum 
-		   andMaximum:(NSInteger)maximum 
-			 andIndex:(NSInteger)index 
-			 andValue:(NSInteger)value 
-			  andName:(NSString *)name
-			   andTag:(NSInteger)theTag
-			 andFrame:(CGRect)frame
-{
-	
-	_maximum	= maximum;
-	_minimum	= minimum;
-	_index		= index;
-	_name		= [name retain];
-	_value		= value;
-	_theTag		= theTag;
-	
-	return [self initWithFrame:frame];
-}
+
 
 // alter the center of this view
 - (void) setFrameCenter:(CGPoint) center{

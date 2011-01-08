@@ -246,7 +246,6 @@ _indexLight
 		 
 		 // remove and release this object
 		 [[self.superview viewWithTag:VIEW_TAG_LIGHT_DETAIL]removeFromSuperview];
-		 [self release];
 		 
 		 // update trios with new values
 		 [iLightsTriosWrapper TriosSendPostBuffer];
