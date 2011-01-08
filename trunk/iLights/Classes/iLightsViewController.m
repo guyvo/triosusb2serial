@@ -20,7 +20,7 @@ static int staticPreset;
 -(void) makeArrayWithIndicatorViews;
 -(void) makeArrayWithUtilityViews;
 -(void) archiveRootObject:(NSString *) fileName rootObject:(id)root ;
--(id)   unarchiveRootObject:(NSString *) fileName;
+-(id)   newUnarchiveRootObject:(NSString *) fileName;
 -(id)   loadIndicatorsFromFile:(NSString*) fileName;
 
 @end
@@ -311,59 +311,67 @@ _utilityViewAllOff
 
 /************************************************************************************************/
 
--(id) unarchiveRootObject:(NSString *) fileName{
+-(id) newUnarchiveRootObject:(NSString *) fileName{
 	
 	NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString * documentsDirectory = [paths objectAtIndex:0];
 	NSString * filePath = [documentsDirectory stringByAppendingPathComponent:fileName];
 	
-	return [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+	return [[NSKeyedUnarchiver unarchiveObjectWithFile:filePath] retain];
 }
 
 /************************************************************************************************/
 
 -(id) loadIndicatorsFromFile:(NSString*) fileName{
 	LightIndicatorView * indicator;
-	NSMutableArray * temp;
-	
-	// in autorelease pool
-	temp = [self unarchiveRootObject:fileName];
-	
-	if (temp != nil){
-		if ( _indicatorViews != nil){
-			for (indicator in _indicatorViews) {
-				[indicator removeFromSuperview];
-			}
-			
-			[_indicatorViews release];
-		}
+
+	// already views present ?
+	if ( _indicatorViews != nil){
 		
-		_indicatorViews = [self unarchiveRootObject:fileName];
-		
-		// retain array after loaded from archive
-		[_indicatorViews retain];
-		
+		// first remove them form super view	
 		for (indicator in _indicatorViews) {
-			[self.view addSubview:indicator];
-			
-			indicator.alpha = 0.1;
-			
-			[UIView 
-			 animateWithDuration:RASTER_ANIM_DURATION 
-			 animations:^{
-				 indicator.alpha = 1;
-			 }
-			 completion:^(BOOL finished){
-			 }];
-			
-			if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
-				gTriosLights[indicator._index].lights.value = indicator._value;
-			}
+			NSLog(@"before %d",[indicator retainCount]);
+			[indicator removeFromSuperview];
+			NSLog(@"after %d",[indicator retainCount]);
 		}
 		
-		return _indicatorViews;
+		//[_indicatorViews release];
+		
 	}
-	return nil;
+	
+	// load the views form disk
+	_indicatorViews = [self newUnarchiveRootObject:fileName];
+	
+	// check if read from disk was succesfull
+	if (_indicatorViews == nil){
+		return nil;
+	}
+	
+	// loop the array and add the views to superview
+	for (indicator in _indicatorViews) {
+
+		[self.view addSubview:indicator];
+		
+		indicator.alpha = 0.1;
+		
+		[UIView 
+		 animateWithDuration:RASTER_ANIM_DURATION 
+		 animations:^{
+			 indicator.alpha = 1;
+		 }
+		 completion:^(BOOL finished){
+		 }];
+		
+		// refresh our values
+		if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
+			gTriosLights[indicator._index].lights.value = indicator._value;
+		}
+		
+		// release here retained by superview
+		[indicator release];
+
+	}
+	return _indicatorViews;
 }
 
 /************************************************************************************************/
