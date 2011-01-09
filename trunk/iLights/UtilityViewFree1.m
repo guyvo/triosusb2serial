@@ -41,6 +41,37 @@
 		// retained by view
 		[singleFingerSTap release];
 		[singleFingerDTap release];
+
+		
+		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(90, 25, 90, 90)];
+		
+		UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+																 stringByAppendingPathComponent:@"cortex.png"]];
+		view.image = image;
+		
+		[image release];
+		
+		view.alpha = 0.7;
+		
+		[self addSubview:view];
+		
+		[self bringSubviewToFront:view];
+		
+		
+		CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
+		
+		scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.3, 0.3, 1)];
+		scale.toValue =	[NSValue valueWithCATransform3D:CATransform3DMakeScale(2.4, 1.3, 1)];
+		scale.duration = 5;
+		scale.repeatCount = 10000;
+		scale.removedOnCompletion = NO;
+		scale.autoreverses=YES;
+		scale.fillMode = kCAFillModeForwards;
+		
+		[view.layer addAnimation:scale forKey:@"transform"];
+		
+		[image release];
+		[view release];		
 		
 		return self;
 		

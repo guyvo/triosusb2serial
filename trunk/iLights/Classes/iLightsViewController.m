@@ -335,7 +335,9 @@ _utilityViewAllOff
 			NSLog(@"after %d",[indicator retainCount]);
 		}
 		
-		//[_indicatorViews release];
+		[_indicatorViews removeAllObjects];
+		
+		[_indicatorViews release];
 		
 	}
 	
@@ -349,7 +351,8 @@ _utilityViewAllOff
 	
 	// loop the array and add the views to superview
 	for (indicator in _indicatorViews) {
-
+		
+		// no release needed done by removefromsuperview
 		[self.view addSubview:indicator];
 		
 		indicator.alpha = 0.1;
@@ -366,9 +369,6 @@ _utilityViewAllOff
 		if ( indicator.tag != VIEW_TAG_SAVE_LIGTHS ){
 			gTriosLights[indicator._index].lights.value = indicator._value;
 		}
-		
-		// release here retained by superview
-		[indicator release];
 
 	}
 	return _indicatorViews;

@@ -12,7 +12,7 @@
 @implementation UtilityViewCortex
 
 - (void) animateTheView{
-	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(85, 25, 90, 90)];
+	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(90, 25, 90, 90)];
 	
 	UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
 															 stringByAppendingPathComponent:@"cortex.png"]];
@@ -20,7 +20,7 @@
 	
 	[image release];
 	
-	view.alpha = 0.6;
+	view.alpha = 0.7;
 	
 	[self addSubview:view];
 	
@@ -41,9 +41,10 @@
 			one.string = @"0";
 		}
 		
-		one.fontSize = 20;
+		
 		one.frame = CGRectMake(0, 0, 20, 20);
 		one.foregroundColor = [[UIColor colorWithHue:0.99 saturation:0.9 brightness:0.9 alpha:0.8]CGColor];
+		one.fontSize = 20;
 		
 		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
 		
@@ -59,18 +60,19 @@
 		[self.layer insertSublayer:one below:view.layer];
 		
 	}
+
+	CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
+
+	scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.25, 0.25, 1)];
+    scale.toValue =	[NSValue valueWithCATransform3D:CATransform3DMakeScale(2.8, 1.5, 1)];
+	scale.duration = 5;
+	scale.repeatCount = 10000;
+	scale.removedOnCompletion = NO;
+	scale.autoreverses=YES;
+	scale.fillMode = kCAFillModeForwards;
+
+	[view.layer addAnimation:scale forKey:@"transform"];
 	
-	[UIView 
-	 animateWithDuration:SWIPE_ANIM_DURATION
-	 delay:0
-	 options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat
-	 animations:^{
-		 view.layer.transform = CATransform3DMakeScale(1.3, 1.3, 1);
-		 view.layer.transform = CATransform3DMakeScale(0.3, 0.3, 1);
-	 }
-	 completion:^(BOOL finished){
-	 }];
-		
 	// release allocs
 	[image release];
 	[view release];
