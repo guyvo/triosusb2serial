@@ -41,25 +41,37 @@
 		// retained by view
 		[singleFingerSTap release];
 		[singleFingerDTap release];
-		/*
-		CGMutablePathRef  path = CGPathCreateMutable();
 		
-		CGPathMoveToPoint(path, NULL, 150, 50);
-		CGPathAddLineToPoint(path, NULL, 200, 50);
-		CGPathAddLineToPoint(path, NULL, 200, 0);
-		CGPathAddLineToPoint(path, NULL, 50, 0);
-		CGPathAddLineToPoint(path, NULL, 50, 75);
-		CGPathAddLineToPoint(path, NULL, 150, 50);
+		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(90, 25, 90, 90)];
 		
-		CAShapeLayer * shape = [CAShapeLayer layer];
+		UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+																 stringByAppendingPathComponent:@"cortex.png"]];
+		view.image = image;
 		
-		shape.path = path;
-		shape.strokeColor = [[UIColor colorWithHue:0.15 saturation:0.2 brightness:0.5 alpha:0.8]CGColor];
-		shape.strokeEnd = 1;
-		shape.strokeStart= 0;
+		[image release];
 		
-		[self.layer addSublayer:shape];
-		*/
+		view.alpha = 0.7;
+		
+		[self addSubview:view];
+		
+		[self bringSubviewToFront:view];
+		
+		
+		CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
+		
+		scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.3, 0.3, 1)];
+		scale.toValue =	[NSValue valueWithCATransform3D:CATransform3DMakeScale(2.4, 1.3, 1)];
+		scale.duration = 5;
+		scale.repeatCount = 10000;
+		scale.removedOnCompletion = NO;
+		scale.autoreverses=YES;
+		scale.fillMode = kCAFillModeForwards;
+		
+		[view.layer addAnimation:scale forKey:@"transform"];
+		
+		[image release];
+		[view release];		
+		
 		return self;
 		
     }
