@@ -106,6 +106,11 @@ _maximum
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		self.tag = _theTag;
 		
+		self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"terras.jpg"]];
+		self.contentMode = UIViewContentModeScaleToFill;
+		
+		self.alpha = 0.8;
+		
 		notificationUpdateViews = [NSNotificationCenter defaultCenter];
 		
 		[notificationUpdateViews addObserver: self
@@ -384,8 +389,8 @@ _maximum
 		CGFloat locationList[2];
 		
 		CGFloat colorList[] = {
-			0.0, 0.1, 0.1, 0.95,
-			0.85, 0.85, 0.0, 1.0,
+			0.0, 0.1, 0.1, 0.75,
+			0.85, 0.85, 0.0, 0.85,
 		};
 		
 		context = UIGraphicsGetCurrentContext();
