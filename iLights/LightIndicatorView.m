@@ -106,8 +106,8 @@ _maximum
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		self.tag = _theTag;
 		
-		self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"terras.jpg"]];
-		self.contentMode = UIViewContentModeScaleToFill;
+		//self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"terras.jpg"]];
+		//self.contentMode = UIViewContentModeScaleToFill;
 		
 		self.alpha = 0.8;
 		
