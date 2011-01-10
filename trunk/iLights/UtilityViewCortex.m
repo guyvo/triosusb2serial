@@ -33,31 +33,35 @@
 		CGPathMoveToPoint(path, NULL, 0 + (i*5), 75);
 		CGPathAddLineToPoint(path, NULL, 250 + (i*1) , 75);
 		
-		CATextLayer * one = [CATextLayer layer];
+		//CATextLayer * one = [CATextLayer layer];
+		
+		UILabel * one = [[UILabel alloc] init];
 		
 		if ( i % 2 ){
-			one.string = @"1";
+			one.text = @"1";
 		}else{
-			one.string = @"0";
+			one.text = @"0";
 		}
 		
-		
-		one.frame = CGRectMake(0, 0, 20, 20);
-		one.foregroundColor = [[UIColor colorWithHue:0.99 saturation:0.9 brightness:0.9 alpha:0.8]CGColor];
-		one.fontSize = 20;
+		one.backgroundColor = [UIColor blackColor];
+		one.frame = CGRectMake(0, 0, 10, 30);
+		one.textColor = [UIColor colorWithHue:0.99 saturation:0.9 brightness:0.9 alpha:0.8];
+		one.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE+5];
 		
 		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
 		
 		animation.path = path;
 		CGPathRelease(path);
+		
+		animation.cumulative = YES;
 		animation.duration = 5+(i*0.75);
 		animation.repeatCount = 10000;// must be MAX_INT
 		animation.removedOnCompletion = NO;
 		animation.fillMode = kCAFillModeForwards;
 		animation.calculationMode = kCAAnimationPaced;
 		
-		[one addAnimation:animation forKey:@"position"];
-		[self.layer insertSublayer:one below:view.layer];
+		[one.layer addAnimation:animation forKey:@"position"];
+		[self.layer insertSublayer:one.layer below:view.layer];
 		
 	}
 
