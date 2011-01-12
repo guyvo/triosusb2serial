@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "triosIncludes.h"
 
 // Subclassed UIView overwrites drawRect

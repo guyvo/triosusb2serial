@@ -494,6 +494,18 @@
 			8EDFBBEC12D91EDD00661C6B = 8EDFBBEC12D91EDD00661C6B /* PBXTextBookmark */;
 			8EDFBBF312D91F5500661C6B = 8EDFBBF312D91F5500661C6B /* PBXTextBookmark */;
 			8EDFBBF412D91F5900661C6B = 8EDFBBF412D91F5900661C6B /* PBXTextBookmark */;
+			8EDFBCA612DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCA612DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCA712DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCA712DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCA812DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCA812DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCA912DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCA912DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAA12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAA12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAB12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAB12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAC12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAC12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAD12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAD12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAE12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAE12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCAF12DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCAF12DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCB012DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCB012DE50B100661C6B /* PBXTextBookmark */;
+			8EDFBCB112DE50B100661C6B /* PBXTextBookmark */ = 8EDFBCB112DE50B100661C6B /* PBXTextBookmark */;
 			8EFCF1AA12CB8EC300797E85 = 8EFCF1AA12CB8EC300797E85 /* PBXTextBookmark */;
 			8EFCF1AB12CB8EC300797E85 = 8EFCF1AB12CB8EC300797E85 /* PBXTextBookmark */;
 			8EFCF1AE12CB8EC300797E85 = 8EFCF1AE12CB8EC300797E85 /* PBXTextBookmark */;
@@ -592,9 +604,9 @@
 	};
 	8EDDAC3E12A18CB000614759 /* LightView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 3926}}";
-			sepNavSelRange = "{9547, 0}";
-			sepNavVisRange = "{8652, 1037}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3900}}";
+			sepNavSelRange = "{9117, 566}";
+			sepNavVisRange = "{8762, 929}";
 		};
 	};
 	8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {
@@ -734,7 +746,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 82";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 0;
@@ -754,7 +766,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 103";
 		rLen = 0;
-		rLoc = 2587;
+		rLoc = 2752;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 2237;
@@ -764,7 +776,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 108";
 		rLen = 0;
-		rLoc = 2587;
+		rLoc = 2752;
 		rType = 0;
 		vrLen = 1176;
 		vrLoc = 2282;
@@ -774,7 +786,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 81";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 1726;
@@ -784,7 +796,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 1732;
@@ -804,7 +816,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 81";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 1826;
@@ -814,7 +826,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 95";
 		rLen = 0;
-		rLoc = 2586;
+		rLoc = 2751;
 		rType = 0;
 		vrLen = 1030;
 		vrLoc = 1893;
@@ -824,7 +836,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 1893;
@@ -844,7 +856,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 72";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 1637;
@@ -854,7 +866,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 72";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 1922;
@@ -864,7 +876,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 97";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2416;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 1922;
@@ -874,7 +886,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 97";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2416;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 1896;
@@ -884,7 +896,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 1896;
@@ -894,7 +906,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 1896;
@@ -904,7 +916,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 88";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 1896;
@@ -914,7 +926,7 @@
 		comments = "Incorrect decrement of the reference count of an object that is not owned at this point by the caller";
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		rLen = 0;
-		rLoc = 83;
+		rLoc = 88;
 		rType = 1;
 	};
 	8EDFB87712D74A1C00661C6B /* PBXTextBookmark */ = {
@@ -922,7 +934,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 1726;
@@ -932,7 +944,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 1500;
@@ -942,7 +954,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 1826;
@@ -952,7 +964,7 @@
 		comments = "Incorrect decrement of the reference count of an object that is not owned at this point by the caller";
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		rLen = 0;
-		rLoc = 83;
+		rLoc = 88;
 		rType = 1;
 	};
 	8EDFB88112D74A5000661C6B /* PBXTextBookmark */ = {
@@ -960,7 +972,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 98";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2416;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 1893;
@@ -970,7 +982,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1450;
@@ -980,7 +992,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 93";
 		rLen = 0;
-		rLoc = 2132;
+		rLoc = 2297;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 1893;
@@ -990,7 +1002,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 1726;
@@ -1000,7 +1012,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1010,7 +1022,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 86";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1893;
@@ -1020,7 +1032,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1030,7 +1042,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 1893;
@@ -1060,7 +1072,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1080,7 +1092,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 1893;
@@ -1090,7 +1102,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 86";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 1732;
@@ -1100,7 +1112,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 1726;
@@ -1110,7 +1122,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1120,7 +1132,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 1732;
@@ -1130,7 +1142,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 77";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1140,7 +1152,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 76";
 		rLen = 0;
-		rLoc = 2009;
+		rLoc = 2174;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 1729;
@@ -1150,7 +1162,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 77";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 1726;
@@ -1160,7 +1172,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 77";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1170,7 +1182,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 77";
 		rLen = 0;
-		rLoc = 2023;
+		rLoc = 2188;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1729;
@@ -1180,7 +1192,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 77";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1190,7 +1202,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 85";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 2028;
@@ -1200,7 +1212,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1400;
@@ -1210,7 +1222,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 67";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 1726;
@@ -1220,7 +1232,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 1400;
@@ -1230,7 +1242,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 1726;
@@ -1240,7 +1252,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 100";
 		rLen = 0;
-		rLoc = 2245;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 2015;
@@ -1250,7 +1262,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1280,7 +1292,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 100";
 		rLen = 0;
-		rLoc = 2245;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 2015;
@@ -1290,7 +1302,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 75";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 1925;
@@ -1300,7 +1312,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1350;
@@ -1310,7 +1322,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 113";
 		rLen = 0;
-		rLoc = 2577;
+		rLoc = 2742;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 2370;
@@ -1334,7 +1346,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1350;
@@ -1344,7 +1356,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 109";
 		rLen = 0;
-		rLoc = 2412;
+		rLoc = 2577;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 2370;
@@ -1364,7 +1376,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1374,7 +1386,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 112";
 		rLen = 0;
-		rLoc = 2577;
+		rLoc = 2742;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 2370;
@@ -1394,7 +1406,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1404,7 +1416,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 94";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 2570;
@@ -1424,7 +1436,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1434,7 +1446,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 108";
 		rLen = 0;
-		rLoc = 2470;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 2570;
@@ -1454,7 +1466,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 81";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1464,7 +1476,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 1187;
@@ -1484,7 +1496,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1048;
 		vrLoc = 1452;
@@ -1494,7 +1506,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1048;
 		vrLoc = 1452;
@@ -1514,7 +1526,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 81";
 		rLen = 0;
-		rLoc = 2010;
+		rLoc = 2175;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -1524,7 +1536,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1048;
 		vrLoc = 1452;
@@ -1534,7 +1546,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 1452;
@@ -1554,7 +1566,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 66";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1048;
 		vrLoc = 1452;
@@ -1564,7 +1576,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 178";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 0;
@@ -1584,7 +1596,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1594,7 +1606,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 189";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1604,7 +1616,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 190";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1250;
@@ -1614,7 +1626,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 190";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1250;
@@ -1624,7 +1636,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 7640;
@@ -1634,20 +1646,20 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 145";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 595;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB93012D874D000661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 548;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB93112D874D000661C6B /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -1664,7 +1676,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 192";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1250;
@@ -1674,7 +1686,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1684,7 +1696,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1694,7 +1706,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1704,7 +1716,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1300;
@@ -1714,7 +1726,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 8314;
@@ -1724,20 +1736,20 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 610;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB94C12D8766B00661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 676;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB94D12D8766B00661C6B /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -1754,7 +1766,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 1478;
@@ -1764,17 +1776,17 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 679;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB95812D8779800661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -1784,17 +1796,17 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 676;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB96112D89AE300661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -1804,10 +1816,10 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 679;
-		vrLoc = 3699;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB96312D89AE300661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1824,7 +1836,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10292;
@@ -1834,7 +1846,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 953;
 		vrLoc = 10289;
@@ -1844,7 +1856,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -1854,7 +1866,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 10289;
@@ -1864,9 +1876,9 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 726;
+		vrLen = 6;
 		vrLoc = 3651;
 	};
 	8EDFB97012D89B3600661C6B /* PBXTextBookmark */ = {
@@ -1924,7 +1936,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -1954,7 +1966,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 190";
 		rLen = 0;
-		rLoc = 5786;
+		rLoc = 5790;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 5273;
@@ -1964,7 +1976,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -1984,7 +1996,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 190";
 		rLen = 0;
-		rLoc = 5786;
+		rLoc = 5790;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 6796;
@@ -2014,7 +2026,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2024,7 +2036,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 190";
 		rLen = 0;
-		rLoc = 5786;
+		rLoc = 5790;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 1622;
@@ -2054,7 +2066,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2064,7 +2076,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2074,7 +2086,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2104,7 +2116,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2114,7 +2126,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2124,7 +2136,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2154,7 +2166,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2174,7 +2186,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 193";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2194,7 +2206,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2214,9 +2226,9 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 158";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 726;
+		vrLen = 6;
 		vrLoc = 3651;
 	};
 	8EDFB9DD12D8A97900661C6B /* PBXTextBookmark */ = {
@@ -2224,9 +2236,9 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 163";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 743;
+		vrLen = 6;
 		vrLoc = 3651;
 	};
 	8EDFB9E812D8A9F600661C6B /* PBXTextBookmark */ = {
@@ -2234,7 +2246,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2244,9 +2256,9 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 163";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 699;
+		vrLen = 6;
 		vrLoc = 3651;
 	};
 	8EDFB9F012D8AA4400661C6B /* PBXTextBookmark */ = {
@@ -2254,7 +2266,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2264,10 +2276,10 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 163";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
-		vrLen = 672;
-		vrLoc = 3812;
+		vrLen = 0;
+		vrLoc = 3657;
 	};
 	8EDFB9F212D8AA4400661C6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2294,7 +2306,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 1478;
@@ -2304,7 +2316,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 1478;
@@ -2314,7 +2326,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2324,7 +2336,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 195";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 1478;
@@ -2344,7 +2356,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 197";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2354,7 +2366,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 197";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2374,7 +2386,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 17";
 		rLen = 0;
-		rLoc = 348;
+		rLoc = 373;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 42;
@@ -2384,7 +2396,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 198";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1425;
@@ -2394,7 +2406,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 29";
 		rLen = 0;
-		rLoc = 614;
+		rLoc = 639;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 88;
@@ -2404,7 +2416,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 199";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2414,7 +2426,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 199";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1325;
@@ -2424,7 +2436,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 73";
 		rLen = 0;
-		rLoc = 1921;
+		rLoc = 2086;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 944;
@@ -2434,7 +2446,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1350;
@@ -2444,7 +2456,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1350;
@@ -2454,7 +2466,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1350;
@@ -2464,7 +2476,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1350;
@@ -2484,9 +2496,9 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
-		vrLen = 1191;
+		vrLen = 1122;
 		vrLoc = 2535;
 	};
 	8EDFBA3212D8B12F00661C6B /* PBXTextBookmark */ = {
@@ -2504,7 +2516,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 1452;
@@ -2524,7 +2536,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 1452;
@@ -2574,7 +2586,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2584,7 +2596,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2594,7 +2606,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2604,7 +2616,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2614,7 +2626,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2624,7 +2636,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 185";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 1452;
@@ -2644,7 +2656,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 187";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1375;
@@ -2664,7 +2676,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 79";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1114;
 		vrLoc = 2535;
@@ -2674,7 +2686,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 25";
 		rLen = 0;
-		rLoc = 569;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 144;
@@ -2684,7 +2696,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 189";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1350;
@@ -2694,7 +2706,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 27";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 214;
@@ -2704,7 +2716,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 189";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1350;
@@ -2714,7 +2726,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 27";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 214;
@@ -2724,7 +2736,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1225;
@@ -2734,7 +2746,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1225;
@@ -2744,7 +2756,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 28";
 		rLen = 0;
-		rLoc = 613;
+		rLoc = 638;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 615;
@@ -2774,7 +2786,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2784,7 +2796,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2794,7 +2806,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 354";
 		rLen = 0;
-		rLoc = 9627;
+		rLoc = 9631;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 8109;
@@ -2824,7 +2836,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2834,7 +2846,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2844,7 +2856,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2864,7 +2876,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -2874,7 +2886,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2894,7 +2906,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2904,7 +2916,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2924,7 +2936,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -2944,7 +2956,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -2954,7 +2966,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2974,7 +2986,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -2984,7 +2996,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -2994,7 +3006,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 354";
 		rLen = 0;
-		rLoc = 9627;
+		rLoc = 9631;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 6801;
@@ -3024,7 +3036,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3044,7 +3056,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3064,7 +3076,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3084,7 +3096,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3094,7 +3106,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3114,7 +3126,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 354";
 		rLen = 0;
-		rLoc = 9627;
+		rLoc = 9631;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 6799;
@@ -3134,7 +3146,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3174,7 +3186,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3194,7 +3206,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3234,7 +3246,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -3244,7 +3256,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3264,7 +3276,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1251;
@@ -3274,7 +3286,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3314,7 +3326,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3354,7 +3366,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 186";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 1251;
@@ -3394,7 +3406,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 187";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 1250;
@@ -3414,7 +3426,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 28";
 		rLen = 0;
-		rLoc = 613;
+		rLoc = 638;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 712;
@@ -3424,7 +3436,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 98";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1863;
@@ -3434,7 +3446,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 187";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 1375;
@@ -3444,7 +3456,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 187";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 1375;
@@ -3454,7 +3466,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 98";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1863;
@@ -3464,7 +3476,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 1250;
@@ -3474,7 +3486,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 119";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1232;
 		vrLoc = 1582;
@@ -3484,7 +3496,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3494,7 +3506,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 119";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 1582;
@@ -3504,7 +3516,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3514,7 +3526,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 119";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 1582;
@@ -3544,7 +3556,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3566,7 +3578,7 @@
 		rLen = 0;
 		rLoc = 9547;
 		rType = 0;
-		vrLen = 680;
+		vrLen = 659;
 		vrLoc = 9391;
 	};
 	8EDFBB5C12D90E8700661C6B /* PBXTextBookmark */ = {
@@ -3576,7 +3588,7 @@
 		rLen = 0;
 		rLoc = 9547;
 		rType = 0;
-		vrLen = 701;
+		vrLen = 680;
 		vrLoc = 9370;
 	};
 	8EDFBB6112D912FE00661C6B /* PBXTextBookmark */ = {
@@ -3584,7 +3596,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3624,7 +3636,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3661,7 +3673,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3671,7 +3683,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1286;
@@ -3691,7 +3703,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 1286;
@@ -3701,7 +3713,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 144";
 		rLen = 0;
-		rLoc = 3509;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 1286;
@@ -3927,7 +3939,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 420";
 		rLen = 1;
-		rLoc = 11063;
+		rLoc = 11067;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 10354;
@@ -3967,7 +3979,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 420";
 		rLen = 1;
-		rLoc = 11063;
+		rLoc = 11067;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 10354;
@@ -3977,7 +3989,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 420";
 		rLen = 1;
-		rLoc = 11063;
+		rLoc = 11067;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 10354;
@@ -3997,7 +4009,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 426";
 		rLen = 0;
-		rLoc = 11108;
+		rLoc = 11112;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10312;
@@ -4007,7 +4019,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 119";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 1582;
@@ -4122,6 +4134,155 @@
 		vrLen = 990;
 		vrLoc = 8812;
 	};
+	8EDFBC3312DE193F00661C6B /* CortexView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 364}}";
+			sepNavSelRange = "{370, 14}";
+			sepNavVisRange = "{0, 476}";
+		};
+	};
+	8EDFBC3412DE193F00661C6B /* CortexView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1001}}";
+			sepNavSelRange = "{1035, 0}";
+			sepNavVisRange = "{536, 836}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	8EDFBC5112DE448500661C6B /* OverviewView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 510}}";
+			sepNavSelRange = "{194, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	8EDFBC5212DE448500661C6B /* OverviewView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1092}}";
+			sepNavSelRange = "{1343, 0}";
+			sepNavVisRange = "{192, 1160}";
+		};
+	};
+	8EDFBCA612DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4612A1780300CB93F2 /* TriosModel.c */;
+		name = "TriosModel.c: 33";
+		rLen = 30;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 8636;
+	};
+	8EDFBCA712DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EFCF41212CF642300797E85 /* UtilityViewFree2.h */;
+		name = "UtilityViewFree2.h: 10";
+		rLen = 25;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	8EDFBCA812DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
+		name = "LightIndicatorView.h: 10";
+		rLen = 26;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 0;
+	};
+	8EDFBCA912DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDFBC5112DE448500661C6B /* OverviewView.h */;
+		name = "OverviewView.h: 11";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	8EDFBCAA12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDDAC3E12A18CB000614759 /* LightView.m */;
+		name = "LightView.m: 232";
+		rLen = 566;
+		rLoc = 9117;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 8762;
+	};
+	8EDFBCAB12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
+		name = "LightIndicatorView.m: 319";
+		rLen = 0;
+		rLoc = 8794;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 8539;
+	};
+	8EDFBCAC12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDFBC5212DE448500661C6B /* OverviewView.m */;
+		name = "OverviewView.m: 47";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 192;
+	};
+	8EDFBCAD12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
+		name = "UtilityViewCortex.m: 139";
+		rLen = 0;
+		rLoc = 3746;
+		rType = 0;
+		vrLen = 711;
+		vrLoc = 3365;
+	};
+	8EDFBCAE12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4930D4712A1780300CB93F2 /* TriosModel.h */;
+		name = "TriosModel.h: 1";
+		rLen = 47;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 3784;
+	};
+	8EDFBCAF12DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDFBC3412DE193F00661C6B /* CortexView.m */;
+		name = "CortexView.m: 40";
+		rLen = 0;
+		rLoc = 1035;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 536;
+	};
+	8EDFBCB012DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDFBC3312DE193F00661C6B /* CortexView.h */;
+		name = "CortexView.h: 21";
+		rLen = 14;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	8EDFBCB112DE50B100661C6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EDFBC3312DE193F00661C6B /* CortexView.h */;
+		name = "CortexView.h: 21";
+		rLen = 14;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
 	8EFCF1AA12CB8EC300797E85 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* iLightsAppDelegate.m */;
@@ -4167,7 +4328,7 @@
 		fRef = E4F54C7712BA5240000F1935 /* LightIndicatorView.h */;
 		name = "LightIndicatorView.h: 14";
 		rLen = 0;
-		rLoc = 282;
+		rLoc = 281;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 340;
@@ -4201,9 +4362,9 @@
 	};
 	8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 1872}}";
-			sepNavSelRange = "{3124, 0}";
-			sepNavVisRange = "{1582, 1283}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 2145}}";
+			sepNavSelRange = "{3746, 0}";
+			sepNavVisRange = "{3365, 711}";
 			sepNavWindowFrame = "{{15, 123}, {875, 650}}";
 		};
 	};
@@ -4237,8 +4398,8 @@
 	};
 	8EFCF41212CF642300797E85 /* UtilityViewFree2.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 447}}";
-			sepNavSelRange = "{197, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 510}}";
+			sepNavSelRange = "{171, 25}";
 			sepNavVisRange = "{0, 247}";
 		};
 	};
@@ -4364,7 +4525,7 @@
 		fRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */;
 		name = "LightIndicatorView.m: 229";
 		rLen = 0;
-		rLoc = 7295;
+		rLoc = 7299;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 6423;
@@ -4394,7 +4555,7 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 82";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 1943;
@@ -4414,14 +4575,14 @@
 		fRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */;
 		name = "UtilityViewCortex.m: 82";
 		rLen = 0;
-		rLoc = 2256;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 0;
 	};
 	E4930D4612A1780300CB93F2 /* TriosModel.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 5577}}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 5850}}";
 			sepNavSelRange = "{649, 30}";
 			sepNavVisRange = "{8636, 990}";
 			sepNavWindowFrame = "{{38, 102}, {875, 650}}";
@@ -4429,9 +4590,9 @@
 	};
 	E4930D4712A1780300CB93F2 /* TriosModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 3666}}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3718}}";
 			sepNavSelRange = "{0, 47}";
-			sepNavVisRange = "{4113, 1255}";
+			sepNavVisRange = "{3784, 1251}";
 		};
 	};
 	E4DA405212C0EC4E009392C0 /* triosDefines.h */ = {
@@ -4443,17 +4604,17 @@
 	};
 	E4F54C7712BA5240000F1935 /* LightIndicatorView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 754}}";
-			sepNavSelRange = "{282, 0}";
-			sepNavVisRange = "{340, 960}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 741}}";
+			sepNavSelRange = "{173, 26}";
+			sepNavVisRange = "{0, 939}";
 			sepNavWindowFrame = "{{131, 86}, {875, 650}}";
 		};
 	};
 	E4F54C7812BA5240000F1935 /* LightIndicatorView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 5980}}";
-			sepNavSelRange = "{11108, 0}";
-			sepNavVisRange = "{10312, 955}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 6110}}";
+			sepNavSelRange = "{8794, 0}";
+			sepNavVisRange = "{8539, 1002}";
 			sepNavWindowFrame = "{{150, 81}, {875, 650}}";
 		};
 	};

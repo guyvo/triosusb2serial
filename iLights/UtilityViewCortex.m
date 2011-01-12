@@ -7,6 +7,7 @@
 //
 
 #import "UtilityViewCortex.h"
+#import "OverviewView.h"
 
 
 @implementation UtilityViewCortex
@@ -53,7 +54,7 @@
 		animation.path = path;
 		CGPathRelease(path);
 		
-		animation.cumulative = YES;
+		
 		animation.duration = 5+(i*0.75);
 		animation.repeatCount = 10000;// must be MAX_INT
 		animation.removedOnCompletion = NO;
@@ -130,6 +131,19 @@
 
 
 - (IBAction)handleSingleDoubleTap:(UIGestureRecognizer *)sender {
+	
+	for( UIView * view in self.superview.subviews){
+		[view setUserInteractionEnabled:NO];
+	}
+	
+	OverviewView * view = [[OverviewView alloc]initWithFrame:CGRectMake(0, 0, 1024, 768)];
+	view.alpha = 0.8;
+	[self.superview addSubview:view];
+
+	[self.superview bringSubviewToFront:view];
+	[view release];
+	
+	
 	
 }
 
