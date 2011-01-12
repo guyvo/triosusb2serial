@@ -19,6 +19,8 @@
 		8EDDACA912A1926000614759 /* TriosUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDACA812A1926000614759 /* TriosUnitTest.m */; };
 		8EDDB03D12BA63B200614759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
 		8EDDB4C712BD098300614759 /* UtilityViewAllOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */; };
+		8EDFBC3512DE193F00661C6B /* CortexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFBC3412DE193F00661C6B /* CortexView.m */; };
+		8EDFBC5312DE448500661C6B /* OverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFBC5212DE448500661C6B /* OverviewView.m */; };
 		8EFCF40B12CF63B700797E85 /* UtilityViewCortex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */; };
 		8EFCF40E12CF63D600797E85 /* UtilityViewSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40D12CF63D600797E85 /* UtilityViewSetup.m */; };
 		8EFCF41112CF641100797E85 /* UtilityViewFree1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF41012CF641100797E85 /* UtilityViewFree1.m */; };
@@ -68,6 +70,10 @@
 		8EDDB4C512BD098300614759 /* UtilityViewAllOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewAllOff.h; sourceTree = "<group>"; };
 		8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewAllOff.m; sourceTree = "<group>"; };
 		8EDDB9E612C0B70100614759 /* triosIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triosIncludes.h; sourceTree = "<group>"; };
+		8EDFBC3312DE193F00661C6B /* CortexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CortexView.h; sourceTree = "<group>"; };
+		8EDFBC3412DE193F00661C6B /* CortexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CortexView.m; sourceTree = "<group>"; };
+		8EDFBC5112DE448500661C6B /* OverviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewView.h; sourceTree = "<group>"; };
+		8EDFBC5212DE448500661C6B /* OverviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewView.m; sourceTree = "<group>"; };
 		8EFCF40912CF63B700797E85 /* UtilityViewCortex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewCortex.h; sourceTree = "<group>"; };
 		8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewCortex.m; sourceTree = "<group>"; };
 		8EFCF40C12CF63D600797E85 /* UtilityViewSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewSetup.h; sourceTree = "<group>"; };
@@ -243,6 +249,10 @@
 				8EFCF41012CF641100797E85 /* UtilityViewFree1.m */,
 				8EFCF41212CF642300797E85 /* UtilityViewFree2.h */,
 				8EFCF41312CF642300797E85 /* UtilityViewFree2.m */,
+				8EDFBC3312DE193F00661C6B /* CortexView.h */,
+				8EDFBC3412DE193F00661C6B /* CortexView.m */,
+				8EDFBC5112DE448500661C6B /* OverviewView.h */,
+				8EDFBC5212DE448500661C6B /* OverviewView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -384,6 +394,8 @@
 				8EFCF40E12CF63D600797E85 /* UtilityViewSetup.m in Sources */,
 				8EFCF41112CF641100797E85 /* UtilityViewFree1.m in Sources */,
 				8EFCF41412CF642300797E85 /* UtilityViewFree2.m in Sources */,
+				8EDFBC3512DE193F00661C6B /* CortexView.m in Sources */,
+				8EDFBC5312DE448500661C6B /* OverviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
