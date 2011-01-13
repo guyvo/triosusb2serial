@@ -21,19 +21,103 @@
 		self.layer.cornerRadius = VIEW_CORNER_RADIUS;
 		self.layer.borderWidth = VIEW_BORDER_THIKNESS;
 		
-		CortexView * view = [[CortexView alloc]initWithX:100 andWithY:100 andWithIndex:0];
+		CGRect subFrame = 
+		CGRectMake(60, 
+				   20, 
+				   900, 
+				   250);
+		
+		UIImageView * main1 = [[UIImageView alloc]initWithFrame:subFrame];
+		
+		main1.backgroundColor =[UIColor blackColor];
+		
+		main1.alpha = 0.3;
+		
+		UIImage * image = [[UIImage alloc] initWithContentsOfFile:
+						   [[[NSBundle mainBundle] resourcePath]  
+							stringByAppendingPathComponent:@"main.jpg"]];
+		
+		main1.image = image;
+		main1.layer.borderColor =[[UIColor redColor]CGColor];
+		main1.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+		main1.layer.borderWidth = VIEW_BORDER_THIKNESS+0.5;
+		
+		
+		[image release];
+		
+		[self addSubview:main1];
+		
+		[main1 release];
+
+		
+		CGRect subFrame1 = 
+		CGRectMake(60, 
+				   460, 
+				   900, 
+				   250);
+		
+		UIImageView * main2 = [[UIImageView alloc]initWithFrame:subFrame1];
+		
+		main2.backgroundColor =[UIColor blackColor];
+		
+		main2.alpha = 0.3;
+		
+		UIImage * image1 = [[UIImage alloc] initWithContentsOfFile:
+						   [[[NSBundle mainBundle] resourcePath]  
+							stringByAppendingPathComponent:@"main.jpg"]];
+		
+		main2.image = image1;
+		main2.layer.borderColor =[[UIColor redColor]CGColor];
+		main2.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+		main2.layer.borderWidth = VIEW_BORDER_THIKNESS+0.5;
+		
+		
+		[image1 release];
+		
+		[self addSubview:main2];
+		
+		[main2 release];
+
+		CGRect subFrame2 = 
+		CGRectMake(60, 
+				   300, 
+				   900, 
+				   130);
+		
+		UIImageView * wifi = [[UIImageView alloc]initWithFrame:subFrame2];
+		
+		wifi.backgroundColor =[UIColor blackColor];
+		
+		wifi.alpha = 0.3;
+		
+		UIImage * image2 = [[UIImage alloc] initWithContentsOfFile:
+							[[[NSBundle mainBundle] resourcePath]  
+							 stringByAppendingPathComponent:@"wifi.jpg"]];
+		
+		wifi.image = image2;
+		wifi.layer.borderColor =[[UIColor redColor]CGColor];
+		wifi.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+		wifi.layer.borderWidth = VIEW_BORDER_THIKNESS+0.5;
+		
+		[image2 release];
+		
+		[self addSubview:wifi];
+		
+		[wifi release];
+		
+		CortexView * view = [[CortexView alloc]initWithX:270 andWithY:100 andWithIndex:0];
 		[self addSubview:view];
 		[view release];
 		
-		CortexView * view1 = [[CortexView alloc]initWithX:500 andWithY:100 andWithIndex:1];
+		CortexView * view1 = [[CortexView alloc]initWithX:610 andWithY:100 andWithIndex:1];
 		[self addSubview:view1];
 		[view1 release];
 		
-		CortexView * view2 = [[CortexView alloc]initWithX:100 andWithY:500 andWithIndex:2];
+		CortexView * view2 = [[CortexView alloc]initWithX:270 andWithY:540 andWithIndex:2];
 		[self addSubview:view2];
 		[view2 release];
 		
-		CortexView * view3 = [[CortexView alloc]initWithX:500 andWithY:500 andWithIndex:3];
+		CortexView * view3 = [[CortexView alloc]initWithX:610 andWithY:540 andWithIndex:3];
 		[self addSubview:view3];
 		[view3 release];
 		

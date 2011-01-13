@@ -30,6 +30,8 @@
 		E448D79B12A1745C00C98F78 /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLightsViewController.xib */; };
 		E448D89312A198A200C98F78 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
 		E47CDF1A12D9E77200DEC8E9 /* terras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF1912D9E77200DEC8E9 /* terras.jpg */; };
+		E47CDF8412DF76F800DEC8E9 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF8312DF76F800DEC8E9 /* main.jpg */; };
+		E47CDF8612DF770000DEC8E9 /* wifi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF8512DF770000DEC8E9 /* wifi.jpg */; };
 		E4930D4812A1780300CB93F2 /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
 		E4DA409312C0FFBB009392C0 /* yellow100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA409212C0FFBB009392C0 /* yellow100x100.png */; };
 		E4DA409612C0FFEB009392C0 /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA409412C0FFEB009392C0 /* grey.png */; };
@@ -85,6 +87,8 @@
 		E43E2EFC12AAD73E00B45F8A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		E448D79912A1744000C98F78 /* trios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trios.png; sourceTree = "<group>"; };
 		E47CDF1912D9E77200DEC8E9 /* terras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terras.jpg; sourceTree = "<group>"; };
+		E47CDF8312DF76F800DEC8E9 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		E47CDF8512DF770000DEC8E9 /* wifi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wifi.jpg; sourceTree = "<group>"; };
 		E4930D4612A1780300CB93F2 /* TriosModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriosModel.c; sourceTree = "<group>"; };
 		E4930D4712A1780300CB93F2 /* TriosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosModel.h; sourceTree = "<group>"; };
 		E4DA405212C0EC4E009392C0 /* triosDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triosDefines.h; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E47CDF5212DF715D00DEC8E9 /* jpg */,
 				8EDDB9E412C0B67100614759 /* includes */,
 				8EDDAC9C12A191E300614759 /* UnitTests */,
 				8EDDAC4C12A18E3A00614759 /* Png */,
@@ -197,7 +202,6 @@
 		8EDDAC4C12A18E3A00614759 /* Png */ = {
 			isa = PBXGroup;
 			children = (
-				E47CDF1912D9E77200DEC8E9 /* terras.jpg */,
 				E4DA440A12D0BC75009392C0 /* cortex.png */,
 				E4DA438B12CE3934009392C0 /* preset1.png */,
 				E4DA438C12CE3934009392C0 /* preset6.png */,
@@ -255,6 +259,16 @@
 				8EDFBC5212DE448500661C6B /* OverviewView.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		E47CDF5212DF715D00DEC8E9 /* jpg */ = {
+			isa = PBXGroup;
+			children = (
+				E47CDF8312DF76F800DEC8E9 /* main.jpg */,
+				E47CDF8512DF770000DEC8E9 /* wifi.jpg */,
+				E47CDF1912D9E77200DEC8E9 /* terras.jpg */,
+			);
+			name = jpg;
 			sourceTree = "<group>";
 		};
 		E4930D4212A177D300CB93F2 /* Trios */ = {
@@ -349,6 +363,8 @@
 				E4DA439612CE3934009392C0 /* preset2.png in Resources */,
 				E4DA440B12D0BC75009392C0 /* cortex.png in Resources */,
 				E47CDF1A12D9E77200DEC8E9 /* terras.jpg in Resources */,
+				E47CDF8412DF76F800DEC8E9 /* main.jpg in Resources */,
+				E47CDF8612DF770000DEC8E9 /* wifi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
