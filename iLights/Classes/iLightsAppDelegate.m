@@ -11,6 +11,8 @@
 
 @implementation iLightsAppDelegate
 
+@class iLightsTriosWrapper;
+
 @synthesize window;
 @synthesize viewController;
 
@@ -40,9 +42,9 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
-	//[viewController.view setNeedsDisplay];
-}
+	[iLightsTriosWrapper TriosSendGetBuffer];
 
+}
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     /*
