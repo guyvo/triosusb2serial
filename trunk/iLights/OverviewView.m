@@ -49,6 +49,32 @@
 		
 		[main1 release];
 
+		CGRect subFrame2 = 
+		CGRectMake(60, 
+				   300, 
+				   900, 
+				   130);
+		
+		UIImageView * wifi = [[UIImageView alloc]initWithFrame:subFrame2];
+		
+		wifi.backgroundColor =[UIColor blackColor];
+		
+		wifi.alpha = 0.3;
+		
+		UIImage * image2 = [[UIImage alloc] initWithContentsOfFile:
+							[[[NSBundle mainBundle] resourcePath]  
+							 stringByAppendingPathComponent:@"wifi.jpg"]];
+		
+		wifi.image = image2;
+		wifi.layer.borderColor =[[UIColor redColor]CGColor];
+		wifi.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
+		wifi.layer.borderWidth = VIEW_BORDER_THIKNESS+0.5;
+		
+		[image2 release];
+		
+		[self addSubview:wifi];
+		
+		[wifi release];
 		
 		CGRect subFrame1 = 
 		CGRectMake(60, 
@@ -78,32 +104,6 @@
 		
 		[main2 release];
 
-		CGRect subFrame2 = 
-		CGRectMake(60, 
-				   300, 
-				   900, 
-				   130);
-		
-		UIImageView * wifi = [[UIImageView alloc]initWithFrame:subFrame2];
-		
-		wifi.backgroundColor =[UIColor blackColor];
-		
-		wifi.alpha = 0.3;
-		
-		UIImage * image2 = [[UIImage alloc] initWithContentsOfFile:
-							[[[NSBundle mainBundle] resourcePath]  
-							 stringByAppendingPathComponent:@"wifi.jpg"]];
-		
-		wifi.image = image2;
-		wifi.layer.borderColor =[[UIColor redColor]CGColor];
-		wifi.layer.cornerRadius = VIEW_CORNER_RADIUS - 5;
-		wifi.layer.borderWidth = VIEW_BORDER_THIKNESS+0.5;
-		
-		[image2 release];
-		
-		[self addSubview:wifi];
-		
-		[wifi release];
 		
 		CortexView * view = [[CortexView alloc]initWithX:270 andWithY:100 andWithIndex:0];
 		[self addSubview:view];
@@ -128,6 +128,26 @@
 		
 		// retained by view
 		[swiper release];
+		
+		CALayer * rect = [CALayer layer];
+		rect.frame = CGRectMake(0,0, 5, 20);
+		
+		CAReplicatorLayer * rects = [CAReplicatorLayer layer];
+		rects.instanceCount = 10;
+		rects.backgroundColor = [[UIColor yellowColor]CGColor];
+		
+		[rects addSublayer:rect]; 
+		
+		CGMutablePathRef  path = CGPathCreateMutable();
+		CGPathMoveToPoint(path, NULL,600,370);
+		CGPathAddLineToPoint(path, NULL, 50 ,370);
+		CGPathAddLineToPoint(path, NULL, 50 ,150);
+		CGPathAddLineToPoint(path, NULL, 600 ,150);
+		
+		CGPathRelease(path);
+		
+		
+		//[shape1 release];
 		
     }
     return self;

@@ -64,6 +64,8 @@
 		[one.layer addAnimation:animation forKey:@"position"];
 		[self.layer insertSublayer:one.layer below:view.layer];
 		
+		//[one release];
+		
 	}
 
 	CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
