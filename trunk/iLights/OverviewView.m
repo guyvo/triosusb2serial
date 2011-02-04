@@ -31,7 +31,7 @@
 		
 		main1.backgroundColor =[UIColor blackColor];
 		
-		main1.alpha = 0.3;
+		main1.alpha = VIEW_ALPHA_PCBS;
 		
 		UIImage * image = [[UIImage alloc] initWithContentsOfFile:
 						   [[[NSBundle mainBundle] resourcePath]  
@@ -59,7 +59,7 @@
 		
 		wifi.backgroundColor =[UIColor blackColor];
 		
-		wifi.alpha = 0.3;
+		wifi.alpha = VIEW_ALPHA_PCBS;
 		
 		UIImage * image2 = [[UIImage alloc] initWithContentsOfFile:
 							[[[NSBundle mainBundle] resourcePath]  
@@ -86,7 +86,7 @@
 		
 		main2.backgroundColor =[UIColor blackColor];
 		
-		main2.alpha = 0.3;
+		main2.alpha = VIEW_ALPHA_PCBS;
 		
 		UIImage * image1 = [[UIImage alloc] initWithContentsOfFile:
 						   [[[NSBundle mainBundle] resourcePath]  
@@ -130,27 +130,49 @@
 		[swiper release];
 		
 		CALayer * rect = [CALayer layer];
-		rect.frame = CGRectMake(0,0, 5, 20);
+		rect.frame = CGRectMake(0,0, 6, 2);
+		rect.backgroundColor = [[UIColor yellowColor]CGColor];
 		
 		CAReplicatorLayer * rects = [CAReplicatorLayer layer];
-		rects.instanceCount = 10;
-		rects.backgroundColor = [[UIColor yellowColor]CGColor];
+		rects.frame = CGRectMake(0,0, 1000, 768);
+		rects.instanceDelay = 0.1;
+		rects.instanceCount = 100;
 		
-		[rects addSublayer:rect]; 
+		[rects addSublayer:rect];
+		[self.layer addSublayer:rects];
 		
 		CGMutablePathRef  path = CGPathCreateMutable();
-		CGPathMoveToPoint(path, NULL,600,370);
+		CGPathMoveToPoint(path, NULL,670,370);
 		CGPathAddLineToPoint(path, NULL, 50 ,370);
 		CGPathAddLineToPoint(path, NULL, 50 ,150);
-		CGPathAddLineToPoint(path, NULL, 600 ,150);
+		CGPathAddLineToPoint(path, NULL, 620 ,150);
+		CGPathMoveToPoint(path, NULL,50,370);
+		CGPathAddLineToPoint(path, NULL, 50 ,580);
+		CGPathAddLineToPoint(path, NULL, 620 ,580);
 		
+		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+		
+		animation.path = path;
 		CGPathRelease(path);
 		
 		
-		//[shape1 release];
+		animation.duration = 5;
+		animation.repeatCount = 10;// must be MAX_INT
+		animation.removedOnCompletion = YES;
+		animation.fillMode = kCAFillModeForwards;
+		animation.calculationMode = kCAAnimationLinear;
+		animation.rotationMode = kCAAnimationRotateAuto;
+		animation.delegate = self;
+		
+		[rect addAnimation:animation forKey:@"position"];
 		
     }
     return self;
+}
+
+- (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
+	
+
 }
 
 - (IBAction)handleSwipeLeft:(UIGestureRecognizer *)sender {

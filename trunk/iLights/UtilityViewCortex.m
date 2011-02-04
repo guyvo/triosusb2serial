@@ -13,7 +13,7 @@
 @implementation UtilityViewCortex
 
 - (void) animateTheView{
-	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(90, 25, 90, 90)];
+	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(150, 25, 90, 90)];
 	
 	UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
 															 stringByAppendingPathComponent:@"cortex.png"]];
@@ -31,8 +31,8 @@
 		
 		CGMutablePathRef  path = CGPathCreateMutable();
 		
-		CGPathMoveToPoint(path, NULL, 0 + (i*5), 75);
-		CGPathAddLineToPoint(path, NULL, 250 + (i*1) , 75);
+		CGPathMoveToPoint(path, NULL, 0 + (i*2), 75);
+		CGPathAddLineToPoint(path, NULL, 150  , 75);
 		
 		//CATextLayer * one = [CATextLayer layer];
 		
@@ -46,7 +46,7 @@
 		
 		one.backgroundColor = [UIColor blackColor];
 		one.frame = CGRectMake(0, 0, 10, 30);
-		one.textColor = [UIColor colorWithHue:0.99 saturation:0.9 brightness:0.9 alpha:0.8];
+		one.textColor = [UIColor colorWithHue:0.29 saturation:0.9 brightness:0.9 alpha:0.8];
 		one.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE+5];
 		
 		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
@@ -55,7 +55,7 @@
 		CGPathRelease(path);
 		
 		
-		animation.duration = 5+(i*0.75);
+		animation.duration = 3+(i*0.75);
 		animation.repeatCount = 10000;// must be MAX_INT
 		animation.removedOnCompletion = NO;
 		animation.fillMode = kCAFillModeForwards;
@@ -67,7 +67,7 @@
 		//[one release];
 		
 	}
-
+	/*
 	CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
 
 	scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.25, 0.25, 1)];
@@ -79,7 +79,7 @@
 	scale.fillMode = kCAFillModeForwards;
 
 	[view.layer addAnimation:scale forKey:@"transform"];
-	
+	*/
 	// release allocs
 	[image release];
 	[view release];
