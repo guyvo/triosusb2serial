@@ -34,6 +34,7 @@
 // view properties
 #define VIEW_CORNER_RADIUS			20
 #define VIEW_BORDER_THIKNESS		0.5
+#define VIEW_ALPHA_PCBS				0.6
 
 // view tags ids
 #define VIEW_TAG_LIGHT_DETAIL		50
