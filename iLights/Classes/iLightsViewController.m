@@ -390,7 +390,7 @@ _utilityViewAllOff
 	self.view.layer.borderColor = [[UIColor whiteColor]CGColor];
 	self.view.layer.borderWidth = VIEW_BORDER_THIKNESS;
 	
-	TriosSetEthernet("192.168.1.24", 6969);
+	TriosSetEthernet("192.168.1.21", 6969);
 	TriosInitBuffer();
 	
 	[self makeArrayWithIndicatorViews];
