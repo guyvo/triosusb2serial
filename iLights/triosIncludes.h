@@ -17,7 +17,7 @@
 #import "UtilityViewFree2.h"
 #import "UtilityViewSetup.h"
 #import "UtilityViewCortex.h"
-#import "LightIndicatorView.h";
+#import "LightIndicatorView.h"
 #import "LightView.h"
 #import "iLightsTriosWrapper.h"
 
