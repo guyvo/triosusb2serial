@@ -18,7 +18,7 @@ TLightModel		lights[MAXLIGHTS*AMOUNT_OF_CORTEXES];
 int				err;
 
 - (void) testTriosGetBufferCompare{
-	TriosSetEhternet("192.168.1.24", 6969);
+	TriosSetEhternet("192.168.1.250", 6969);
 	TriosInitBuffer();
 	err = TriosSendGetBuffer();
 	
@@ -41,7 +41,7 @@ int				err;
 }
 
 - (void) testTriosGetPost{
-	TriosSetEhternet("192.168.1.24", 6969);
+	TriosSetEhternet("192.168.1.250", 6969);
 	TriosInitBuffer();
 	
 	for (int i=0; i<AMOUNT_OF_TESTS; i++) {
