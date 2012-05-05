@@ -30,7 +30,7 @@
 	
 }
 
-// properties not multithreade and retained after assign
+// properties not multithreaded and retained after assign
 @property (nonatomic,retain) LightIndicatorView * _lightIndicator;
 @property (nonatomic,retain) LightView * _lightView;
 @property (nonatomic,retain) UtilityViewCortex * _utilityViewCortex;
