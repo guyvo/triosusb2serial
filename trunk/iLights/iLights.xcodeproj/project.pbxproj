@@ -49,6 +49,13 @@
 		8E65CB49155EB9790006F4FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
 		8E65CB53155EB97C0006F4FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E65CB51155EB97C0006F4FE /* MainWindow.xib */; };
 		8E65CB54155EB97C0006F4FE /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */; };
+		8E65CB5D155ECFBA0006F4FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		8E65CB5E155ECFBA0006F4FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		8E65CB64155ECFBA0006F4FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E65CB62155ECFBA0006F4FE /* InfoPlist.strings */; };
+		8E65CB67155ECFBA0006F4FE /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E65CB66155ECFBA0006F4FE /* UnitTest.m */; };
+		8E65CB6C155ED2170006F4FE /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
+		8E65CB6E155ED3F90006F4FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65CB6D155ED3F90006F4FE /* SenTestingKit.framework */; };
+		8E65CB71155ED5760006F4FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65CB70155ED5760006F4FE /* SenTestingKit.framework */; };
 		8EDDAC3F12A18CB000614759 /* LightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC3E12A18CB000614759 /* LightView.m */; };
 		8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
 		8EDDB03D12BA63B200614759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
@@ -97,12 +104,19 @@
 		8E65CB50155EB97A0006F4FE /* iLights copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iLights copy-Info.plist"; path = "/Users/guyvo/trios/triosusb2serial/iLights/iLights copy-Info.plist"; sourceTree = "<absolute>"; };
 		8E65CB51155EB97C0006F4FE /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
 		8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iLightsViewController.xib; path = "Resources-iPad/iLightsViewController.xib"; sourceTree = "<group>"; };
+		8E65CB5A155ECFBA0006F4FE /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E65CB61155ECFBA0006F4FE /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		8E65CB63155ECFBA0006F4FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E65CB65155ECFBA0006F4FE /* UnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTest.h; sourceTree = "<group>"; };
+		8E65CB66155ECFBA0006F4FE /* UnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
+		8E65CB68155ECFBA0006F4FE /* UnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		8E65CB6D155ED3F90006F4FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E65CB70155ED5760006F4FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E65CB72155ED8B50006F4FE /* iLights.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iLights.entitlements; sourceTree = "<group>"; };
 		8EDDAC3D12A18CB000614759 /* LightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightView.h; sourceTree = "<group>"; };
 		8EDDAC3E12A18CB000614759 /* LightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightView.m; sourceTree = "<group>"; };
 		8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLightsTriosWrapper.h; sourceTree = "<group>"; };
 		8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLightsTriosWrapper.m; sourceTree = "<group>"; };
-		8EDDACA712A1926000614759 /* TriosUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriosUnitTest.h; sourceTree = "<group>"; };
-		8EDDACA812A1926000614759 /* TriosUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriosUnitTest.m; sourceTree = "<group>"; };
 		8EDDB03C12BA63B200614759 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8EDDB4C512BD098300614759 /* UtilityViewAllOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityViewAllOff.h; sourceTree = "<group>"; };
 		8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityViewAllOff.m; sourceTree = "<group>"; };
@@ -164,6 +178,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB56155ECFBA0006F4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB6E155ED3F90006F4FE /* SenTestingKit.framework in Frameworks */,
+				8E65CB5D155ECFBA0006F4FE /* UIKit.framework in Frameworks */,
+				8E65CB5E155ECFBA0006F4FE /* Foundation.framework in Frameworks */,
+				8E65CB71155ED5760006F4FE /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -185,6 +210,7 @@
 			children = (
 				1D6058910D05DD3D006BFB54 /* iLights.app */,
 				8E65CB4D155EB9790006F4FE /* iLights-iPad.app */,
+				8E65CB5A155ECFBA0006F4FE /* UnitTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +218,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8E65CB72155ED8B50006F4FE /* iLights.entitlements */,
+				8E65CB6D155ED3F90006F4FE /* SenTestingKit.framework */,
 				E47CDF5212DF715D00DEC8E9 /* jpg */,
 				8EDDB9E412C0B67100614759 /* includes */,
-				8EDDAC9C12A191E300614759 /* UnitTests */,
 				8EDDAC4C12A18E3A00614759 /* Png */,
 				E448D7C312A180B500C98F78 /* Views */,
 				E4930D4212A177D300CB93F2 /* Trios */,
@@ -202,9 +229,9 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				8E65CB4F155EB9790006F4FE /* Resources-iPad */,
+				8E65CB5F155ECFBA0006F4FE /* UnitTest */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				8E65CB50155EB97A0006F4FE /* iLights copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -231,6 +258,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E65CB70155ED5760006F4FE /* SenTestingKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -242,10 +270,31 @@
 		8E65CB4F155EB9790006F4FE /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				8E65CB50155EB97A0006F4FE /* iLights copy-Info.plist */,
 				8E65CB51155EB97C0006F4FE /* MainWindow.xib */,
 				8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */,
 			);
 			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		8E65CB5F155ECFBA0006F4FE /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				8E65CB65155ECFBA0006F4FE /* UnitTest.h */,
+				8E65CB66155ECFBA0006F4FE /* UnitTest.m */,
+				8E65CB60155ECFBA0006F4FE /* Supporting Files */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		8E65CB60155ECFBA0006F4FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E65CB61155ECFBA0006F4FE /* UnitTest-Info.plist */,
+				8E65CB62155ECFBA0006F4FE /* InfoPlist.strings */,
+				8E65CB68155ECFBA0006F4FE /* UnitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8EDDAC4C12A18E3A00614759 /* Png */ = {
@@ -265,15 +314,6 @@
 				E448D79912A1744000C98F78 /* trios.png */,
 			);
 			name = Png;
-			sourceTree = "<group>";
-		};
-		8EDDAC9C12A191E300614759 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				8EDDACA712A1926000614759 /* TriosUnitTest.h */,
-				8EDDACA812A1926000614759 /* TriosUnitTest.m */,
-			);
-			name = UnitTests;
 			sourceTree = "<group>";
 		};
 		8EDDB9E412C0B67100614759 /* includes */ = {
@@ -366,6 +406,24 @@
 			productReference = 8E65CB4D155EB9790006F4FE /* iLights-iPad.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8E65CB59155ECFBA0006F4FE /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E65CB69155ECFBA0006F4FE /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				8E65CB55155ECFBA0006F4FE /* Sources */,
+				8E65CB56155ECFBA0006F4FE /* Frameworks */,
+				8E65CB57155ECFBA0006F4FE /* Resources */,
+				8E65CB58155ECFBA0006F4FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 8E65CB5A155ECFBA0006F4FE /* UnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -383,6 +441,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -390,6 +449,7 @@
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iLights */,
 				8E65CB23155EB9790006F4FE /* iLights-iPad */,
+				8E65CB59155ECFBA0006F4FE /* UnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -443,7 +503,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB57155ECFBA0006F4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB64155ECFBA0006F4FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E65CB58155ECFBA0006F4FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -488,7 +572,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB55155ECFBA0006F4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB6C155ED2170006F4FE /* TriosModel.c in Sources */,
+				8E65CB67155ECFBA0006F4FE /* UnitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E65CB62155ECFBA0006F4FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E65CB63155ECFBA0006F4FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -496,6 +600,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -511,6 +619,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iLights_Prefix.pch;
 				INFOPLIST_FILE = "iLights-Info.plist";
@@ -548,6 +660,60 @@
 				PRODUCT_NAME = "iLights-iPad";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E65CB6A155ECFBA0006F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTest/UnitTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "UnitTest/UnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E65CB6B155ECFBA0006F4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTest/UnitTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "UnitTest/UnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -602,6 +768,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8E65CB69155ECFBA0006F4FE /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E65CB6A155ECFBA0006F4FE /* Debug */,
+				8E65CB6B155ECFBA0006F4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iLights" */ = {
 			isa = XCConfigurationList;
