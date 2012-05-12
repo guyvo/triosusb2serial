@@ -57,7 +57,7 @@ const char * gpCLightNames[24] = {
 	"living achter",
 	"keuken tafel",
 	"keuken werkblad",
-	"vrij",
+	"terras",
 	"terras buitendeur",
 	"badkamer beneden",
 	"zolder",
