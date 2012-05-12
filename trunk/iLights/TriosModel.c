@@ -332,7 +332,8 @@ static int TriosTransmitBuffer (char * ip , int port){
 		iToReceive -= iReallyReceived;
 	}
 	
-	printf("%d\n",iReallyReceived);
+    // debug
+	//printf("%d\n",iReallyReceived);
 	
 	/* if reach this point all went well so close socket */
 	close(iClientSocket);
