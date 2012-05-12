@@ -31,6 +31,7 @@ static int staticPreset;
 _lightIndicator,
 _lightView,
 _indicatorViews,
+_temp,
 _utilityViewCortex,
 _utilityViewSetup,
 _utilityViewFree1,
@@ -43,7 +44,7 @@ _utilityViewAllOff
 +(void) loadFromFileWithPresetNumber:(NSInteger) preset{
 	staticPreset = preset;
 	[[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_LOAD_PRESET  object: self];
-	[iLightsTriosWrapper TriosSendPostBuffer];
+    [iLightsTriosWrapper TriosSendPostBuffer];
 		
 }
 
@@ -92,6 +93,7 @@ _utilityViewAllOff
 		// fresh install
 		
 		_indicatorViews = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
+		_temp = [[NSMutableArray alloc] initWithCapacity:RASTER_COUNT];
 		
 		for ( int views=0 ; views < RASTER_COUNT ; views++ ){
 			
@@ -325,7 +327,19 @@ _utilityViewAllOff
 -(id) loadIndicatorsFromFile:(NSString*) fileName{
 	LightIndicatorView * indicator;
 
-	// already views present ?
+    // check if we have a preset saved
+	_temp = [self newUnarchiveRootObject:fileName];
+	
+    if (_temp == nil ){
+        [_temp removeAllObjects];
+        [_temp release];
+        return nil;
+    }
+
+    [_temp removeAllObjects];
+    [_temp release];
+     
+	// already views present ? cleanup 
 	if ( _indicatorViews != nil){
 		
 		// first remove them form super view	
@@ -341,13 +355,8 @@ _utilityViewAllOff
 		
 	}
 	
-	// load the views form disk
+	// load the views from disk
 	_indicatorViews = [self newUnarchiveRootObject:fileName];
-	
-	// check if read from disk was succesfull
-	if (_indicatorViews == nil){
-		return nil;
-	}
 	
 	// loop the array and add the views to superview
 	for (indicator in _indicatorViews) {
@@ -528,6 +537,7 @@ _utilityViewAllOff
 - (void)dealloc {
 	[[NSNotificationCenter defaultCenter] removeObserver:self];	
 	[_lightIndicator release];
+    [_temp release];
 	[_lightView release],
 	[_utilityViewAllOff release];
 	[_indicatorViews release];

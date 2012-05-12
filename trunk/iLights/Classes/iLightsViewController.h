@@ -24,7 +24,9 @@
 	
 	// collections of views
 	NSMutableArray * _indicatorViews;
-	
+	NSMutableArray * _temp;
+    
+    
 	NSNotificationCenter * notifyLoadPreset;
 	NSNotificationCenter * notifySavePreset;
 	
@@ -39,6 +41,7 @@
 @property (nonatomic,retain) UtilityViewFree2 * _utilityViewFree2;
 @property (nonatomic,retain) UtilityViewAllOff * _utilityViewAllOff;
 @property (nonatomic,retain) NSMutableArray * _indicatorViews;
+@property (nonatomic,retain) NSMutableArray * _temp;
 
 
 -(void) saveIndicatorsToFile:(NSString*) fileName;

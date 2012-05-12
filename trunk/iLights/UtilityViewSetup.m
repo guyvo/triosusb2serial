@@ -42,19 +42,21 @@
 		[singleFingerSTap release];
 		[singleFingerDTap release];
 		
-		UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(90, 25, 90, 90)];
-		
-		UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
-																 stringByAppendingPathComponent:@"cortex.png"]];
-		view.image = image;
-		
-		[image release];
-		
-		view.alpha = 0.7;
-		
-		[self addSubview:view];
-		
-		[self bringSubviewToFront:view];
+        UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
+                                                                 stringByAppendingPathComponent:@"cortex.png"]];
+        
+        UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
+        
+        view.image = image;
+        
+        view.contentMode = UIViewContentModeScaleAspectFill;
+        [image release];
+        
+        view.alpha = 0.5;
+        
+        [self addSubview:view];
+        
+        [self bringSubviewToFront:view];
 		
 		
 		CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
@@ -67,9 +69,9 @@
 		scale.autoreverses=YES;
 		scale.fillMode = kCAFillModeForwards;
 		
-		[view.layer addAnimation:scale forKey:@"transform"];
+		//[view.layer addAnimation:scale forKey:@"transform"];
 		
-		[image release];
+		//[image release];
 		[view release];		
 		
 		return self;

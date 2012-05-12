@@ -7,16 +7,26 @@
  *
  */
 
+#define TARGET_IPHONE
 
-// tekst related
-#define FONT_SIZE 13
-#define FONT_SIZE_SLIDERS 25
+// raster view
+#ifdef TARGET_IPHONE
+    #define RASTER_SIZE         59
+    #define RASTER_SPACING      2
+    #define FONT_SIZE           6
+    #define FONT_SIZE_SLIDERS   13
+    #define IMAGE_SCALE_CORTEX  0.5
+#else
+    #define RASTER_SIZE         136
+    #define RASTER_SPACING      10
+    #define FONT_SIZE           13
+    #define FONT_SIZE_SLIDERS   25
+    #define IMAGE_SCALE_CORTEX  1
+#endif
 
-// raster view 
-#define RASTER_SIZE		136
 #define RASTER_ROWS		5
 #define RASTER_COLS		5
-#define RASTER_SPACING	10
+
 #define RASTER_COUNT	RASTER_COLS * RASTER_ROWS
 
 // uitility view
@@ -51,3 +61,4 @@
 #define NOTIFICATION_UPDATE				@"updateViews"
 #define NOTIFICATION_SAVE_PRESET		@"savePreset"
 #define NOTIFICATION_LOAD_PRESET		@"loadPreset"
+#define MESSAGE_DETAIL                  @"Cortex detail view"

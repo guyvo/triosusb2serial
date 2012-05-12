@@ -13,15 +13,19 @@
 @implementation UtilityViewCortex
 
 - (void) animateTheView{
-	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(150, 25, 90, 90)];
+    
 	
 	UIImage * image =[[UIImage alloc]initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath]  
 															 stringByAppendingPathComponent:@"cortex.png"]];
-	view.image = image;
 	
+	UIImageView * view = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
+    
+    view.image = image;
+	
+    view.contentMode = UIViewContentModeScaleAspectFill;
 	[image release];
 	
-	view.alpha = 0.7;
+	view.alpha = 0.5;
 	
 	[self addSubview:view];
 	
@@ -29,44 +33,47 @@
 	
 	for (int i = 0 ; i< NUMBER_OF_ONES ; i++){
 		
-		CGMutablePathRef  path = CGPathCreateMutable();
+		//CGMutablePathRef  path = CGPathCreateMutable();
 		
-		CGPathMoveToPoint(path, NULL, 0 + (i*2), 75);
-		CGPathAddLineToPoint(path, NULL, 150  , 75);
-		
-		//CATextLayer * one = [CATextLayer layer];
+		//CGPathMoveToPoint(path, NULL, 0 + (i*2), 75);
+		//CGPathAddLineToPoint(path, NULL, 150  , 75);
 		
 		UILabel * one = [[UILabel alloc] init];
-		
-		if ( i % 2 ){
-			one.text = @"1";
-		}else{
-			one.text = @"0";
-		}
-		
-		one.backgroundColor = [UIColor blackColor];
-		one.frame = CGRectMake(0, 0, 10, 30);
-		one.textColor = [UIColor colorWithHue:0.29 saturation:0.9 brightness:0.9 alpha:0.8];
-		one.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE+5];
-		
-		CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+        one.text = MESSAGE_DETAIL;
+  		one.backgroundColor = [UIColor blackColor];
+		one.frame = CGRectMake(0,0, self.bounds.size.width, self.bounds.size.height);
+		one.textColor = [UIColor colorWithHue:0.99 saturation:0.8 brightness:0.9 alpha:0.8];
+		one.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:FONT_SIZE];
+        one.textAlignment = UITextAlignmentCenter;
+    
+       
+        /*
+
+         if ( i % 2 ){
+         one.text = @"1";
+         }else{
+         one.text = @"0";
+         }
+         
+        CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
 		
 		animation.path = path;
 		CGPathRelease(path);
 		
 		
 		animation.duration = 3+(i*0.75);
-		animation.repeatCount = 10000;// must be MAX_INT
-		animation.removedOnCompletion = NO;
+		animation.repeatCount = 2;// must be MAX_INT
+		animation.removedOnCompletion = YES;
 		animation.fillMode = kCAFillModeForwards;
 		animation.calculationMode = kCAAnimationPaced;
 		
 		[one.layer addAnimation:animation forKey:@"position"];
+        */
+        
 		[self.layer insertSublayer:one.layer below:view.layer];
 		
-		//[one release];
-		
 	}
+    
 	/*
 	CABasicAnimation * scale = [CABasicAnimation animationWithKeyPath:@"transform"];
 
@@ -80,6 +87,7 @@
 
 	[view.layer addAnimation:scale forKey:@"transform"];
 	*/
+    
 	// release allocs
 	[image release];
 	[view release];

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,41 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iLightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */; };
+		8E65CB26155EB9790006F4FE /* trios.png in Resources */ = {isa = PBXBuildFile; fileRef = E448D79912A1744000C98F78 /* trios.png */; };
+		8E65CB28155EB9790006F4FE /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = E43E2EFC12AAD73E00B45F8A /* smile.png */; };
+		8E65CB29155EB9790006F4FE /* yellow100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA409212C0FFBB009392C0 /* yellow100x100.png */; };
+		8E65CB2A155EB9790006F4FE /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA409412C0FFEB009392C0 /* grey.png */; };
+		8E65CB2B155EB9790006F4FE /* raster.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA409512C0FFEB009392C0 /* raster.png */; };
+		8E65CB2C155EB9790006F4FE /* preset1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438B12CE3934009392C0 /* preset1.png */; };
+		8E65CB2D155EB9790006F4FE /* preset6.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438C12CE3934009392C0 /* preset6.png */; };
+		8E65CB2E155EB9790006F4FE /* preset5.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438D12CE3934009392C0 /* preset5.png */; };
+		8E65CB2F155EB9790006F4FE /* preset4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438E12CE3934009392C0 /* preset4.png */; };
+		8E65CB30155EB9790006F4FE /* preset3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA438F12CE3934009392C0 /* preset3.png */; };
+		8E65CB31155EB9790006F4FE /* preset2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA439012CE3934009392C0 /* preset2.png */; };
+		8E65CB32155EB9790006F4FE /* cortex.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DA440A12D0BC75009392C0 /* cortex.png */; };
+		8E65CB33155EB9790006F4FE /* terras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF1912D9E77200DEC8E9 /* terras.jpg */; };
+		8E65CB34155EB9790006F4FE /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF8312DF76F800DEC8E9 /* main.jpg */; };
+		8E65CB35155EB9790006F4FE /* wifi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E47CDF8512DF770000DEC8E9 /* wifi.jpg */; };
+		8E65CB37155EB9790006F4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		8E65CB38155EB9790006F4FE /* iLightsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iLightsAppDelegate.m */; };
+		8E65CB39155EB9790006F4FE /* iLightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iLightsViewController.m */; };
+		8E65CB3A155EB9790006F4FE /* TriosModel.c in Sources */ = {isa = PBXBuildFile; fileRef = E4930D4612A1780300CB93F2 /* TriosModel.c */; };
+		8E65CB3B155EB9790006F4FE /* LightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC3E12A18CB000614759 /* LightView.m */; };
+		8E65CB3C155EB9790006F4FE /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
+		8E65CB3D155EB9790006F4FE /* LightIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F54C7812BA5240000F1935 /* LightIndicatorView.m */; };
+		8E65CB3E155EB9790006F4FE /* UtilityViewAllOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDB4C612BD098300614759 /* UtilityViewAllOff.m */; };
+		8E65CB3F155EB9790006F4FE /* UtilityViewCortex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40A12CF63B700797E85 /* UtilityViewCortex.m */; };
+		8E65CB40155EB9790006F4FE /* UtilityViewSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF40D12CF63D600797E85 /* UtilityViewSetup.m */; };
+		8E65CB41155EB9790006F4FE /* UtilityViewFree1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF41012CF641100797E85 /* UtilityViewFree1.m */; };
+		8E65CB42155EB9790006F4FE /* UtilityViewFree2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCF41312CF642300797E85 /* UtilityViewFree2.m */; };
+		8E65CB43155EB9790006F4FE /* CortexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFBC3412DE193F00661C6B /* CortexView.m */; };
+		8E65CB44155EB9790006F4FE /* OverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFBC5212DE448500661C6B /* OverviewView.m */; };
+		8E65CB46155EB9790006F4FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		8E65CB47155EB9790006F4FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		8E65CB48155EB9790006F4FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		8E65CB49155EB9790006F4FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
+		8E65CB53155EB97C0006F4FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E65CB51155EB97C0006F4FE /* MainWindow.xib */; };
+		8E65CB54155EB97C0006F4FE /* iLightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */; };
 		8EDDAC3F12A18CB000614759 /* LightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC3E12A18CB000614759 /* LightView.m */; };
 		8EDDAC4612A18DFC00614759 /* iLightsTriosWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAC4512A18DFC00614759 /* iLightsTriosWrapper.m */; };
 		8EDDB03D12BA63B200614759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDDB03C12BA63B200614759 /* QuartzCore.framework */; };
@@ -58,6 +93,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iLights_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLights_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iLights-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iLights-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8E65CB4D155EB9790006F4FE /* iLights-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLights-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E65CB50155EB97A0006F4FE /* iLights copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iLights copy-Info.plist"; path = "/Users/guyvo/trios/triosusb2serial/iLights/iLights copy-Info.plist"; sourceTree = "<absolute>"; };
+		8E65CB51155EB97C0006F4FE /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iLightsViewController.xib; path = "Resources-iPad/iLightsViewController.xib"; sourceTree = "<group>"; };
 		8EDDAC3D12A18CB000614759 /* LightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightView.h; sourceTree = "<group>"; };
 		8EDDAC3E12A18CB000614759 /* LightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightView.m; sourceTree = "<group>"; };
 		8EDDAC4412A18DFC00614759 /* iLightsTriosWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLightsTriosWrapper.h; sourceTree = "<group>"; };
@@ -114,6 +153,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB45155EB9790006F4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB46155EB9790006F4FE /* Foundation.framework in Frameworks */,
+				8E65CB47155EB9790006F4FE /* UIKit.framework in Frameworks */,
+				8E65CB48155EB9790006F4FE /* CoreGraphics.framework in Frameworks */,
+				8E65CB49155EB9790006F4FE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* iLights.app */,
+				8E65CB4D155EB9790006F4FE /* iLights-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,8 +201,10 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				8E65CB4F155EB9790006F4FE /* Resources-iPad */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				8E65CB50155EB97A0006F4FE /* iLights copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -184,6 +237,15 @@
 				8EDDB03C12BA63B200614759 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E65CB4F155EB9790006F4FE /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8E65CB51155EB97C0006F4FE /* MainWindow.xib */,
+				8E65CB52155EB97C0006F4FE /* iLightsViewController.xib */,
+			);
+			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 		8EDDAC4C12A18E3A00614759 /* Png */ = {
@@ -287,13 +349,33 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* iLights.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8E65CB23155EB9790006F4FE /* iLights-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E65CB4A155EB9790006F4FE /* Build configuration list for PBXNativeTarget "iLights-iPad" */;
+			buildPhases = (
+				8E65CB24155EB9790006F4FE /* Resources */,
+				8E65CB36155EB9790006F4FE /* Sources */,
+				8E65CB45155EB9790006F4FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iLights-iPad";
+			productName = iLights;
+			productReference = 8E65CB4D155EB9790006F4FE /* iLights-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iLights" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -307,6 +389,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iLights */,
+				8E65CB23155EB9790006F4FE /* iLights-iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -336,6 +419,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB24155EB9790006F4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB26155EB9790006F4FE /* trios.png in Resources */,
+				8E65CB28155EB9790006F4FE /* smile.png in Resources */,
+				8E65CB29155EB9790006F4FE /* yellow100x100.png in Resources */,
+				8E65CB2A155EB9790006F4FE /* grey.png in Resources */,
+				8E65CB2B155EB9790006F4FE /* raster.png in Resources */,
+				8E65CB2C155EB9790006F4FE /* preset1.png in Resources */,
+				8E65CB2D155EB9790006F4FE /* preset6.png in Resources */,
+				8E65CB2E155EB9790006F4FE /* preset5.png in Resources */,
+				8E65CB2F155EB9790006F4FE /* preset4.png in Resources */,
+				8E65CB30155EB9790006F4FE /* preset3.png in Resources */,
+				8E65CB31155EB9790006F4FE /* preset2.png in Resources */,
+				8E65CB32155EB9790006F4FE /* cortex.png in Resources */,
+				8E65CB33155EB9790006F4FE /* terras.jpg in Resources */,
+				8E65CB34155EB9790006F4FE /* main.jpg in Resources */,
+				8E65CB35155EB9790006F4FE /* wifi.jpg in Resources */,
+				8E65CB53155EB97C0006F4FE /* MainWindow.xib in Resources */,
+				8E65CB54155EB97C0006F4FE /* iLightsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -360,6 +467,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E65CB36155EB9790006F4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65CB37155EB9790006F4FE /* main.m in Sources */,
+				8E65CB38155EB9790006F4FE /* iLightsAppDelegate.m in Sources */,
+				8E65CB39155EB9790006F4FE /* iLightsViewController.m in Sources */,
+				8E65CB3A155EB9790006F4FE /* TriosModel.c in Sources */,
+				8E65CB3B155EB9790006F4FE /* LightView.m in Sources */,
+				8E65CB3C155EB9790006F4FE /* iLightsTriosWrapper.m in Sources */,
+				8E65CB3D155EB9790006F4FE /* LightIndicatorView.m in Sources */,
+				8E65CB3E155EB9790006F4FE /* UtilityViewAllOff.m in Sources */,
+				8E65CB3F155EB9790006F4FE /* UtilityViewCortex.m in Sources */,
+				8E65CB40155EB9790006F4FE /* UtilityViewSetup.m in Sources */,
+				8E65CB41155EB9790006F4FE /* UtilityViewFree1.m in Sources */,
+				8E65CB42155EB9790006F4FE /* UtilityViewFree2.m in Sources */,
+				8E65CB43155EB9790006F4FE /* CortexView.m in Sources */,
+				8E65CB44155EB9790006F4FE /* OverviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -374,6 +502,7 @@
 				GCC_PREFIX_HEADER = iLights_Prefix.pch;
 				INFOPLIST_FILE = "iLights-Info.plist";
 				PRODUCT_NAME = iLights;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,6 +515,38 @@
 				GCC_PREFIX_HEADER = iLights_Prefix.pch;
 				INFOPLIST_FILE = "iLights-Info.plist";
 				PRODUCT_NAME = iLights;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E65CB4B155EB9790006F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iLights_Prefix.pch;
+				INFOPLIST_FILE = "iLights copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "iLights-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E65CB4C155EB9790006F4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iLights_Prefix.pch;
+				INFOPLIST_FILE = "iLights copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "iLights-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -398,10 +559,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-all_load";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -413,11 +574,11 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-all_load";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -429,6 +590,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E65CB4A155EB9790006F4FE /* Build configuration list for PBXNativeTarget "iLights-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E65CB4B155EB9790006F4FE /* Debug */,
+				8E65CB4C155EB9790006F4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
