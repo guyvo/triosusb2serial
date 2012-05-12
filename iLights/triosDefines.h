@@ -7,7 +7,7 @@
  *
  */
 
-#define TARGET_IPHONE
+//#define TARGET_IPHONE
 
 // raster view
 #ifdef TARGET_IPHONE
@@ -33,7 +33,7 @@
 #define UTILITY_COUNT	RASTER_ROWS
 
 // animations
-#define RASTER_ANIM_DURATION		2
+#define RASTER_ANIM_DURATION		1
 #define UTILITY_ANIM_DURATION		2
 #define SWAP_ANIM_DURATION			1
 #define SWIPE_ANIM_DURATION			1

@@ -125,7 +125,6 @@ _utilityViewAllOff
 				
 			}
 			
-			
 			_lightIndicator.alpha = 0;
 			
 			[self.view addSubview:_lightIndicator];
@@ -138,13 +137,12 @@ _utilityViewAllOff
 			 }
 			 completion:^(BOOL finished){
 			 }];
-			
-			// store them for later use in touches
-			[_indicatorViews addObject:_lightIndicator];
-			
-			// retained by superview
-			[_lightIndicator release];
-			
+
+            // store them for later use in touches
+            [_indicatorViews addObject:_lightIndicator];
+            
+            // retained by superview
+            [_lightIndicator release];
 		}
 	}
 	
