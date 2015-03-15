@@ -1,0 +1,1 @@
+host-ui --> UsbtoSerialtoI2C -> cortex 1,2,3,4
